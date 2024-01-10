@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.10703031" max1Value="0.17310837" min2Value="0.13447253" max2Value="0.13447253">
+    <intent1 href="../bikeShop.model#//@intents.0"/>
+    <intent2 href="../bikeShop.model#//@intents.4"/>
+    <min1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <max2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12593989" max1Value="0.1594851" min2Value="0.1352993" max2Value="0.1352993">
+    <intent1 href="../bikeShop.model#//@intents.0"/>
+    <intent2 href="../bikeShop.model#//@intents.1"/>
+    <min1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <max1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <max2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17885184" max1Value="0.23329076" min2Value="0.1794621" max2Value="0.1794621">
+    <intent1 href="../bikeShop.model#//@intents.0"/>
+    <intent2 href="../bikeShop.model#//@intents.3"/>
+    <min1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <max1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.044492483" max1Value="0.24689253" min2Value="0.10756916" max2Value="0.20728743">
+    <intent1 href="../bikeShop.model#//@intents.1"/>
+    <intent2 href="../bikeShop.model#//@intents.0"/>
+    <min1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <min2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.06961444" max1Value="0.030078078" min2Value="-0.052777287" max2Value="0.015285725">
+    <intent1 href="../bikeShop.model#//@intents.1"/>
+    <intent2 href="../bikeShop.model#//@intents.4"/>
+    <min1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <min2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1844929" max1Value="0.5587038" min2Value="0.2543207" max2Value="0.5337875">
+    <intent1 href="../bikeShop.model#//@intents.1"/>
+    <intent2 href="../bikeShop.model#//@intents.3"/>
+    <min1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <max1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18483198" max1Value="0.20957117" min2Value="0.20957117" max2Value="0.18483198">
+    <intent1 href="../bikeShop.model#//@intents.3"/>
+    <intent2 href="../bikeShop.model#//@intents.0"/>
+    <min1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02588745" max1Value="0.14556982" min2Value="0.14556982" max2Value="0.02588745">
+    <intent1 href="../bikeShop.model#//@intents.3"/>
+    <intent2 href="../bikeShop.model#//@intents.4"/>
+    <min1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.35555738" max1Value="0.50236243" min2Value="0.50236243" max2Value="0.35555738">
+    <intent1 href="../bikeShop.model#//@intents.3"/>
+    <intent2 href="../bikeShop.model#//@intents.1"/>
+    <min1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.4590962" max1Value="0.6240381" min2Value="0.5564505" max2Value="0.5564505">
+    <intent href="../bikeShop.model#//@intents.0"/>
+    <min1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <max1 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <max2 href="../bikeShop.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.25312296" max1Value="0.46908092" min2Value="0.27689877" max2Value="0.4505925">
+    <intent href="../bikeShop.model#//@intents.1"/>
+    <min1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <max2 href="../bikeShop.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.35736573" max1Value="0.35736573" min2Value="0.35736573" max2Value="0.35736573">
+    <intent href="../bikeShop.model#//@intents.3"/>
+    <min1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max1 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <min2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../bikeShop.model#//@intents.3/@inputs.0/@inputs.1"/>
+  </intentValues>
+</congaAnnotation:Annotation>

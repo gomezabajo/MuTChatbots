@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.079539046" max1Value="0.26323208" min2Value="0.09687116" max2Value="0.20474502">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.010909858" max1Value="0.19702807" min2Value="0.057481557" max2Value="0.16767828">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.11393473" max1Value="0.3662349" min2Value="0.14145815" max2Value="0.34572908">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13291812" max1Value="0.20991263" min2Value="0.13936433" max2Value="0.20000942">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0050782994" max1Value="0.28117788" min2Value="0.0794361" max2Value="0.22974345">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.00770206" max1Value="0.25027102" min2Value="0.0029956708" max2Value="0.18307953">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.010377458" max1Value="0.20333974" min2Value="0.01637588" max2Value="0.11472763">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.21268018" max1Value="0.31439206" min2Value="0.21727061" max2Value="0.26229772">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.070754714" max1Value="0.14768133" min2Value="0.07623449" max2Value="0.114927806">
+    <intent1 href="../personal-bot.model#//@intents.0"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1593166" max1Value="0.28015974" min2Value="0.16575575" max2Value="0.26811278">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.008638509" max1Value="0.11072995" min2Value="0.05544615" max2Value="0.10510925">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.012895291" max1Value="0.088092454" min2Value="0.04079957" max2Value="0.08740995">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.031715892" max1Value="0.09611094" min2Value="0.033995867" max2Value="0.09611094">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.018036319" max1Value="0.12942585" min2Value="0.06144929" max2Value="0.123398334">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.009286144" max1Value="0.115718596" min2Value="0.05730991" max2Value="0.115718596">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02117836" max1Value="0.1822112" min2Value="0.067169845" max2Value="0.17457083">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.058270484" max1Value="0.15385383" min2Value="0.1092604" max2Value="0.15385383">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18046802" max1Value="0.26928437" min2Value="0.2079556" max2Value="0.25154212">
+    <intent1 href="../personal-bot.model#//@intents.1"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04734608" max1Value="0.15885076" min2Value="0.07002279" max2Value="0.1288245">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.9"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0151939085" max1Value="0.15000212" min2Value="0.016626444" max2Value="0.14328459">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06538702" max1Value="0.25830138" min2Value="0.099073246" max2Value="0.23382308">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.15381984" max1Value="0.27857265" min2Value="0.17645587" max2Value="0.27857265">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0024444337" max1Value="0.19858383" min2Value="0.004651278" max2Value="0.17152989">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.007427821" max1Value="0.18412848" min2Value="0.031894907" max2Value="0.152677">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.7"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.046172306" max1Value="0.30263206" min2Value="0.06652341" max2Value="0.19526447">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.020937214" max1Value="0.13583507" min2Value="-0.020937214" max2Value="0.11747699">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02071221" max1Value="0.22549967" min2Value="0.048458" max2Value="0.15216716">
+    <intent1 href="../personal-bot.model#//@intents.2"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.01060758" max1Value="0.15417263" min2Value="0.022989426" max2Value="0.15205339">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.15"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.14"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.19"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.044358548" max1Value="0.2705651" min2Value="0.044358548" max2Value="0.24575582">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.007155918" max1Value="0.1800747" min2Value="-0.0024168438" max2Value="0.1800747">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.005135377" max1Value="0.25860065" min2Value="0.005135377" max2Value="0.24324803">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.18"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.060187247" max1Value="0.4098974" min2Value="0.060187247" max2Value="0.36927152">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.14"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.092316486" max1Value="0.52529573" min2Value="0.092316486" max2Value="0.4453558">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.10"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.049828485" max1Value="0.28567114" min2Value="0.049828485" max2Value="0.27050173">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.010801581" max1Value="0.32415807" min2Value="-0.010801581" max2Value="0.28583586">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0835987" max1Value="0.2549652" min2Value="0.08742548" max2Value="0.22580041">
+    <intent1 href="../personal-bot.model#//@intents.3"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.24"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.11"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.041022837" max1Value="0.22214669" min2Value="0.050708026" max2Value="0.18424432">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13881588" max1Value="0.25498983" min2Value="0.17502907" max2Value="0.22549026">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12386541" max1Value="0.38367712" min2Value="0.14362556" max2Value="0.30845806">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0019332124" max1Value="0.19206153" min2Value="0.06460805" max2Value="0.10693558">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06343542" max1Value="0.22332647" min2Value="0.066522226" max2Value="0.21164547">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.2195282" max1Value="0.45077515" min2Value="0.23464285" max2Value="0.43494865">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.14520736" max1Value="0.24108797" min2Value="0.14738813" max2Value="0.22656648">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.11641061" max1Value="0.2582285" min2Value="0.123185925" max2Value="0.23115505">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.044376064" max1Value="0.12329906" min2Value="0.066646315" max2Value="0.11649206">
+    <intent1 href="../personal-bot.model#//@intents.4"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19400784" max1Value="0.27728346" min2Value="0.21992211" max2Value="0.26629683">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.118100986" max1Value="0.16913663" min2Value="0.12015947" max2Value="0.13524334">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12942094" max1Value="0.24943878" min2Value="0.14954528" max2Value="0.2391844">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.070528604" max1Value="0.21976195" min2Value="0.10180232" max2Value="0.13884477">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.21825899" max1Value="0.28639725" min2Value="0.22532167" max2Value="0.28356567">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.024978496" max1Value="0.2763019" min2Value="0.14435892" max2Value="0.275854">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12406628" max1Value="0.38526815" min2Value="0.1830052" max2Value="0.36869723">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0015217745" max1Value="0.11575313" min2Value="0.018919274" max2Value="0.10265237">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04409295" max1Value="0.18558103" min2Value="0.063315965" max2Value="0.1081981">
+    <intent1 href="../personal-bot.model#//@intents.5"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03527122" max1Value="0.13340144" min2Value="0.039684128" max2Value="0.11822528">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17803495" max1Value="0.30867526" min2Value="0.19919649" max2Value="0.28581628">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27468157" max1Value="0.33122048" min2Value="0.2790454" max2Value="0.3226603">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0038436109" max1Value="0.12964556" min2Value="0.06462782" max2Value="0.11870664">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1677407" max1Value="0.3306674" min2Value="0.18203664" max2Value="0.22614351">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.2985278" max1Value="0.43604013" min2Value="0.3008682" max2Value="0.3286587">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17510693" max1Value="0.3535395" min2Value="0.19876" max2Value="0.32994574">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1731997" max1Value="0.3982432" min2Value="0.22809015" max2Value="0.23784412">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.08776331" max1Value="0.20012985" min2Value="0.10434691" max2Value="0.12415937">
+    <intent1 href="../personal-bot.model#//@intents.6"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06610445" max1Value="0.23369211" min2Value="0.077177204" max2Value="0.2037215">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1556318" max1Value="0.24014339" min2Value="0.15603855" max2Value="0.21386081">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.033367384" max1Value="0.1032613" min2Value="0.039257858" max2Value="0.08182963">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.065960996" max1Value="0.2310241" min2Value="0.09126318" max2Value="0.15608118">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12936713" max1Value="0.27826446" min2Value="0.1559564" max2Value="0.21391617">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18008426" max1Value="0.3657617" min2Value="0.20756966" max2Value="0.25579345">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.24217257" max1Value="0.75219834" min2Value="0.49627993" max2Value="0.700971">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.042485792" max1Value="0.18083505" min2Value="0.06957125" max2Value="0.17691076">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.038882185" max1Value="0.08691084" min2Value="0.039077178" max2Value="0.07604088">
+    <intent1 href="../personal-bot.model#//@intents.7"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04808867" max1Value="0.30290914" min2Value="0.079681374" max2Value="0.2613573">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09485978" max1Value="0.18848522" min2Value="0.11785258" max2Value="0.158702">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.124889165" max1Value="0.23789781" min2Value="0.13462439" max2Value="0.22932082">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.022351941" max1Value="0.12516141" min2Value="0.042532112" max2Value="0.11637372">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0059112245" max1Value="0.28892788" min2Value="0.0630362" max2Value="0.22672047">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.065825686" max1Value="0.39773118" min2Value="0.13156465" max2Value="0.29314703">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04955514" max1Value="0.16877872" min2Value="0.066691734" max2Value="0.14885564">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.9"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1876147" max1Value="0.36699626" min2Value="0.19993336" max2Value="0.3184636">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04058579" max1Value="0.12864009" min2Value="0.052175492" max2Value="0.07438279">
+    <intent1 href="../personal-bot.model#//@intents.8"/>
+    <intent2 href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.31666443" max1Value="0.5533151" min2Value="0.32608658" max2Value="0.5533151">
+    <intent href="../personal-bot.model#//@intents.0"/>
+    <min1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max2 href="../personal-bot.model#//@intents.0/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.27873957" max1Value="0.78798014" min2Value="0.53436255" max2Value="0.78798014">
+    <intent href="../personal-bot.model#//@intents.1"/>
+    <min1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.8"/>
+    <max1 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <min2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../personal-bot.model#//@intents.1/@inputs.0/@inputs.10"/>
+  </intentValues>
+  <intentValues min1Value="0.22181667" max1Value="0.3912713" min2Value="0.2627636" max2Value="0.3523106">
+    <intent href="../personal-bot.model#//@intents.2"/>
+    <min1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max2 href="../personal-bot.model#//@intents.2/@inputs.0/@inputs.4"/>
+  </intentValues>
+  <intentValues min1Value="0.11362041" max1Value="0.4365056" min2Value="0.11362041" max2Value="0.43126142">
+    <intent href="../personal-bot.model#//@intents.3"/>
+    <min1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.21"/>
+    <max1 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.12"/>
+    <min2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.22"/>
+    <max2 href="../personal-bot.model#//@intents.3/@inputs.0/@inputs.16"/>
+  </intentValues>
+  <intentValues min1Value="0.37930942" max1Value="0.55266327" min2Value="0.40034074" max2Value="0.51717705">
+    <intent href="../personal-bot.model#//@intents.4"/>
+    <min1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.4/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.28932422" max1Value="0.50267756" min2Value="0.31394345" max2Value="0.4722312">
+    <intent href="../personal-bot.model#//@intents.5"/>
+    <min1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.5/@inputs.0/@inputs.5"/>
+  </intentValues>
+  <intentValues min1Value="0.40054402" max1Value="0.4950726" min2Value="0.40202284" max2Value="0.44423303">
+    <intent href="../personal-bot.model#//@intents.6"/>
+    <min1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../personal-bot.model#//@intents.6/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.29581013" max1Value="0.61514634" min2Value="0.339506" max2Value="0.5764465">
+    <intent href="../personal-bot.model#//@intents.7"/>
+    <min1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../personal-bot.model#//@intents.7/@inputs.0/@inputs.5"/>
+  </intentValues>
+  <intentValues min1Value="0.22760274" max1Value="0.3540578" min2Value="0.24054228" max2Value="0.28005826">
+    <intent href="../personal-bot.model#//@intents.8"/>
+    <min1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.5"/>
+    <max2 href="../personal-bot.model#//@intents.8/@inputs.0/@inputs.3"/>
+  </intentValues>
+</congaAnnotation:Annotation>

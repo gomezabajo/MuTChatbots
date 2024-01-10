@@ -1,0 +1,3886 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="Rasa_Data-mining">
+  <intents name="datawranglinganddatacleaning">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What data wrangling and data cleaning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do data wrangling and data cleaning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does data wrangling and data cleaning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do data wrangling and data cleaning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does data wrangling and data cleaning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do data wrangling and data cleaning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does data wrangling and data cleaning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to data wrangling and data cleaning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to data wrangling and data cleaning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define data wrangling and data cleaning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe data wrangling and data cleaning"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="unbalancedbinaryclassification">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What unbalanced binary classification mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do unbalanced binary classification mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does unbalanced binary classification mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do unbalanced binary classification work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does unbalanced binary classification work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do unbalanced binary classification run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does unbalanced binary classification run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to unbalanced binary classification work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to unbalanced binary classification run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define unbalanced binary classification"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe unbalanced binary classification"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="boxplotandhistogram">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What box plot and histogram mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do box plot and histogram mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does box plot and histogram mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do box plot and histogram work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does box plot and histogram work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do box plot and histogram run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does box plot and histogram run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to box plot and histogram work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to box plot and histogram run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define box plot and histogram"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe box plot and histogram"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="regularizationmethods">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What regularization methods mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do regularization methods mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does regularization methods mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do regularization methods work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does regularization methods work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do regularization methods run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does regularization methods run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to regularization methods work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to regularization methods run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define regularization methods"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe regularization methods"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="NeuralNetwork">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Neural Network mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do Neural Network mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Neural Network mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Neural Network work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Neural Network work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Neural Network run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Neural Network run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Neural Network work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Neural Network run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define Neural Network"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe Neural Network"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="cross-validation">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What cross-validation mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do cross-validation mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does cross-validation mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do cross-validation work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does cross-validation work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do cross-validation run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does cross-validation run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to cross-validation work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to cross-validation run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define cross-validation"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe cross-validation"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="selectmetrics">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What select metrics mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do select metrics mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does select metrics mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do select metrics work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does select metrics work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do select metrics run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does select metrics run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to select metrics work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to select metrics run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define select metrics"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe select metrics"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="precisionandrecall">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What precision and recall mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do precision and recall mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does precision and recall mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do precision and recall work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does precision and recall work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do precision and recall run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does precision and recall run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to precision and recall work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to precision and recall run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define precision and recall"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe precision and recall"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="falsepositiveandfalsenegative">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What false positive and false negative mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do false positive and false negative mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does false positive and false negative mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do false positive and false negative work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does false positive and false negative work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do false positive and false negative run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does false positive and false negative run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to false positive and false negative work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to false positive and false negative run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define false positive and false negative"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe false positive and false negative"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="supervisedlearningandunsupervisedlearning">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What supervised learning and unsupervised learning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do supervised learning and unsupervised learning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does supervised learning and unsupervised learning mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do supervised learning and unsupervised learning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does supervised learning and unsupervised learning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do supervised learning and unsupervised learning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does supervised learning and unsupervised learning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to supervised learning and unsupervised learning work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to supervised learning and unsupervised learning run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define supervised learning and unsupervised learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe supervised learning and unsupervised learning"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="generateapredictivemodelusingmultipleregression">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What generate a predictive model using multiple regression mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do generate a predictive model using multiple regression mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does generate a predictive model using multiple regression mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do generate a predictive model using multiple regression work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does generate a predictive model using multiple regression work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do generate a predictive model using multiple regression run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does generate a predictive model using multiple regression run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to generate a predictive model using multiple regression work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to generate a predictive model using multiple regression run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define generate a predictive model using multiple regression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe generate a predictive model using multiple regression"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="NLPstandfor">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What NLP stand for mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do NLP stand for mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does NLP stand for mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do NLP stand for work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does NLP stand for work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do NLP stand for run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does NLP stand for run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to NLP stand for work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to NLP stand for run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define NLP stand for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe NLP stand for"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="randomforestsVsSVM">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What random forests Vs SVM mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do random forests Vs SVM mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does random forests Vs SVM mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do random forests Vs SVM work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does random forests Vs SVM work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do random forests Vs SVM run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does random forests Vs SVM run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to random forests Vs SVM work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to random forests Vs SVM run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define random forests Vs SVM"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe random forests Vs SVM"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="dimensionreduction">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What dimension reduction mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do dimension reduction mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does dimension reduction mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do dimension reduction work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does dimension reduction work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do dimension reduction run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does dimension reduction run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to dimension reduction work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to dimension reduction run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define dimension reduction"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe dimension reduction"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="NaivesBayes">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Naives Bayes mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do Naives Bayes mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Naives Bayes mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Naives Bayes work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Naives Bayes work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Naives Bayes run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Naives Bayes run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Naives Bayes work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Naives Bayes run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define Naives Bayes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe Naives Bayes"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="drawbacksoflinearmodel">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What drawbacks of linear model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do drawbacks of linear model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does drawbacks of linear model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do drawbacks of linear model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does drawbacks of linear model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do drawbacks of linear model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does drawbacks of linear model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to drawbacks of linear model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to drawbacks of linear model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define drawbacks of linear model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe drawbacks of linear model"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="collinearity">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What collinearity mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do collinearity mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does collinearity mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do collinearity work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does collinearity work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do collinearity run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does collinearity run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to collinearity work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to collinearity run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define collinearity"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe collinearity"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="regressionmodel">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What regression model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do regression model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does regression model mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do regression model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does regression model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do regression model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does regression model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to regression model work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to regression model run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define regression model"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe regression model"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="decisiontree">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What decision tree mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do decision tree mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does decision tree mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do decision tree work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does decision tree work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do decision tree run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does decision tree run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to decision tree work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to decision tree run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define decision tree"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe decision tree"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="randomforest">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What random forest mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do random forest mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does random forest mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do random forest work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does random forest work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do random forest run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does random forest run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to random forest work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to random forest run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define random forest"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe random forest"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="kernel">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What kernel mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do kernel mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does kernel mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do kernel work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does kernel work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do kernel run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does kernel run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to kernel work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to kernel run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define kernel"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe kernel"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="overfitting">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What overfitting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do overfitting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does overfitting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do overfitting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does overfitting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do overfitting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does overfitting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to overfitting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to overfitting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define overfitting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe overfitting"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="boosting">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What boosting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do boosting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does boosting mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do boosting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does boosting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do boosting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does boosting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to boosting work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to boosting run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define boosting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe boosting"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="Markowchains">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Markow chains mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do Markow chains mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Markow chains mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Markow chains work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Markow chains work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Markow chains run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Markow chains run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Markow chains work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Markow chains run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define Markow chains"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe Markow chains"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="statisticalsignificance">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What statistical significance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do statistical significance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does statistical significance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do statistical significance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does statistical significance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do statistical significance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does statistical significance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to statistical significance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to statistical significance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define statistical significance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe statistical significance"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="CentralLimitTheorem">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Central Limit Theorem mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do Central Limit Theorem mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Central Limit Theorem mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Central Limit Theorem work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Central Limit Theorem work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Central Limit Theorem run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Central Limit Theorem run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Central Limit Theorem work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Central Limit Theorem run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define Central Limit Theorem"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe Central Limit Theorem"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="statisticalpower">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What statistical power mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do statistical power mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does statistical power mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do statistical power work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does statistical power work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do statistical power run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does statistical power run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to statistical power work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to statistical power run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define statistical power"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe statistical power"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="outlier">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What outlier mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do outlier mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does outlier mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do outlier work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does outlier work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do outlier run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does outlier run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to outlier work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to outlier run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define outlier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe outlier"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="missingdata">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to missing data work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about missing data"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="rootcauseanalysis">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What root cause analysis mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do root cause analysis mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does root cause analysis mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do root cause analysis work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does root cause analysis work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do root cause analysis run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does root cause analysis run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to root cause analysis work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to root cause analysis run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define root cause analysis"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe root cause analysis"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="LawofLargeNumbers">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What Law of Large Numbers mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do Law of Large Numbers mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Law of Large Numbers mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Law of Large Numbers work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Law of Large Numbers work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do Law of Large Numbers run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does Law of Large Numbers run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Law of Large Numbers work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to Law of Large Numbers run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define Law of Large Numbers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe Law of Large Numbers"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="controlbiases">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What control biases mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do control biases mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does control biases mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do control biases work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does control biases work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do control biases run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does control biases run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to control biases work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to control biases run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define control biases"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe control biases"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="confoundingvariables">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What confounding variables mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do confounding variables mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does confounding variables mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do confounding variables work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does confounding variables work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do confounding variables run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does confounding variables run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to confounding variables work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to confounding variables run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define confounding variables"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe confounding variables"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="AdivBtesting">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What A div B testing mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do A div B testing mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does A div B testing mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do A div B testing work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does A div B testing work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do A div B testing run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does A div B testing run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to A div B testing work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to A div B testing run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define A div B testing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe A div B testing"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="qualityassurance">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What quality assurance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do quality assurance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does quality assurance mean"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do quality assurance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does quality assurance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do quality assurance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How does quality assurance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you explain quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u explain quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you define quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u define quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would you describe quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How would u describe quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to quality assurance work"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to quality assurance run"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u explain quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u define quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can u describe quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know about quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I would like to know about quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't understand quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="explain quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="define quality assurance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="describe quality assurance"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you around"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you later"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="affirm">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="indeed"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="of course"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="that sounds good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="correct"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="deny">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="never"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't think so"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="don't like that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no way"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not really"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="mood_great">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="perfect"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="very good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="great"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="amazing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wonderful"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am feeling very good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am great"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm good"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="mood_unhappy">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="very sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="unhappy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="very bad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="awful"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="terrible"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not very good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="extremely sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so sad"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_challenge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a human?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <actions xsi:type="generator:Text" name="utter_false_positive_and_false_negative_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- A false positive is an incorrect identification of the presence of a condition when it&#x2019;s absent. - A false negative is an incorrect identification of the absence of a condition when it&#x2019;s actually present. - An example of when false negatives are more important than false positives is when screening for cancer. It&#x2019;s much worse to say that someone doesn&#x2019;t have cancer when they do, instead of saying that someone does and later realizing that they don&#x2019;t. - This is a subjective argument, but false positives can be worse than false negatives from a psychological point of view. For example, a false positive for winning the lottery could be a worse outcome than a false negative because people normally don&#x2019;t expect to win the lottery anyways. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_control_biases_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There are many things that you can do to control and minimize bias. Two common things include randomization, where participants are assigned by chance, and random sampling, sampling in which each member has an equal probability of being chosen. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_regularization_methods_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Both L1 and L2 regularization are methods used to reduce the overfitting of training data. Least Squares minimizes the sum of the squared residuals, which can result in low bias but high variance. - L2 Regularization, also called ridge regression, minimizes the sum of the squared residuals plus lambda times the slope squared. This additional term is called theRidge Regression Penalty. This increases the bias of the model, making the fit worse on the training data, but also decreases the variance. - If you take the ridge regression penalty and replace it with the absolute value of the slope, then you get Lasso regression or L1 regularization. - L2 is less robust but has a stable solution and always one solution. L1 is more robust but has an unstable solution and can possibly have multiple solutions. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_statistical_significance_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Along-tailed distribution is a type of heavy-tailed distribution that has a tail (or tails) that drop off gradually and asymptotically. - 3 practical examples include the power law, the Pareto principle (more commonly known as the 80&#x2013;20 rule), and product sales (i.e. best selling products vs others). - It&#x2019;s important to be mindful of long-tailed distributions in classification and regression problems because the least frequently occurring values make up the majority of the population. This can ultimately change the way that you deal with outliers, and it also conflicts with some machine learning techniques with the assumption that the data is normally distributed. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_root_cause_analysis_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="When there are a number of outliers that positively or negatively skew the data. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_select_metrics_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There isn&#x2019;t a one-size-fits-all metric. The metric(s) chosen to evaluate a machine learning model depends on various factors: - Is it a regression or classification task?What is the business objective? Eg. precision vs recallWhat is the distribution of the target variable? - There are a number of metrics that can be used, including adjusted r-squared, MAE, MSE, accuracy, recall, precision, f1 score, and the list goes on. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_happy_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Great, carry on! "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_NLP_stand_for_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="NLP stands forNatural Language Processing. It is a branch of artificial intelligence that gives machines the ability to read and understand human languages. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_random_forests_Vs_SVM_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are a couple of reasons why a random forest is a better choice of model than a support vector machine: - Random forests allow you to determine the feature importance. SVM&#x2019;s can&#x2019;t do this.Random forests are much quicker and simpler to build than an SVM.For multi-class classification problems, SVMs require a one-vs-rest method, which is less scalable and more memory intensive. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_precision_and_recall_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Recall attempts to answer &#x201c;What proportion of actual positives was identified correctly?&#x201d; - Precision attempts to answer &#x201c;What proportion of positive identifications was actually correct?&#x201d; "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_unbalanced_binary_classification_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are a number of ways to handle unbalanced binary classification (assuming that you want to identify the minority class): - First, you want to reconsider the metrics that you&#x2019;d use to evaluate your model. The accuracy of your model might not be the best metric to look at because and I&#x2019;ll use an example to explain why. Let&#x2019;s say 99 bank withdrawals were not fraudulent and 1 withdrawal was. If your model simply classified every instance as &#x201c;not fraudulent&#x201d;, it would have an accuracy of 99%! Therefore, you may want to consider using metrics like precision and recall. - Another method to improve unbalanced binary classification is by increasing the cost of misclassifying the minority class. By increasing the penalty of such, the model should classify the minority class more accurately. - Lastly, you can improve the balance of classes by oversampling the minority class or by under sampling the majority class "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_random_forest_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Random forests are an ensemble learning technique that builds off of decision trees. Random forests involve creating multiple decision trees usingbootstrapped datasetsof the original data and randomly selecting a subset of variables at each step of the decision tree. The model then selects the mode of all of the predictions of each decision tree. By relying on a &#x201c;majority wins&#x201d; model, it reduces the risk of error from an individual tree. - For example, if we created one decision tree, the third one, it would predict 0. But if we relied on the mode of all 4 decision trees, the predicted value would be 1. This is the power of random forests. - Random forests offer several other benefits including strong performance, can model non-linear boundaries, no cross-validation needed, and gives feature importance. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Markow_chains_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- &#x201c;A Markov chain is a mathematical system that experiences transitions from one state to another according to certain probabilistic rules. The defining characteristic of a Markov chain is that no matter how the process arrived at its present state, the possible future states are fixed. In other words, the probability of transitioning to any particular state is dependent solely on the current state and time elapsed.&#x201d; - The actual math behind Markov chains requires knowledge on linear algebra and matrices, so I&#x2019;ll leave some links below in case you want to explore this topic further on your own. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_collinearity_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Multicollinearity exists when an independent variable is highly correlated with another independent variable in a multiple regression equation. This can be problematic because it undermines the statistical significance of an independent variable. - You could use the Variance Inflation Factors (VIF) to determine if there is any multicollinearity between independent variables &#x2014; a standard benchmark is that if the VIF is greater than 5 then multicollinearity exists. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_generate_a_predictive_model_using_multiple_regression_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are two main ways that you can do this: - A) Adjusted R-squared. - R Squared is a measurement that tells you to what extent the proportion of variance in the dependent variable is explained by the variance in the independent variables. In simpler terms, while the coefficients estimate trends, R-squared represents the scatter around the line of best fit. - However, every additional independent variable added to a model always increases the R-squared value &#x2014; therefore, a model with several independent variables may seem to be a better fit even if it isn&#x2019;t. This is where adjusted R&#xb2; comes in. The adjusted R&#xb2; compensates for each additional independent variable and only increases if each given variable improves the model above what is possible by probability. This is important since we are creating a multiple regression model. - B) Cross-Validation - A method common to most people is cross-validation, splitting the data into two sets: training and testing data "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_quality_assurance_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Quality assurance:an activity or set of activities focused on maintaining a desired level of quality by minimizing mistakes and defects. - Six sigma:a specific type of quality assurance methodology composed of a set of techniques and tools for process improvement. A six sigma process is one in which 99.99966% of all outcomes are free of defects. - References - [1]Central Limit Theorem, Definition and Examples in Easy Steps,Statistics How To - [2]Power, Statistics,Wikipedia - [3]Anthropic principle,Wikipedia - [4]Design of experiments,Wikipedia - [5]Root cause analysis,Wikipedia - Thanks for Reading! - Check out theInterview Query Youtube channel for more data science mock interviews and example solutions. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_kernel_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- A kernel is a way of computing the dot product of two vectors&#x1d431;x and&#x1d432;y in some (possibly very high dimensional) feature space, which is why kernel functions are sometimes called &#x201c;generalized dot product&#x201d; - The kernel trick is a method of using a linear classifier to solve a non-linear problem by transforming linearly inseparable data to linearly separable ones in a higher dimension. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_missing_data_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- First I would conduct EDA &#x2014; Exploratory Data Analysis to clean, explore, and understand my data.See my article on EDA here.As part of my EDA, I could compose a histogram of the duration of calls to see the underlying distribution. - My guess is that the duration of calls would follow a log normal distribution (see below). The reason that I believe it&#x2019;s positively skewed is because the lower end is limited to 0 since a call can&#x2019;t be negative seconds. However, on the upper end, it&#x2019;s likely for there to be a small proportion of calls that are extremely long relatively. - You could use a QQ plot to confirm whether the duration of calls follows a log normal distribution or not "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_iamabot_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am a bot, powered by Rasa. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Central_Limit_Theorem_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="&#x2018;Statistical power&#x2019; refers to the power of a binary hypothesis, which is the probability that the test rejects the null hypothesis given that the alternative hypothesis is true. [2] "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_outlier_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are several ways to handle missing data: - Delete rows with missing dataMean/Median/Mode imputationAssigning a unique valuePredicting the missing valuesUsing an algorithm which supports missing values, like random forests - The best method is to delete rows with missing data as it ensures that no bias or variance is added or removed, and ultimately results in a robust and accurate model. However, this is only recommended if there&#x2019;s a lot of data to start with and the percentage of missing values is low. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_decision_tree_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Decision trees are a popular model, used in operations research, strategic planning, and machine learning. Each square above is called anode, and the more nodes you have, the more accurate your decision tree will be (generally). The last nodes of the decision tree, where a decision is made, are called the leaves of the tree. Decision trees are intuitive and easy to build but fall short when it comes to accuracy. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_regression_model_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are a couple of metrics that you can use: - R-squared/Adjusted R-squared:Relative measure of fit.This was explained in a previous answer - F1 Score: Evaluates the null hypothesis that all regression coefficients are equal to zero vs the alternative hypothesis that at least one doesn&#x2019;t equal zero - RMSE:Absolute measure of fit. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Naives_Bayes_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="A naive Bayes classifier is an algorithm that uses Bayes' theorem to classify objects. Naive Bayes classifiers assume strong, or naive, independence between attributes of data points. Popular uses of naive Bayes classifiers include spam filters, text analysis and medical diagnosis. These classifiers are widely used for machine learning because they are simple to implement. Naive Bayes is also known as simple Bayes or independence Bayes. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_data_wrangling_and_data_cleaning_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are many steps that can be taken when data wrangling and data cleaning. Some of the most common steps are listed below: - Data profiling:Almost everyone starts off by getting an understanding of their dataset. More specifically, you can look at the shape of the dataset with .shape and a description of your numerical variables with .describe(). - Data visualizations:Sometimes, it&#x2019;s useful to visualize your data with histograms, boxplots, and scatterplots to better understand the relationships between variables and also to identify potential outliers. - Syntax error: This includes making sure there&#x2019;s no white space, making sure letter casing is consistent, and checking for typos. You can check for typos by using .unique() or by using bar graphs. - Standardization or normalization: Depending on the dataset your working with and the machine learning method you decide to use, it may be useful to standardize or normalize your data so that different scales of different variables don&#x2019;t negatively impact the performance of your model. - Handling null values:There are a number of ways to handle null values including deleting rows with null values altogether, replacing null values with the mean/median/mode, replacing null values with a new category (eg. unknown), predicting the values, or using machine learning models that can deal with null values. - Other things include:removing irrelevant data, removing duplicates, and type conversion. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_statistical_power_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Selection bias is the phenomenon of selecting individuals, groups or data for analysis in such a way that proper randomization is not achieved, ultimately resulting in a sample that is not representative of the population. - Understanding and identifying selection bias is important because it can significantly skew results and provide false insights about a particular population group. - Types of selection bias include: - sampling bias: a biased sample caused by non-random sampling time interval: selecting a specific time frame that supports the desired conclusion. e.g. conducting a sales analysis near Christmas.exposure: includes clinical susceptibility bias, protopathic bias, indication bias.data: includes cherry-picking, suppressing evidence, and the fallacy of incomplete evidence.attrition: attrition bias is similar to survivorship bias, where only those that &#x2018;survived&#x2019; a long process are included in an analysis, or failure bias, where those that &#x2018;failed&#x2019; are only included observer selection: related to the Anthropic principle, which is a philosophical consideration that any data we collect about the universe is filtered by the fact that, in order for it to be observable, it must be compatible with the conscious and sapient life that observes it. [3] - Handling missing data can make selection bias worse because different methods impact the data in different ways. For example, if you replace null values with the mean of the data, you adding bias in the sense that you&#x2019;re assuming that the data is not as spread out as it might actually be. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_dimension_reduction_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Dimensionality reduction is the process of reducing the number of features in a dataset. This is important mainly in the case when you want to reduce variance in your model (overfitting). - Wikipedia states four advantages of dimensionality reduction - It reduces the time and storage space requiredRemoval of multi-collinearity improves the interpretation of the parameters of the machine learning modelIt becomes easier to visualize the data when reduced to very low dimensions such as 2D or 3DIt avoids the curse of dimensionality "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_boosting_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Boosting is an ensemble method to improve a model by reducing its bias and variance, ultimately converting weak learners to strong learners. The general idea is to train a weak learner and sequentially iterate and improve the model by learning from the previous learner "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_please_rephrase_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm sorry, I didn't quite understand that. Could you rephrase? "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_box_plot_and_histogram_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Boxplot vs Histogram - While boxplots and histograms are visualizations used to show the distribution of the data, they communicate information differently. - Histograms are bar charts that show the frequency of a numerical variable&#x2019;s values and are used to approximate the probability distribution of the given variable. It allows you to quickly understand the shape of the distribution, the variation, and potential outliers. - Boxplots communicate different aspects of the distribution of data. While you can&#x2019;t see the shape of the distribution through a box plot, you can gather other information like the quartiles, the range, and outliers. Boxplots are especially useful when you want to compare multiple charts at the same time because they take up less space than histograms. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_cross-validation_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Cross-validation is essentially a technique used to assess how well a model performs on a new independent dataset. The simplest example of cross-validation is when you split your data into two groups: training data and testing data, where you use the training data to build the model and the testing data to test the model. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_did_that_help_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Did that help you? "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_overfitting_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Overfitting is an error where the model &#x2018;fits&#x2019; the data too well, resulting in a model with high variance and low bias. As a consequence, an overfit model will inaccurately predict new data points even though it has a high accuracy on the training data. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_supervised_learning_and_unsupervised_learning_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Supervised learning involves learning a function that maps an input to an output based on example input-output pairs. - For example, if I had a dataset with two variables, age (input) and height (output), I could implement a supervised learning model to predict the height of a person based on their age. - Unlike supervised learning,unsupervised learning is used to draw inferences and find patterns from input data without references to labeled outcomes. A common use of unsupervised learning is grouping customers by purchasing behavior to find target markets. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_goodbye_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_confounding_variables_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="A confounding variable, or a confounder, is a variable that influences both the dependent variable and the independent variable, causing a spurious association, a mathematical relationship in which two or more variables are associated but not causally related. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_A_div_B_testing_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="A/B testing is a form of hypothesis testing and two-sample hypothesis testing to compare two versions, the control and variant, of a single variable. It is commonly used to improve and optimize user experience and marketing. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Image" name="utter_cheer_up_img_img" URL="https://i.imgur.com/nGF1K8f.jpg" caption="Here is something to cheer you up:"/>
+  <actions xsi:type="generator:Text" name="utter_Neural_Network_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="A neural network is a multi-layered model inspired by the human brain. Like the neurons in our brain, the circles above represent a node. The blue circles represent the input layer,the black circles represent the hidden layers,and the green circles represent the output layer.Each node in the hidden layers represents a function that the inputs go through, ultimately leading to an output in the green circles. The formal term for these functions is called the sigmoid activation function. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_greet_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey! How are you? "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_Law_of_Large_Numbers_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- Formula for margin of error - You can use the margin of error (ME) formula to determine the desired sample size. - t/z = t/z score used to calculate the confidence intervalME = the desired margin of errorS = sample standard deviation "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_drawbacks_of_linear_model_text_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="- There are a couple of drawbacks of a linear model: - A linear model holds some strong assumptions that may not be true in application. It assumes a linear relationship, multivariate normality, no or little multicollinearity, no auto-correlation and homoscedasticity. A linear model can&#x2019;t be used for discrete or binary outcomes.You can&#x2019;t vary the model flexibility of a linear model. "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.24"/>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.10"/>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.29"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.2"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.38"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.42"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.5"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.9"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.0"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.33"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.14"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.7"/>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.8"/>
+  </flows>
+  <flows intent="//@intents.13">
+    <target actions="//@actions.26"/>
+  </flows>
+  <flows intent="//@intents.14">
+    <target actions="//@actions.23"/>
+  </flows>
+  <flows intent="//@intents.15">
+    <target actions="//@actions.41"/>
+  </flows>
+  <flows intent="//@intents.16">
+    <target actions="//@actions.13"/>
+  </flows>
+  <flows intent="//@intents.17">
+    <target actions="//@actions.22"/>
+  </flows>
+  <flows intent="//@intents.18">
+    <target actions="//@actions.21"/>
+  </flows>
+  <flows intent="//@intents.19">
+    <target actions="//@actions.11 //@actions.8"/>
+  </flows>
+  <flows intent="//@intents.20">
+    <target actions="//@actions.16"/>
+  </flows>
+  <flows intent="//@intents.21">
+    <target actions="//@actions.32"/>
+  </flows>
+  <flows intent="//@intents.22">
+    <target actions="//@actions.27"/>
+  </flows>
+  <flows intent="//@intents.23">
+    <target actions="//@actions.12"/>
+  </flows>
+  <flows intent="//@intents.24">
+    <target actions="//@actions.3"/>
+  </flows>
+  <flows intent="//@intents.25">
+    <target actions="//@actions.19"/>
+  </flows>
+  <flows intent="//@intents.26">
+    <target actions="//@actions.25"/>
+  </flows>
+  <flows intent="//@intents.27">
+    <target actions="//@actions.20"/>
+  </flows>
+  <flows intent="//@intents.28">
+    <target actions="//@actions.17"/>
+  </flows>
+  <flows intent="//@intents.29">
+    <target actions="//@actions.4"/>
+  </flows>
+  <flows intent="//@intents.30">
+    <target actions="//@actions.40"/>
+  </flows>
+  <flows intent="//@intents.31">
+    <target actions="//@actions.1"/>
+  </flows>
+  <flows intent="//@intents.32">
+    <target actions="//@actions.35"/>
+  </flows>
+  <flows intent="//@intents.33">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.34">
+    <target actions="//@actions.15"/>
+  </flows>
+  <flows intent="//@intents.35">
+    <target actions="//@actions.39">
+      <outcoming intent="//@intents.39">
+        <target actions="//@actions.6"/>
+      </outcoming>
+      <outcoming intent="//@intents.40">
+        <target actions="//@actions.37 //@actions.31">
+          <outcoming intent="//@intents.37">
+            <target actions="//@actions.6"/>
+          </outcoming>
+          <outcoming intent="//@intents.38">
+            <target actions="//@actions.34"/>
+          </outcoming>
+        </target>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.36">
+    <target actions="//@actions.34"/>
+  </flows>
+  <flows intent="//@intents.41">
+    <target actions="//@actions.18"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

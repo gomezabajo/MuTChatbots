@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="personal-bot">
+  <intents name="botchallenge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are you a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is this a chatbot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is this a real person"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you're a bot, aren't you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are u there?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who are you?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hallo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good day"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="howdy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="\stop"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello ?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="inform">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="ml"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="ml"/>
+        <tokens xsi:type="generator:Literal" text=" ?"/>
+      </inputs>
+    </inputs>
+    <parameters name="resource_topic" entity="//@entities.0"/>
+  </intents>
+  <intents name="ask_resource">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are some good learning resources?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can I get started?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are some guides to learn?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i want to learn more"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you recommend a learning guide?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="machine learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to do "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="machine learning"/>
+        <tokens xsi:type="generator:Literal" text="?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to learn about "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="ml"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i want to learn "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="nlp"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where cna i learn "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="machine learning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to learn "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="ai"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="machine"/>
+        <tokens xsi:type="generator:Literal" text=" l"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.3/@parameters.0" textReference="machine"/>
+        <tokens xsi:type="generator:Literal" text=" l?"/>
+      </inputs>
+    </inputs>
+    <parameters name="resource_topic" entity="//@entities.0"/>
+  </intents>
+  <intents name="faq/ask_rasa">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can i learn to build a chatbot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to make a chatbot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to use "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+        <tokens xsi:type="generator:Literal" text="?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need help with "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="Rasa"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+        <tokens xsi:type="generator:Literal" text="?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I do with "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what does "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+        <tokens xsi:type="generator:Literal" text=" mean?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what is "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to start making a "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.4/@parameters.0" textReference="rasa"/>
+        <tokens xsi:type="generator:Literal" text=" chatbot?"/>
+      </inputs>
+    </inputs>
+    <parameters name="resource_topic" entity="//@entities.0"/>
+  </intents>
+  <intents name="faq/ask_mentor">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you be my mentor?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you mentor people?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you guide me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can I be your student?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you taking new students?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you be my teacher?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/ask_kaggle">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you help me with Kaggle?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I do kaggle competitions?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to start kaggling"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's kaggle"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/ask_r_vs_python">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you use R or Python?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is python better?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what should I use R for?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="python or r?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="whats the difference w r and python"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you use python?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what language do u code"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="out_of_scope">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm a recruiter"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you looking for a job?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can I hire you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need a thesis topic"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what should I write my thesis on?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need advice on my startup"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you looking for a new job?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="whats up with r and python"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <entities name="resource_topic">
+    <inputs language="ENGLISH">
+      <inputs xsi:type="generator:SimpleInput" name=" nlp">
+        <values>language technlogy</values>
+      </inputs>
+      <inputs xsi:type="generator:SimpleInput" name=" ml">
+        <values>machine learning</values>
+        <values>ai</values>
+      </inputs>
+    </inputs>
+  </entities>
+  <actions xsi:type="generator:Text" name="utter_out_of_scope_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm sorry, this FAQ bot can't handle that input. Try asking about Machine Learning or NLP."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_greet_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi! I'm a chatbot that can answer some of the quesions Rachael gets asked a lot. What questions do you have? Just so you know, this assistant is being worked on druing a livestream so your repsonses might show up during the stream."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/ask_mentor_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't have capacity to take on any mentees right now, sorry. If you have a quick question you can reach out ot me on Twitter (@rctatman) or ask on the Rasa or Kaggle forums."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_i_am_a_bot_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am a bot, powered by a Rasa!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="query_resource_empty"/>
+  <actions xsi:type="generator:Text" name="utter_ask_type_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What type of resouce do you want? Book, course or video?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/ask_rasa_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Rasa is a software company that builds (mostly) free or open sourcetools to help make, maintain and improve chatbots. There's a free Udemy course for getting started with Rasa (https://www.udemy.com/course/rasa-for-beginners/) or you can check out the Rasa Masterclass (https://info.rasa.com/masterclass)"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/ask_kaggle_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The best place for questions about Kaggle is the Kaggle forums (https://www.kaggle.com/discussion) or you could try KaggleNoobs (https://www.kaggle.com/getting-started/20577)"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="..._empty"/>
+  <actions xsi:type="generator:Text" name="utter_faq/ask_r_vs_python_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I prefer R when working with tabular data, doing statistial modelling or visualization. Otherwise, I'll generally use Python."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.10"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.0"/>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.1">
+      <outcoming intent="//@intents.9">
+        <target actions="//@actions.10">
+          <outcoming intent="//@intents.1"/>
+        </target>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.3"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.5">
+      <outcoming intent="//@intents.2">
+        <target actions="//@actions.4"/>
+      </outcoming>
+    </target>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.27299795" max1Value="0.40069574" min2Value="0.3335845" max2Value="0.38314095">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3892199" max1Value="0.46737343" min2Value="0.41429198" max2Value="0.4421243">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09607041" max1Value="0.30138195" min2Value="0.1282257" max2Value="0.29020146">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19935834" max1Value="0.3053582" min2Value="0.26232836" max2Value="0.28973475">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.23149729" max1Value="0.39416504" min2Value="0.28190765" max2Value="0.39346933">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.027260542" max1Value="0.09893985" min2Value="0.03202014" max2Value="0.07276049">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1786984" max1Value="0.22637102" min2Value="0.1827276" max2Value="0.22022115">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19144054" max1Value="0.5167767" min2Value="0.24464782" max2Value="0.44328654">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12183474" max1Value="0.3557235" min2Value="0.17562756" max2Value="0.32751232">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07676981" max1Value="0.2679739" min2Value="0.16353758" max2Value="0.20999122">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10170351" max1Value="0.37005055" min2Value="0.14714904" max2Value="0.34786353">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.103745125" max1Value="0.22366536" min2Value="0.13962074" max2Value="0.20764776">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.016720468" max1Value="0.10908433" min2Value="0.025449878" max2Value="0.099091634">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.058912884" max1Value="0.17611209" min2Value="0.101306595" max2Value="0.1318908">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.2993659" max1Value="0.36075017" min2Value="0.31906715" max2Value="0.35278407">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.15095703" max1Value="0.19314909" min2Value="0.16067061" max2Value="0.17075524">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29064012" max1Value="0.4502309" min2Value="0.36821026" max2Value="0.4419706">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20715444" max1Value="0.5143536" min2Value="0.3243314" max2Value="0.3454502">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17007841" max1Value="0.28282434" min2Value="0.20218441" max2Value="0.23453677">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.05719874" max1Value="0.0755253" min2Value="-0.019782495" max2Value="0.06287366">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.021559106" max1Value="0.1332183" min2Value="0.02407705" max2Value="0.12167903">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18471324" max1Value="0.28519288" min2Value="0.20812444" max2Value="0.24761815">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10924093" max1Value="0.21976483" min2Value="0.16766144" max2Value="0.20897987">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.16242096" max1Value="0.3331818" min2Value="0.18679944" max2Value="0.26355764">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27171952" max1Value="0.45815474" min2Value="0.3017216" max2Value="0.43890032">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17939247" max1Value="0.4453314" min2Value="0.2103236" max2Value="0.44067907">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.02016577" max1Value="0.16500056" min2Value="0.02407766" max2Value="0.08929835">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03585554" max1Value="0.13333146" min2Value="0.037214614" max2Value="0.13173996">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29035464" max1Value="0.5136245" min2Value="0.35208857" max2Value="0.50342554">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12201276" max1Value="0.32885823" min2Value="0.19422267" max2Value="0.2831669">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.042317014" max1Value="0.3881804" min2Value="0.20009966" max2Value="0.25216407">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3111299" max1Value="0.45193505" min2Value="0.32631975" max2Value="0.45160824">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19266352" max1Value="0.5031532" min2Value="0.3415417" max2Value="0.49484032">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.026074579" max1Value="0.048638575" min2Value="-0.0089203715" max2Value="0.044013023">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.020612905" max1Value="0.19717562" min2Value="0.03156058" max2Value="0.19397905">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17840965" max1Value="0.33705294" min2Value="0.21020724" max2Value="0.30083182">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.14138095" max1Value="0.32164004" min2Value="0.15608512" max2Value="0.3197329">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20107317" max1Value="0.5348239" min2Value="0.32285842" max2Value="0.4638766">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29039118" max1Value="0.46188584" min2Value="0.33045286" max2Value="0.4036492">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07745607" max1Value="0.3291792" min2Value="0.16607389" max2Value="0.28131434">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0063611" max1Value="0.13417213" min2Value="-0.005886974" max2Value="0.11239612">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06808536" max1Value="0.16005184" min2Value="0.08803917" max2Value="0.13721488">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0059304233" max1Value="0.10267002" min2Value="0.023081677" max2Value="0.09575518">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.040057026" max1Value="0.09821039" min2Value="0.042221718" max2Value="0.07302931">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.041486774" max1Value="0.07033165" min2Value="-0.026659476" max2Value="0.055938814">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02541151" max1Value="0.09503954" min2Value="0.059803948" max2Value="0.07632135">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.007940937" max1Value="0.08104718" min2Value="0.050513167" max2Value="0.068299346">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.011132663" max1Value="0.035037618" min2Value="0.0075323023" max2Value="0.015971372">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06857419" max1Value="0.17613451" min2Value="0.07343677" max2Value="0.14161769">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.15104114" max1Value="0.25732052" min2Value="0.15249182" max2Value="0.25284415">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.050583072" max1Value="0.19858076" min2Value="0.07420537" max2Value="0.14485317">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.047676772" max1Value="0.14381057" min2Value="0.052017983" max2Value="0.12798758">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.009975051" max1Value="0.16116512" min2Value="0.062130034" max2Value="0.15944184">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.017484207" max1Value="0.17583117" min2Value="0.08047874" max2Value="0.16100053">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.029836852" max1Value="0.11484468" min2Value="0.0390706" max2Value="0.10164726">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.056889247" max1Value="0.16423728" min2Value="0.1255411" max2Value="0.12804201">
+    <intent1 href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <intent2 href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.5761479" max1Value="0.7632545" min2Value="0.6058876" max2Value="0.75431114">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.0"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.5445696" max1Value="0.6192314" min2Value="0.5501487" max2Value="0.5927672">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.1"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.35141036" max1Value="0.5618403" min2Value="0.504755" max2Value="0.5460408">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.2"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.42791724" max1Value="0.65725327" min2Value="0.43153316" max2Value="0.6348109">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.3"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.41961837" max1Value="0.6720581" min2Value="0.511395" max2Value="0.63868743">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.4"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.5024237" max1Value="0.65610546" min2Value="0.53962576" max2Value="0.6512953">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.5"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentValues>
+  <intentValues min1Value="0.5600249" max1Value="0.7516548" min2Value="0.59870774" max2Value="0.7493066">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.6"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.6/@inputs.0/@inputs.2"/>
+  </intentValues>
+  <intentValues min1Value="0.5407474" max1Value="0.60580075" min2Value="0.5576925" max2Value="0.59533787">
+    <intent href="../Email-WhatsApp-Integration.model#//@intents.7"/>
+    <min1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <min2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../Email-WhatsApp-Integration.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentValues>
+</congaAnnotation:Annotation>

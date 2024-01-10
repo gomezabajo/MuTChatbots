@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.09310658" max1Value="0.16696276" min2Value="0.12669122" max2Value="0.16315266">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.0"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.2"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27299795" max1Value="0.40069574" min2Value="0.3335845" max2Value="0.38314095">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.0"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.1"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19144054" max1Value="0.5167767" min2Value="0.24464782" max2Value="0.44328654">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.1"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.0"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02898258" max1Value="0.14457805" min2Value="0.048336327" max2Value="0.10773506">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.1"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.2"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0923728" max1Value="0.18053007" min2Value="0.098023236" max2Value="0.1686156">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.2"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.0"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.02116509" max1Value="0.12225913" min2Value="0.04173023" max2Value="0.11577356">
+    <intent1 href="../Rasa_Covid19_tracer.model#//@intents.2"/>
+    <intent2 href="../Rasa_Covid19_tracer.model#//@intents.1"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.5761479" max1Value="0.7632545" min2Value="0.6058876" max2Value="0.75431114">
+    <intent href="../Rasa_Covid19_tracer.model#//@intents.0"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.5445696" max1Value="0.6192314" min2Value="0.5501487" max2Value="0.5927672">
+    <intent href="../Rasa_Covid19_tracer.model#//@intents.1"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.21198826" max1Value="0.46510696" min2Value="0.37821576" max2Value="0.43780872">
+    <intent href="../Rasa_Covid19_tracer.model#//@intents.2"/>
+    <min1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max1 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <min2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../Rasa_Covid19_tracer.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentValues>
+</congaAnnotation:Annotation>

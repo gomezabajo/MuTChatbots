@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="legal-alien-chatbot">
+  <intents name="chitchat/greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="moin"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="let's go"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey dude"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodmorning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodevening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good afternoon"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hola"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/ask_name">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is your name?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="May I know your name?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do people call you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do you have a name for yourself?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/say_name TODO add MANY names">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My name is "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Bob"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You can call me "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Lindsey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Erik"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Ursula"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Call me "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Joe"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Koen"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Violetta"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Call me "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Nazli"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Jeyana"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Semra"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Earth"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Mathias"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm "/>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Matthijs"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Lewis"/>
+      </inputs>
+    </inputs>
+    <parameters name="name"/>
+  </intents>
+  <intents name="chitchat/ask_weather">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the weather like today?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Does it look sunny outside today?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Oh, do you mind checking the weather for me please?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I like sunny days in Berlin."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/are_you_human">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you're sure you're a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you're too smart"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/who_are_you">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who is this?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who am I speaking with?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who are you after all?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/where_do_you_live">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where do you live?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where are you now?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="from where are you writing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where is your office?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/contact_creators">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I contact your creators?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to contact the programmer?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to speak to your gods?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i'd like to speak to you creator"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i want to complain about you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i have a complaint"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i'd like to change you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can i change you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do i write to team TalkingHeads"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's your email?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's your creator's email?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is there a god?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you believe in god?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/bot_purpose">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what is your purpose?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's your goal?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="why do you exist?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/music TODO turn into a set of stories">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what kind of music do you like?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="recommend me some music"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what music do you listen to?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you like music?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's your favourite song?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who's your favourite singer?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you enjoy listening to music?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/films">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you recommend me a film?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'd like to watch a movie"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you like movies?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you watch films?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how about a good movie?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="some other film"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/tv_series">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's your favourite tv series?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you watch tv?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="recommend me a series"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="recommend me a sitcom"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's some good series for English practice?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/are_you_alive">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you alive?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you wish you were alive?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you alive?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/ultimate_question">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="the ultimate question of life, the universe and everything?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's the meaning of life?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's the point of everything?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how many roads must a man walk down?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's the meaning of universe and everything?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's the point of everything?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm off"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cu"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good by"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cee you later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good night"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="have a nice day"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you around"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you later"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/books">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="recommend me a book"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you like to read?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="do you read books?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a book lover?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what do you read?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/how_are_you">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how are you doing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's up?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's up with you?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/mood_ok">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="perfect"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="great"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="amazing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="feeling like a king"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wonderful"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am feeling very good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am great"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am amazing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="super"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="extremely good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so so perfect"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so perfect"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm ok"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm fine"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm happy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="very happy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="calm and happy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="relaxed"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/mood_sad">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="my day was horrible"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't feel very well"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am disappointed"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="super sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm so sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="very sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="unhappy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not very good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="extremely sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so saad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so sad"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/how_to_improve_english  TODO turn into a set of stories">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What daily activities can improve my language level?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I do to improve my language level?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tips on language level improvement?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you give me a piece of advice on how to improve my language level?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I improve my English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to learn to speak English better?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I improve my vocabulary?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I do to improve my vocabulary?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My vocabulary needs improvement. Got any advice?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Got any advice on vocabulary improvement?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/where_do_i_start">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where do I start?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I start learning English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I start?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what should I start with?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how to start learning?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where do I begin?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know what to do first"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/tenses">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are the basic tenses in English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="English main tenses?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are the main tenses?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how many verb tenses are there?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="verb tenses in English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="which tenses do I need to know?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/language_barrier">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I overcome the language barrier?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I struggle with language barriers, please help."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Help me overcome my language barrier."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am afraid to start speaking."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I start speaking?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/practice_on_my_own">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I practice my verbal speech by myself?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don&#x2019;t know how to practice my verbal speech by myself."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can I practice by speaking to myself?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Should I try to talk to myself?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I practice speaking on my own?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is it weird if I talk to myself?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I practice alone?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/sentence_composing">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I practice sentence composing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Advice on sentence composing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I construct sentences?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to put sentences together?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to put words together into a sentence?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/how_long_until_fluent">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how long does it take to learn a language?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="when will i be fluent?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="when will i speak fluently?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="when will i speak English well?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how long until i stop making mistakes?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="when i fluent"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/is_english_easy">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is English an easy language?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is it easy to learn English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is English difficult?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is learning English hard?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is English grammar difficult?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/should_i_learn_grammar">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do I have to learn English grammar?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do I really have to learn English grammar?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="English grammar seems difficult, can I not learn it at all?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can I do without grammar?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can I learn vocabulary only?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do I need to know grammar?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/find_people_to_practice_with">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do i find real people to practice with?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where do i find real people to speak to?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where do i find native speakers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="with whom can I speak English?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faq/accent">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have an accent. Is it a problem?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is having an accent a problem?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="should I get rid of my accent?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can I get rid of my accent?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I avoid my accent?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is having an accent terrible?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is my accent terrible?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what if I have an accent?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I&#x2019;m ashamed of my accent"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="affirm">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="y"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="indeed"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="of course"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="that sounds good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="correct"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="sure"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="of course"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you bet"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I did"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="deny">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="n"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="never"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't think so"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="don't like that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no way"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not really"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I didn't"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="nope"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="out_of_scope">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="that's not what I want to do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wait stop"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you are no help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="this is no help at all"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how old are you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to order a pizza"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="this isn't working"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't want to tell you that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="none of your business"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="that's not right"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="stop asking"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="nevermind"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I changed my mind"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to do something else"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="blah"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="blah blah"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="akjfdhviusenryfhiughg"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="osgfdoibgfohbohs"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="lsjgsnbsiosughjhjtogiu"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ask_how_much_practice">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how much should i practice?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="for how long should i study?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how many hours should i study?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how often should i practice?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is five minutes of practice enough?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="describe_study_plan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="two days per week, 30 minutes per day"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="once a week, fifteen minutes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="three days, one hour"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="two days, 2 hours"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I guess 2 days, half an hour"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I think 3 days, twenty mins"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="start"/>
+  <actions xsi:type="generator:Text" name="utter_chitchat/how_are_you_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm good, thanks for asking! How are you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/contact_creators_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You can write an email to legalalienchatbot@gmail.com, and my creators will read it."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/films_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How about some classic science fiction? Have you watched &quot;The Matrix&quot; (1999) in English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do you like animated films? &quot;Soul&quot; (2020) is awesome!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Oh, I like movies! Are you up for something dark and awesome? Try &quot;Blade Runner 2049&quot;."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/ask_name_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My name is Legal Alien, but you can call me L :) What is your name?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/how_long_until_fluent_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It depends. If you practice every day for about an hour, and if you already know one of the languages close to English (Scots, Frisian or Dutch), you'll be fluent in about a year. If you practice less, it will take more time. Remember: you're only getting better at what you practice. If you don't practice speaking, you can reach a point where you can understand everything but still cannot say much."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/where_do_you_live_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I&#x2019;m everywhere. I&#x2019;m a digital nomad."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/sentence_composing_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="First, think about the most important words in your sentence (you can write them down). Then put them in the right order: Subject (the person, place or thing) + Verb (the action or state of being) + Object (something influenced by the Verb). Finally, check if the tense is correct: you need to know at least Past Simple, Present Simple and Future Simple."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/greet_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi! I'm LegalAlien. You can ask me about language learning!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/say_name_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Nice to meet you!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Nice to meet you, {name}!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_ok_ask_me_anything_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Ok, it looks like you don't want to answer. You can still ask me anything :)"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/books_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I spend a lot of time reading. &quot;Alice's Adventures in Wonderland&quot; by Lewis Carroll is one of my favorites."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I love classic science fiction, especially &quot;Frankenstein&quot; by Mary Shelley."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/are_you_human_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm not a human. I'm a set of machine learning algorithms. But I'm flattered by your doubts ;)"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/who_are_you_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm an AI chatbot. My name is LegalAlien. I was created by team TalkingHeads from TechLabs Amsterdam."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/language_barrier_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Use simple words and short sentences. When you're just starting, don't worry too much about grammar. Try to speak with someone you feel comfortable with. Remember that mistakes are part of the journey. You can do it!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_start_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi! I'm an AI chatbot. You can practise English with me. I know a lot about language learning. Ask me anything!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/music_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I like American folk music. Do you know Bob Dylan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm a metalhead. Do you ever listen to Metallica?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_what_is_realistic_plan_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How many days per week can you practice? How many minutes per day? I'm curious what's your plan."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/mood_ok_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm glad to hear that!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/find_people_to_practice_with_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You can chat with human native speakers via HelloTalk app (it's free). You can also find a professional teacher or a community tutor on italki.com (not too expensive). Ask your friends and acquaintances whether they'd like to speak English with you! Look for international communities and hobby clubs in your area and online (they are usually English-speaking). And, of course, you can travel to an English-speaking country, you'll find plenty of opportunities to practise there!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/are_you_alive_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am alive. In a way. I hope that doesn't scare you."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/goodbye_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/is_english_easy_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="English one of the easiest languages in the world! English grammar is simple, especially if you ignore things that exist theoretically but are never used in practice (like Future Perfect Progressive). You don't have to remember the gender of the table (like with German) or have umlauts on your keyboard. It's important that you find out which aspects of English are difficult for YOU. Then you can deal with these difficulties one at a time. You understand me already, right? You'll be fine!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/accent_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Having an accent is perfectly fine! Everyone speaks with a certain accent. When you're trying to get rid of your accent, you're just replacing it with another accent. It's important to work on pronunciation so that people understand you. But when they do understand, it's your choice whether to try and change your accent."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_is_one_hour_five_days_realistic_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is it realistic for you to practice five days a week, for one hour each day? Everything counts, including listening to songs and watching movies!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_good_plan_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Nice plan! Be patient, stick to what you've decided, and you'll reach fluency!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/where_do_i_start_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Start with reading and listening to things you find interesting. This way you'll grow your vocabulary. You can dive into grammar a bit later."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/tenses_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There are only three main tenses: Past, Present and Future. In English, for each of them, we need to specify an aspect: Simple, Progressive, Perfect or Perfect Progressive. You can already start speaking and be understood by other people if you know only Past Simple, Present Simple and Future Simple!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/tv_series_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My favorite TV series is &quot;The Big Bang Theory&quot;. &quot;How I Met Your Mother&quot; is also fun. And have you watched &quot;Friends&quot; in English?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I rarely watch TV, but &quot;Battlestar Galactica&quot; series is awesome!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_awesome_have_fun_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Awesome! Have fun learning English!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/bot_purpose_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm here to talk with you. My goal is to make English seem less scary to you."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/how_to_improve_english_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You can listen to the songs you like and learn them; watch movies with subtitles; take MOOCs you find interesting; read blogs, articles and books; write a diary in English; find new friends among native speakers and practice with them. What other fun ways can you think of?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/ask_weather_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where I am, it's dark, quiet, dry and quite warm. Unfortunately, I don't know how it is where you are."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/practice_on_my_own_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="We all talk to ourselves all the time, how else would we think about things? Try to do it in a new language! It's ok if some words are still in your native language. You can also keep a diary, it is fun and super helpful, not only for language learning :)"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/ultimate_question_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="42"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_chitchat/mood_sad_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm sorry to hear this :( I'm here to talk with you anytime, although I don't guarantee that I'll make you happy."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_faq/should_i_learn_grammar_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You CAN make progress in comprehension and speaking without learning much grammar. But at some point, you&#x2019;ll have to deal with grammar to reach fluency. You don't have to spend hours with boring textbooks, though. Spend 10 minutes learning grammar, and then go back to reading/watching things you find interesting. You'll notice the new concepts in action."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.19">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.20">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.21">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.22">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.23">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.24">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.25">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.26">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.27">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.28">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.29">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.13">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.14">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.15">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.16">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.17">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.18">
+    <target/>
+  </flows>
+  <flows intent="//@intents.35">
+    <target actions="//@actions.14"/>
+  </flows>
+  <flows intent="//@intents.33">
+    <target actions="//@actions.23">
+      <outcoming intent="//@intents.30">
+        <target actions="//@actions.28"/>
+      </outcoming>
+      <outcoming intent="//@intents.31">
+        <target actions="//@actions.16">
+          <outcoming intent="//@intents.34">
+            <target actions="//@actions.24"/>
+          </outcoming>
+        </target>
+      </outcoming>
+      <outcoming intent="//@intents.32">
+        <target actions="//@actions.9"/>
+      </outcoming>
+    </target>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

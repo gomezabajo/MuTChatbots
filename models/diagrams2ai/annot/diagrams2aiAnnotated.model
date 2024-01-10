@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.23149729" max1Value="0.39416504" min2Value="0.28190765" max2Value="0.39346933">
+    <intent1 href="../diagrams2ai.model#//@intents.0"/>
+    <intent2 href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09607041" max1Value="0.30138195" min2Value="0.1282257" max2Value="0.29020146">
+    <intent1 href="../diagrams2ai.model#//@intents.0"/>
+    <intent2 href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19935834" max1Value="0.3053582" min2Value="0.26232836" max2Value="0.28973475">
+    <intent1 href="../diagrams2ai.model#//@intents.0"/>
+    <intent2 href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3892199" max1Value="0.46737343" min2Value="0.41429198" max2Value="0.4421243">
+    <intent1 href="../diagrams2ai.model#//@intents.0"/>
+    <intent2 href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27299795" max1Value="0.40069574" min2Value="0.3335845" max2Value="0.38314095">
+    <intent1 href="../diagrams2ai.model#//@intents.0"/>
+    <intent2 href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.103745125" max1Value="0.22366536" min2Value="0.13962074" max2Value="0.20764776">
+    <intent1 href="../diagrams2ai.model#//@intents.1"/>
+    <intent2 href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07676981" max1Value="0.2679739" min2Value="0.16353758" max2Value="0.20999122">
+    <intent1 href="../diagrams2ai.model#//@intents.1"/>
+    <intent2 href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10170351" max1Value="0.37005055" min2Value="0.14714904" max2Value="0.34786353">
+    <intent1 href="../diagrams2ai.model#//@intents.1"/>
+    <intent2 href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19144054" max1Value="0.5167767" min2Value="0.24464782" max2Value="0.44328654">
+    <intent1 href="../diagrams2ai.model#//@intents.1"/>
+    <intent2 href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12183474" max1Value="0.3557235" min2Value="0.17562756" max2Value="0.32751232">
+    <intent1 href="../diagrams2ai.model#//@intents.1"/>
+    <intent2 href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20715444" max1Value="0.5143536" min2Value="0.3243314" max2Value="0.3454502">
+    <intent1 href="../diagrams2ai.model#//@intents.2"/>
+    <intent2 href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17007841" max1Value="0.28282434" min2Value="0.20218441" max2Value="0.23453677">
+    <intent1 href="../diagrams2ai.model#//@intents.2"/>
+    <intent2 href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.2993659" max1Value="0.36075017" min2Value="0.31906715" max2Value="0.35278407">
+    <intent1 href="../diagrams2ai.model#//@intents.2"/>
+    <intent2 href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29064012" max1Value="0.4502309" min2Value="0.36821026" max2Value="0.4419706">
+    <intent1 href="../diagrams2ai.model#//@intents.2"/>
+    <intent2 href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.15095703" max1Value="0.19314909" min2Value="0.16067061" max2Value="0.17075524">
+    <intent1 href="../diagrams2ai.model#//@intents.2"/>
+    <intent2 href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17939247" max1Value="0.4453314" min2Value="0.2103236" max2Value="0.44067907">
+    <intent1 href="../diagrams2ai.model#//@intents.3"/>
+    <intent2 href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27171952" max1Value="0.45815474" min2Value="0.3017216" max2Value="0.43890032">
+    <intent1 href="../diagrams2ai.model#//@intents.3"/>
+    <intent2 href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18471324" max1Value="0.28519288" min2Value="0.20812444" max2Value="0.24761815">
+    <intent1 href="../diagrams2ai.model#//@intents.3"/>
+    <intent2 href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.16242096" max1Value="0.3331818" min2Value="0.18679944" max2Value="0.26355764">
+    <intent1 href="../diagrams2ai.model#//@intents.3"/>
+    <intent2 href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10924093" max1Value="0.21976483" min2Value="0.16766144" max2Value="0.20897987">
+    <intent1 href="../diagrams2ai.model#//@intents.3"/>
+    <intent2 href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19266352" max1Value="0.5031532" min2Value="0.3415417" max2Value="0.49484032">
+    <intent1 href="../diagrams2ai.model#//@intents.4"/>
+    <intent2 href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.042317014" max1Value="0.3881804" min2Value="0.20009966" max2Value="0.25216407">
+    <intent1 href="../diagrams2ai.model#//@intents.4"/>
+    <intent2 href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3111299" max1Value="0.45193505" min2Value="0.32631975" max2Value="0.45160824">
+    <intent1 href="../diagrams2ai.model#//@intents.4"/>
+    <intent2 href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29035464" max1Value="0.5136245" min2Value="0.35208857" max2Value="0.50342554">
+    <intent1 href="../diagrams2ai.model#//@intents.4"/>
+    <intent2 href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12201276" max1Value="0.32885823" min2Value="0.19422267" max2Value="0.2831669">
+    <intent1 href="../diagrams2ai.model#//@intents.4"/>
+    <intent2 href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.0"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07745607" max1Value="0.3291792" min2Value="0.16607389" max2Value="0.28131434">
+    <intent1 href="../diagrams2ai.model#//@intents.5"/>
+    <intent2 href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.29039118" max1Value="0.46188584" min2Value="0.33045286" max2Value="0.4036492">
+    <intent1 href="../diagrams2ai.model#//@intents.5"/>
+    <intent2 href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17840965" max1Value="0.33705294" min2Value="0.21020724" max2Value="0.30083182">
+    <intent1 href="../diagrams2ai.model#//@intents.5"/>
+    <intent2 href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20107317" max1Value="0.5348239" min2Value="0.32285842" max2Value="0.4638766">
+    <intent1 href="../diagrams2ai.model#//@intents.5"/>
+    <intent2 href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.14138095" max1Value="0.32164004" min2Value="0.15608512" max2Value="0.3197329">
+    <intent1 href="../diagrams2ai.model#//@intents.5"/>
+    <intent2 href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.6"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.5761479" max1Value="0.7632545" min2Value="0.6058876" max2Value="0.75431114">
+    <intent href="../diagrams2ai.model#//@intents.0"/>
+    <min1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.4"/>
+    <max1 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.3"/>
+    <max2 href="../diagrams2ai.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.5445696" max1Value="0.6192314" min2Value="0.5501487" max2Value="0.5927672">
+    <intent href="../diagrams2ai.model#//@intents.1"/>
+    <min1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max1 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../diagrams2ai.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.35141036" max1Value="0.5618403" min2Value="0.504755" max2Value="0.5460408">
+    <intent href="../diagrams2ai.model#//@intents.2"/>
+    <min1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../diagrams2ai.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.42791724" max1Value="0.65725327" min2Value="0.43153316" max2Value="0.6348109">
+    <intent href="../diagrams2ai.model#//@intents.3"/>
+    <min1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <min2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../diagrams2ai.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.41961837" max1Value="0.6720581" min2Value="0.511395" max2Value="0.63868743">
+    <intent href="../diagrams2ai.model#//@intents.4"/>
+    <min1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <max2 href="../diagrams2ai.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.5024237" max1Value="0.65610546" min2Value="0.53962576" max2Value="0.6512953">
+    <intent href="../diagrams2ai.model#//@intents.5"/>
+    <min1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.9"/>
+    <max2 href="../diagrams2ai.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentValues>
+</congaAnnotation:Annotation>

@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.03110383" max1Value="0.26625842" min2Value="0.051064227" max2Value="0.26625842">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.112"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.80"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.37"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.85"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.05264615" max1Value="0.4693523" min2Value="-0.0028058386" max2Value="0.374676">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.38"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.58"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.119"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09469092" max1Value="0.4232661" min2Value="0.100282915" max2Value="0.40127012">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.38"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.115"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.120"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.92"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-5.324856E-4" max1Value="0.39775354" min2Value="0.0033868675" max2Value="0.3818959">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.40"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.66"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.30"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.028179469" max1Value="0.20646" min2Value="0.047763694" max2Value="0.2052669">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.60"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.65"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.108"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.031063389" max1Value="0.42924356" min2Value="0.03136783" max2Value="0.42924356">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.124"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.37"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.16"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.015222327" max1Value="0.29504153" min2Value="0.032105964" max2Value="0.21893375">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.58"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.49"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.87"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0038678118" max1Value="0.25035053" min2Value="0.030425107" max2Value="0.2500341">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.65"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.108"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.117"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.043966662" max1Value="0.34710425" min2Value="-0.021500668" max2Value="0.34260193">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.21"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.64"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.035858728" max1Value="0.2267977" min2Value="0.04172805" max2Value="0.22606401">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.9"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.93"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.87"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0038159578" max1Value="0.4114398" min2Value="0.009854365" max2Value="0.32280585">
+    <intent1 href="../dusbot.model#//@intents.0"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.87"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.42"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.58"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0015308021" max1Value="0.14737615" min2Value="0.02482985" max2Value="0.13448513">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.20"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.15"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.21"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06259714" max1Value="0.535598" min2Value="0.07512684" max2Value="0.48211715">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.14"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07175577" max1Value="0.23622797" min2Value="0.08079045" max2Value="0.21454929">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.28"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.15"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13111603" max1Value="0.31272712" min2Value="0.13401133" max2Value="0.3047346">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.20"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.14"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.009504959" max1Value="0.13989827" min2Value="0.028230561" max2Value="0.122540854">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.20"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.01246728" max1Value="0.23214659" min2Value="0.014707558" max2Value="0.20296714">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.11"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.047937624" max1Value="0.1706785" min2Value="-0.030931806" max2Value="0.11777444">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.20"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.27"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.016863871" max1Value="0.11343113" min2Value="0.029470976" max2Value="0.10641613">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.29"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.7"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.28"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.22462098" max1Value="0.46856388" min2Value="0.23102815" max2Value="0.4653429">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.29"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.12"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.040474392" max1Value="0.16769055" min2Value="-0.0044501266" max2Value="0.16769055">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.26"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.22"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.13"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.030897755" max1Value="0.393979" min2Value="0.04429909" max2Value="0.28905565">
+    <intent1 href="../dusbot.model#//@intents.1"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.26"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.15"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06748187" max1Value="0.22666721" min2Value="0.073274784" max2Value="0.22666721">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.37"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.28"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.42"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.29"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.026094671" max1Value="0.24781244" min2Value="0.0053286473" max2Value="0.21904899">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.27"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.31"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.34"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07654472" max1Value="0.394612" min2Value="0.13099441" max2Value="0.394612">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.38"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.19"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03901933" max1Value="0.27265865" min2Value="0.04406744" max2Value="0.252245">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.21"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.26"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.13"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04500556" max1Value="0.2335251" min2Value="0.05452466" max2Value="0.20891158">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.37"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.42"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.062247146" max1Value="0.44015327" min2Value="0.069727406" max2Value="0.44015327">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.40"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.28"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.29"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.023969453" max1Value="0.19256817" min2Value="0.026234137" max2Value="0.1904109">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.13"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.26"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.37"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.22"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.035469163" max1Value="0.22367406" min2Value="0.044751547" max2Value="0.20681152">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.35"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.18"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.37"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.39"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.009080047" max1Value="0.2270271" min2Value="0.024513345" max2Value="0.19165477">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.39"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.40"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.34"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.051908713" max1Value="0.24879701" min2Value="0.05258932" max2Value="0.24533954">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.36"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.13"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.40"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06676589" max1Value="0.24115428" min2Value="0.070319265" max2Value="0.24115428">
+    <intent1 href="../dusbot.model#//@intents.2"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.21"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.28"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.13"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.29"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04709486" max1Value="0.2075115" min2Value="0.047605008" max2Value="0.17614554">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.18"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.36"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0055107316" max1Value="0.17394261" min2Value="0.033694863" max2Value="0.16165312">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.33"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.17"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07792093" max1Value="0.3418869" min2Value="0.14687832" max2Value="0.32211632">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.36"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.17"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.097226545" max1Value="0.36887458" min2Value="0.13143918" max2Value="0.35634562">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.36"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.010741216" max1Value="0.26506314" min2Value="0.008477665" max2Value="0.16097516">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.33"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0040388117" max1Value="0.14609323" min2Value="0.011202317" max2Value="0.14204484">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.26"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.17"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.18"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.005165267" max1Value="0.17545936" min2Value="0.013386002" max2Value="0.17545936">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.38"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.14"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.22"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.02452422" max1Value="0.1548287" min2Value="-0.019532984" max2Value="0.12152579">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.29"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.36"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.26"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0038246654" max1Value="0.183405" min2Value="0.0361991" max2Value="0.18337536">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.38"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.28"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.023075804" max1Value="0.16294315" min2Value="0.012583593" max2Value="0.14506158">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.17"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.23"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03180497" max1Value="0.20628612" min2Value="0.041726537" max2Value="0.20628612">
+    <intent1 href="../dusbot.model#//@intents.3"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.32"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.23"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.13"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.25"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03137947" max1Value="0.32097694" min2Value="0.05712923" max2Value="0.28921965">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.50"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.13"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.100"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.12"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06017863" max1Value="0.47403234" min2Value="0.0716048" max2Value="0.43774095">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.108"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.68"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.67"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.036967985" max1Value="0.41240212" min2Value="-0.0020734326" max2Value="0.28137103">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.44"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.30"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.66"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.010796739" max1Value="0.34804672" min2Value="0.0034141168" max2Value="0.3303929">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.25"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.34"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.14"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.33"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.033007" max1Value="0.32878038" min2Value="-0.02194597" max2Value="0.3279399">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.59"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.67"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.55"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.69"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03746565" max1Value="0.16284522" min2Value="-0.029733745" max2Value="0.14686806">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.39"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.66"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.33"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.030424055" max1Value="0.4000764" min2Value="-0.014204931" max2Value="0.4000764">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.33"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.47"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.37"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.029807713" max1Value="0.30525175" min2Value="0.054134503" max2Value="0.2936734">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.50"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.44"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.13"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03977529" max1Value="0.20831653" min2Value="-0.028965339" max2Value="0.16306764">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.44"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.50"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.48"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.78"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03225737" max1Value="0.4643086" min2Value="0.045707934" max2Value="0.410357">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.59"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.67"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.55"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.69"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.01760964" max1Value="0.26160645" min2Value="0.017707182" max2Value="0.24012902">
+    <intent1 href="../dusbot.model#//@intents.4"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.50"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.73"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.60"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10082908" max1Value="0.12598786" min2Value="0.113941304" max2Value="0.12359144">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18304065" max1Value="0.3591098" min2Value="0.21366575" max2Value="0.3437929">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.08469605" max1Value="0.13373251" min2Value="0.096158095" max2Value="0.13152988">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.12272999" max1Value="0.23383538" min2Value="0.14488116" max2Value="0.22451763">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27518067" max1Value="0.35961452" min2Value="0.3459631" max2Value="0.3568678">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04875007" max1Value="0.094053894" min2Value="0.060678292" max2Value="0.084759094">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04293128" max1Value="0.16578604" min2Value="0.09994033" max2Value="0.12840642">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.073968366" max1Value="0.12712148" min2Value="0.09916405" max2Value="0.12417927">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.028293442" max1Value="0.09812417" min2Value="0.07055117" max2Value="0.09477865">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.044848017" max1Value="0.14108886" min2Value="0.11200787" max2Value="0.13778713">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18815717" max1Value="0.2492642" min2Value="0.19309968" max2Value="0.24517015">
+    <intent1 href="../dusbot.model#//@intents.5"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.051497445" max1Value="0.09950872" min2Value="0.059636578" max2Value="0.0855172">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.071244545" max1Value="0.21441211" min2Value="0.07264145" max2Value="0.19071834">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13253707" max1Value="0.28704807" min2Value="0.13949221" max2Value="0.27852544">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.013472681" max1Value="0.322435" min2Value="0.21712011" max2Value="0.31374457">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0057070903" max1Value="0.09436617" min2Value="0.02539211" max2Value="0.06412221">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.049382236" max1Value="0.1754639" min2Value="0.06392916" max2Value="0.10947709">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13865897" max1Value="0.19706923" min2Value="0.14293686" max2Value="0.1950293">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.027309855" max1Value="0.11744435" min2Value="0.033663906" max2Value="0.07582429">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.046937663" max1Value="0.39834943" min2Value="0.2585885" max2Value="0.32118264">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07745502" max1Value="0.15290852" min2Value="0.085572906" max2Value="0.115442276">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1393597" max1Value="0.25537813" min2Value="0.16986066" max2Value="0.24276307">
+    <intent1 href="../dusbot.model#//@intents.6"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.035173085" max1Value="0.16311304" min2Value="-0.024901943" max2Value="0.14253893">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.05814507" max1Value="0.2664773" min2Value="0.11256715" max2Value="0.217153">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.071205795" max1Value="0.27000102" min2Value="0.101875074" max2Value="0.18057153">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.022144327" max1Value="0.20482762" min2Value="-0.0077177766" max2Value="0.13152161">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04466584" max1Value="0.1294171" min2Value="0.047800977" max2Value="0.09911416">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.049693488" max1Value="0.21620831" min2Value="0.056231044" max2Value="0.18253899">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.049369756" max1Value="0.2002986" min2Value="0.07896163" max2Value="0.19595931">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="2.8185284E-4" max1Value="0.12681329" min2Value="0.020612549" max2Value="0.12487372">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.014693977" max1Value="0.24373507" min2Value="-0.006852725" max2Value="0.23852345">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.008961825" max1Value="0.117532924" min2Value="0.016653698" max2Value="0.08629369">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.020347103" max1Value="0.21604775" min2Value="-0.003509478" max2Value="0.21154">
+    <intent1 href="../dusbot.model#//@intents.7"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.016846944" max1Value="0.14279574" min2Value="0.056688853" max2Value="0.11238939">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0148388725" max1Value="0.13040169" min2Value="0.034337807" max2Value="0.10940993">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.060633328" max1Value="0.18127608" min2Value="0.09326701" max2Value="0.13763703">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09993454" max1Value="0.23804076" min2Value="0.12713906" max2Value="0.14920393">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.05016997" max1Value="0.105839975" min2Value="0.063955136" max2Value="0.08156259">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.104674816" max1Value="0.2215171" min2Value="0.16328382" max2Value="0.18090259">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.007519722" max1Value="0.13654186" min2Value="0.079163924" max2Value="0.10998686">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.020350406" max1Value="0.097414605" min2Value="-0.008006825" max2Value="0.06382626">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.022800827" max1Value="0.18951578" min2Value="0.04935569" max2Value="0.05254193">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.02397802" max1Value="0.123822495" min2Value="0.0039062202" max2Value="0.013150135">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.01615445" max1Value="0.11005876" min2Value="0.019187381" max2Value="0.069416404">
+    <intent1 href="../dusbot.model#//@intents.8"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09564105" max1Value="0.21675745" min2Value="0.09564105" max2Value="0.19235443">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.093196526" max1Value="0.29245004" min2Value="0.104753494" max2Value="0.27121615">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.11"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.10"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.12"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0020865537" max1Value="0.22994536" min2Value="0.020538712" max2Value="0.21271124">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.8"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.10"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0044035125" max1Value="0.2539048" min2Value="0.0068228687" max2Value="0.22676685">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.04327367" max1Value="0.14095147" min2Value="-0.026993887" max2Value="0.089395516">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.10"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.018208092" max1Value="0.20137258" min2Value="0.03051988" max2Value="0.17675716">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.019955112" max1Value="0.19863567" min2Value="0.027212888" max2Value="0.16650662">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.13"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.12"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.026128083" max1Value="0.11188702" min2Value="-0.024573267" max2Value="0.11188702">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.14"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.0"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.016652962" max1Value="0.2057611" min2Value="0.016652962" max2Value="0.1938171">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.15"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0483296" max1Value="0.29682636" min2Value="0.06961602" max2Value="0.2874264">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.10"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.071098626" max1Value="0.28524408" min2Value="0.071098626" max2Value="0.26427212">
+    <intent1 href="../dusbot.model#//@intents.9"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.14"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04279323" max1Value="0.13645373" min2Value="0.045367565" max2Value="0.13627852">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.10"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.023323854" max1Value="0.116534874" min2Value="-0.014982215" max2Value="0.084478326">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.052911703" max1Value="0.20473947" min2Value="0.11885694" max2Value="0.20473947">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.017748717" max1Value="0.18112451" min2Value="0.049273957" max2Value="0.15887184">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0048894766" max1Value="0.14426135" min2Value="0.036912754" max2Value="0.13943341">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.9"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.032442514" max1Value="0.110687695" min2Value="0.06071044" max2Value="0.108007">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04390483" max1Value="0.2118362" min2Value="0.047596417" max2Value="0.2084641">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.001761759" max1Value="0.27677843" min2Value="0.032346062" max2Value="0.26756945">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.8"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.009084487" max1Value="0.18249506" min2Value="0.0153441755" max2Value="0.13556495">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03451366" max1Value="0.19455789" min2Value="0.05402296" max2Value="0.13570662">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.10"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.7"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.02221402" max1Value="0.11049576" min2Value="-0.009005004" max2Value="0.10798328">
+    <intent1 href="../dusbot.model#//@intents.10"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.10"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.11"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.027025605" max1Value="0.09272048" min2Value="0.028385814" max2Value="0.08839255">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.05700909" max1Value="0.1544303" min2Value="0.09871591" max2Value="0.1123978">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07774301" max1Value="0.2708768" min2Value="0.1131899" max2Value="0.1885717">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04474335" max1Value="0.24412373" min2Value="0.1086519" max2Value="0.15874003">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.05047361" max1Value="0.15196751" min2Value="0.05889184" max2Value="0.07041911">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.06498455" max1Value="0.15486932" min2Value="0.0683757" max2Value="0.1404392">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.0068330965" max1Value="0.18517096" min2Value="0.05894988" max2Value="0.11412649">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.099633105" max1Value="0.21270218" min2Value="0.13235955" max2Value="0.16977605">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.04464297" max1Value="0.06479927" min2Value="0.01530044" max2Value="0.045193087">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.055835772" max1Value="0.16430809" min2Value="0.08395193" max2Value="0.14444727">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.07142386" max1Value="0.17112778" min2Value="0.08268263" max2Value="0.14896274">
+    <intent1 href="../dusbot.model#//@intents.11"/>
+    <intent2 href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.1"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.11284241" max1Value="0.5860356" min2Value="0.114813544" max2Value="0.58603555">
+    <intent href="../dusbot.model#//@intents.0"/>
+    <min1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.124"/>
+    <max1 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <min2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.38"/>
+    <max2 href="../dusbot.model#//@intents.0/@inputs.0/@inputs.16"/>
+  </intentValues>
+  <intentValues min1Value="0.31385574" max1Value="0.72276706" min2Value="0.38931292" max2Value="0.72276706">
+    <intent href="../dusbot.model#//@intents.1"/>
+    <min1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.27"/>
+    <max1 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <min2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <max2 href="../dusbot.model#//@intents.1/@inputs.0/@inputs.17"/>
+  </intentValues>
+  <intentValues min1Value="0.17046568" max1Value="0.61371964" min2Value="0.20343487" max2Value="0.61371964">
+    <intent href="../dusbot.model#//@intents.2"/>
+    <min1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.31"/>
+    <max1 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.42"/>
+    <max2 href="../dusbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+  </intentValues>
+  <intentValues min1Value="0.39321238" max1Value="0.76798683" min2Value="0.42411798" max2Value="0.76798683">
+    <intent href="../dusbot.model#//@intents.3"/>
+    <min1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.9"/>
+    <max1 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.24"/>
+    <max2 href="../dusbot.model#//@intents.3/@inputs.0/@inputs.11"/>
+  </intentValues>
+  <intentValues min1Value="0.06810508" max1Value="0.5611475" min2Value="0.13582149" max2Value="0.55297595">
+    <intent href="../dusbot.model#//@intents.4"/>
+    <min1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.50"/>
+    <max1 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.77"/>
+    <min2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.97"/>
+    <max2 href="../dusbot.model#//@intents.4/@inputs.0/@inputs.19"/>
+  </intentValues>
+  <intentValues min1Value="0.49493417" max1Value="0.75953615" min2Value="0.631983" max2Value="0.7582966">
+    <intent href="../dusbot.model#//@intents.5"/>
+    <min1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+    <max1 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../dusbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.31305024" max1Value="0.65501493" min2Value="0.56500006" max2Value="0.61597824">
+    <intent href="../dusbot.model#//@intents.6"/>
+    <min1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.5"/>
+    <max1 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.20739341" max1Value="0.40932938" min2Value="0.21147312" max2Value="0.40930226">
+    <intent href="../dusbot.model#//@intents.7"/>
+    <min1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.7"/>
+    <max1 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.6"/>
+    <max2 href="../dusbot.model#//@intents.7/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.21042544" max1Value="0.43918055" min2Value="0.32423273" max2Value="0.37454727">
+    <intent href="../dusbot.model#//@intents.8"/>
+    <min1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.2"/>
+    <max1 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.36521974" max1Value="0.5902272" min2Value="0.3795955" max2Value="0.575303">
+    <intent href="../dusbot.model#//@intents.9"/>
+    <min1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.12"/>
+    <min2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.5"/>
+    <max2 href="../dusbot.model#//@intents.9/@inputs.0/@inputs.11"/>
+  </intentValues>
+  <intentValues min1Value="0.29938474" max1Value="0.5326521" min2Value="0.31496394" max2Value="0.52545935">
+    <intent href="../dusbot.model#//@intents.10"/>
+    <min1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.1"/>
+    <max1 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.8"/>
+    <min2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.0"/>
+    <max2 href="../dusbot.model#//@intents.10/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.379317" max1Value="0.6161617" min2Value="0.3838926" max2Value="0.54581434">
+    <intent href="../dusbot.model#//@intents.11"/>
+    <min1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.0"/>
+    <max1 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.1"/>
+    <min2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.3"/>
+    <max2 href="../dusbot.model#//@intents.11/@inputs.0/@inputs.2"/>
+  </intentValues>
+</congaAnnotation:Annotation>

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="-0.0125745945" max1Value="0.13894235" min2Value="0.012824807" max2Value="0.076725274">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.10"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.14"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03944888" max1Value="0.102729335" min2Value="-0.006208542" max2Value="0.06942682">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.14"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.06404795" max1Value="0.08937416" min2Value="-0.0565013" max2Value="0.01541867">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.12"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.046884667" max1Value="0.17490044" min2Value="-0.004798269" max2Value="0.07969746">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.12"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17056753" max1Value="0.34441572" min2Value="0.21129957" max2Value="0.33756348">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.14"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.9"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.057955816" max1Value="0.102459356" min2Value="0.004275788" max2Value="0.09557286">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.14"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.12"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.10"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.11205344" max1Value="0.4591784" min2Value="0.20975763" max2Value="0.43789506">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.10"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03532789" max1Value="0.138001" min2Value="-0.027588733" max2Value="0.039274104">
+    <intent1 href="../h4h-chatbot.model#//@intents.0"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.7"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.14"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.057051286" max1Value="0.451404" min2Value="0.06936076" max2Value="0.42868608">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.008404197" max1Value="0.15158664" min2Value="0.013562494" max2Value="0.10869598">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03218794" max1Value="0.058632165" min2Value="-0.01865193" max2Value="0.056464564">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.11"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.022353426" max1Value="0.12966831" min2Value="-0.016964903" max2Value="0.11711889">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.10"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.04026661" max1Value="0.091983765" min2Value="-0.007243037" max2Value="0.06534077">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.03473814" max1Value="0.093428776" min2Value="-0.006406756" max2Value="0.07570035">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.9"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03410187" max1Value="0.44205427" min2Value="0.10171608" max2Value="0.39025542">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.3"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.030351378" max1Value="0.16129811" min2Value="0.015433396" max2Value="0.12697202">
+    <intent1 href="../h4h-chatbot.model#//@intents.1"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.011070928" max1Value="0.17146961" min2Value="0.011198812" max2Value="0.13605835">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.12"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20303145" max1Value="0.54200053" min2Value="0.21608147" max2Value="0.4407975">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19437422" max1Value="0.42717814" min2Value="0.20438153" max2Value="0.39279065">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.19636993" max1Value="0.64938927" min2Value="0.25635102" max2Value="0.6113574">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.014255083" max1Value="0.20773496" min2Value="-0.0077091986" max2Value="0.14003572">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1351708" max1Value="0.48551607" min2Value="0.13533822" max2Value="0.43396667">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.11"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0066893436" max1Value="0.19215441" min2Value="-0.004671083" max2Value="0.07098361">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.22861886" max1Value="0.56963694" min2Value="0.27112353" max2Value="0.4693423">
+    <intent1 href="../h4h-chatbot.model#//@intents.2"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.15"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-8.7394414E-4" max1Value="0.06309173" min2Value="0.021663599" max2Value="0.06043727">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.2059848" max1Value="0.37849298" min2Value="0.21329874" max2Value="0.369868">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.30344644" max1Value="0.44108957" min2Value="0.346883" max2Value="0.42258286">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.14093482" max1Value="0.24323153" min2Value="0.15142506" max2Value="0.21653996">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.5"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.25531232" max1Value="0.41895628" min2Value="0.26863286" max2Value="0.41243833">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.014829864" max1Value="0.07585331" min2Value="0.014995426" max2Value="0.06322529">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.019777065" max1Value="0.081024654" min2Value="-0.013747813" max2Value="0.037523765">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17908695" max1Value="0.32807884" min2Value="0.17956915" max2Value="0.31619707">
+    <intent1 href="../h4h-chatbot.model#//@intents.3"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.018019902" max1Value="0.11214733" min2Value="-0.017556336" max2Value="0.11005856">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.19"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.3"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.15"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.1059259" max1Value="0.5086823" min2Value="0.16555376" max2Value="0.48706353">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.8"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.13165794" max1Value="0.34982112" min2Value="0.14678735" max2Value="0.34365603">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.8"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.24145964" max1Value="0.6330528" min2Value="0.2726344" max2Value="0.5894923">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.8"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.023592992" max1Value="0.10328978" min2Value="-0.012343543" max2Value="0.09371575">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.19"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.14"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.24136369" max1Value="0.58250266" min2Value="0.2537618" max2Value="0.51049346">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.15"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.17"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.9"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0015679788" max1Value="0.18104579" min2Value="-0.0014748457" max2Value="0.123774305">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.15"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.8"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.12"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.15911517" max1Value="0.49257293" min2Value="0.17178422" max2Value="0.46424612">
+    <intent1 href="../h4h-chatbot.model#//@intents.4"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.18"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.19"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.10"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.024676273" max1Value="0.059964653" min2Value="-0.00224356" max2Value="0.032491993">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.27945977" max1Value="0.4748878" min2Value="0.2924114" max2Value="0.45467138">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.5"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20337188" max1Value="0.43730488" min2Value="0.2801864" max2Value="0.43283683">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.8"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.22354393" max1Value="0.39434096" min2Value="0.285874" max2Value="0.38665864">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.25598407" max1Value="0.5442381" min2Value="0.3667585" max2Value="0.53687084">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.017174978" max1Value="0.16266146" min2Value="0.03263971" max2Value="0.098872066">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.5"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.093453035" max1Value="0.35299525" min2Value="0.20035201" max2Value="0.3339932">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.023107069" max1Value="0.044562917" min2Value="-0.018181287" max2Value="0.03368091">
+    <intent1 href="../h4h-chatbot.model#//@intents.5"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.070298925" max1Value="0.03754633" min2Value="-0.056143902" max2Value="0.029125609">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.10"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.7"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.16380449" max1Value="0.41248122" min2Value="0.24886025" max2Value="0.3723622">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.18899089" max1Value="0.39996594" min2Value="0.21523991" max2Value="0.3414518">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.10"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.25039336" max1Value="0.56135505" min2Value="0.2614631" max2Value="0.43578932">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.017748399" max1Value="0.070121266" min2Value="0.006880302" max2Value="0.052951187">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.11"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.09809076" max1Value="0.31255418" min2Value="0.1001992" max2Value="0.3033155">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.10"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.05534946" max1Value="0.06215028" min2Value="-0.05113369" max2Value="0.04860641">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.6"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.23053649" max1Value="0.45104042" min2Value="0.28052413" max2Value="0.40884808">
+    <intent1 href="../h4h-chatbot.model#//@intents.6"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.8"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.9"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.11"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.4"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.022110792" max1Value="0.06447892" min2Value="0.06447892" max2Value="0.022110792">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.35868156" max1Value="0.49286175" min2Value="0.49286175" max2Value="0.35868156">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3945653" max1Value="0.43773803" min2Value="0.43773803" max2Value="0.3945653">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.3451195" max1Value="0.37322792" min2Value="0.37322792" max2Value="0.3451195">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.029468914" max1Value="0.037762642" min2Value="0.037762642" max2Value="0.029468914">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.25728706" max1Value="0.4463058" min2Value="0.4463058" max2Value="0.25728706">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.039834525" max1Value="0.05025092" min2Value="0.05025092" max2Value="0.039834525">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.40091193" max1Value="0.48201022" min2Value="0.48201022" max2Value="0.40091193">
+    <intent1 href="../h4h-chatbot.model#//@intents.7"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.31555998" max1Value="0.31555998" min2Value="0.31555998" max2Value="0.31555998">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.03342089" max1Value="0.03342089" min2Value="0.03342089" max2Value="0.03342089">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.04629954" max1Value="0.04629954" min2Value="0.04629954" max2Value="0.04629954">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.0048645916" max1Value="-0.0048645916" min2Value="-0.0048645916" max2Value="-0.0048645916">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.045042723" max1Value="0.045042723" min2Value="0.045042723" max2Value="0.045042723">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.24784613" max1Value="0.24784613" min2Value="0.24784613" max2Value="0.24784613">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.01023014" max1Value="0.01023014" min2Value="0.01023014" max2Value="0.01023014">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="8.0786436E-4" max1Value="8.0786436E-4" min2Value="8.0786436E-4" max2Value="8.0786436E-4">
+    <intent1 href="../h4h-chatbot.model#//@intents.8"/>
+    <intent2 href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.2894748" max1Value="0.6879668" min2Value="0.39540175" max2Value="0.6744407">
+    <intent href="../h4h-chatbot.model#//@intents.0"/>
+    <min1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.2"/>
+    <max1 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.8"/>
+    <min2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max2 href="../h4h-chatbot.model#//@intents.0/@inputs.0/@inputs.4"/>
+  </intentValues>
+  <intentValues min1Value="0.12872852" max1Value="0.47598684" min2Value="0.19934915" max2Value="0.45719093">
+    <intent href="../h4h-chatbot.model#//@intents.1"/>
+    <min1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <min2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.1/@inputs.0/@inputs.9"/>
+  </intentValues>
+  <intentValues min1Value="0.27069223" max1Value="0.51009893" min2Value="0.3187277" max2Value="0.49935806">
+    <intent href="../h4h-chatbot.model#//@intents.2"/>
+    <min1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.16"/>
+    <max1 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.10"/>
+    <min2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../h4h-chatbot.model#//@intents.2/@inputs.0/@inputs.5"/>
+  </intentValues>
+  <intentValues min1Value="0.39105994" max1Value="0.6424636" min2Value="0.4806516" max2Value="0.6361824">
+    <intent href="../h4h-chatbot.model#//@intents.3"/>
+    <min1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <min2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.6"/>
+    <max2 href="../h4h-chatbot.model#//@intents.3/@inputs.0/@inputs.4"/>
+  </intentValues>
+  <intentValues min1Value="0.32233515" max1Value="0.49369425" min2Value="0.33799738" max2Value="0.48174387">
+    <intent href="../h4h-chatbot.model#//@intents.4"/>
+    <min1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.6"/>
+    <max1 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.17"/>
+    <min2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.19"/>
+    <max2 href="../h4h-chatbot.model#//@intents.4/@inputs.0/@inputs.2"/>
+  </intentValues>
+  <intentValues min1Value="0.36910033" max1Value="0.57443476" min2Value="0.43937403" max2Value="0.54277915">
+    <intent href="../h4h-chatbot.model#//@intents.5"/>
+    <min1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.7"/>
+    <max1 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.2"/>
+    <min2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.0"/>
+    <max2 href="../h4h-chatbot.model#//@intents.5/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.4068085" max1Value="0.6142896" min2Value="0.43875802" max2Value="0.59010214">
+    <intent href="../h4h-chatbot.model#//@intents.6"/>
+    <min1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.2"/>
+    <max1 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.6/@inputs.0/@inputs.3"/>
+  </intentValues>
+  <intentValues min1Value="0.4594644" max1Value="0.4594644" min2Value="0.4594644" max2Value="0.4594644">
+    <intent href="../h4h-chatbot.model#//@intents.7"/>
+    <min1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.7/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="1.0" max1Value="1.0" min2Value="1.0" max2Value="1.0">
+    <intent href="../h4h-chatbot.model#//@intents.8"/>
+    <min1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <max1 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.0"/>
+    <min2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+    <max2 href="../h4h-chatbot.model#//@intents.8/@inputs.0/@inputs.1"/>
+  </intentValues>
+</congaAnnotation:Annotation>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="h4h-chatbot">
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is anyone there?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Howdy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hola"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bonjour"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Konnichiwa"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Guten tag"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Ola"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good afternoon"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good evening"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="That's all."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't have anything more to say"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Nothing else"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="That's all i have to say"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no, that would be all"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Goodnight"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="See you later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Au revoir"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Sayonara"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye then"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Fare thee well"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="sadness">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I've been feeling sadness When I get around a particular person or when I go home, I'm just sad or irritated."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I talk about my feelings of depression, and to who do I talk to?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have long spurts of depression, anxiety, and need change constantly why?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Why do I feel sad all the time?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="is it normal not to feel empathy?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I deal with my depression?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I make myself happy without someone who made me happy?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel sad."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like my existence is meaningless I've been depressed for quite a while."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm feeling really down lately"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I've been feeling sad and unmotivated"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Everything feels overwhelming"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm struggling to find joy in anything"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel hopeless and alone"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I can't shake this feeling of sadness"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like I'm stuck in a rut"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm having a hard time getting out of bed in the morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like no one understands what I'm going through"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="definition">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to learn more about mental health."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to learn about mental health."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm interested in learning about mental health."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me another fact about mental health"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me a fact about mental health"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Define Mental Health"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Define Depression"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="difference between sadness and depression"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="question">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Am i suffering from depression?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Am i depressed?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do i know if i have Depression?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Am i mentally ill?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is a therapist?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does a therapist do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Who is therapy for?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do i need therapy?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is therapy?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Am I experiencing a panic attack?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I deal with stress?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I do to manage my anxiety?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I cope with a traumatic event?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can trauma cause depression?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I know if I have PTSD?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I manage obsessive thoughts?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I do to improve my self-esteem?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I know if I have a mental health disorder?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I deal with intrusive thoughts?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can mental illness be hereditary?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="suicide">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I resist the urge to cut?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel hopeless and helpless. What can I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I've been having thoughts of suicide. What should I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't want to die but I don't want to live either. What should I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm afraid that I might hurt myself. What should I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm feeling overwhelmed and don't know how to cope."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need help dealing with my suicidal thoughts."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't know how to keep going."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like my life is not worth living."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="family">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family can't stand me I am the problem."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like my mother doesn't support me My mother is combative with me when I say I don't want to talk with her about my depression."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I deal with parental figures who have hurt me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family doesn't understand me."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like I'm always fighting with my parents."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family doesn't support me."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family makes me feel guilty all the time."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like an outsider in my own family."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family doesn't respect my boundaries."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I feel like I can't talk to my family about my problems."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family is always pressuring me to do things I don't want to do."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My family makes me feel ashamed of who I am."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="professional">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm very depressed? I'm very depressed. How do I find someone to talk to?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is my moodiness just a phase or do I need help?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="no_response">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="&quot;&quot;"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="&quot; &quot;"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_challenge"/>
+  <actions xsi:type="generator:Text" name="utter_question_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It can be difficult to deal with feelings of emptiness and numbness. You might find it helpful to focus on self-care, like getting enough sleep and exercise, or finding a new hobby that you enjoy."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Making new friends can be tough, but it's important to put yourself out there and try new things. You could try joining a club or group that interests you, or volunteering for a cause you care about."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Learning to be happy alone can take time, but it's possible. You might try practicing mindfulness or meditation, or finding a new hobby that you enjoy. It's also important to focus on building a positive relationship with yourself."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Feeling empty can be a difficult and confusing experience. It might be helpful to talk to a therapist or mental health professional, who can provide support and guidance. In the meantime, focusing on self-care and practicing mindfulness can help."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Feeling worthless and tired can be a sign of depression or other mental health issues. It's important to talk to a mental health professional, who can help you understand and manage these feelings. In the meantime, focusing on self-care, like getting enough sleep and exercise, can help improve your mood and energy levels."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's important to take care of your mental health just like your physical health. Consider making time for self-care activities such as exercise, meditation, or therapy."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's important to remember that it's okay to not have everything figured out. Take things one step at a time and remember that progress, not perfection, is the goal."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There are many ways to take care of your mental health, such as practicing self-care, seeking support from friends and family, or seeing a mental health professional. Remember that it's okay to ask for help."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_greet_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey! How are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me how are you feeling today?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi there. What brings you here today?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi there. How are you feeling today?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Great to see you. How do you feel currently?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello there. Glad to see you're back. What's going on in your world right now?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_blank_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi, I need a response in order to be of service!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_family_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It can be hard to navigate relationships when there are challenges or conflicts. Have you considered seeking the support of a professional counselor or therapist?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's natural to feel a range of emotions during a difficult time with a loved one. Remember to take care of yourself and prioritize your own well-being."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Relationships can be really challenging, especially when they're strained. It's important to remember that you're not alone and that there is hope for healing."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm here to support you through this difficult time. What would be most helpful for you right now?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_iamabot_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am a bot"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_definition_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Mental health refers to your overall psychological well-being, including how you feel about yourself, your ability to manage your emotions, and your capacity to cope with life's challenges."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Mental health is an essential component of overall health and well-being, and it includes a range of factors such as emotional, social, and cognitive well-being."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Mental health encompasses a wide range of experiences and emotions, including stress, anxiety, depression, and more. It is important to prioritize your mental health just as you would your physical health."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_sadness_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm sorry to hear that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm here for you."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Talking about it might help."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do you think is causing this?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Take a deep breath and gather your thoughts"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I first want to let you know that you are not alone in your feelings and there is always someone there to help."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How long have you been feeling this way?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_professional_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It sounds like you're going through a lot. I think it would be really helpful for you to speak with a mental health professional who can provide you with more in-depth information and support."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's great that you're taking steps to better understand your mental health. I recommend speaking with a mental health professional, who can provide you with personalized advice and support."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="While I can provide some general information about mental health, it's important to remember that everyone's situation is unique. I recommend speaking with a mental health professional to receive personalized advice and support. They can provide you with the tools and resources you need to better manage your mental health."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's great that you're asking these questions about your mental health. I recommend speaking with a mental health professional, who can provide you with more in-depth information and support. They can help you better understand your symptoms and develop a treatment plan that works for you."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_goodbye_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="See you later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Fare thee well"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_suicide_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It sounds like you're going through a really tough time. If you're feeling like you might hurt yourself, it's important that you get help right away."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm sorry you're feeling that way. Have you considered calling a helpline or seeking support from a mental health professional?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Your safety is the most important thing. Please know that there are people who care about you and want to help."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm here for you, and I want to make sure that you stay safe."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="It's okay to not be okay, and it takes strength to reach out for help. Please know that you are not alone, and that there are people who want to support you through this difficult time."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.8"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.4"/>
+  </flows>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.1"/>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.6"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.5"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.9"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.3"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.7"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.2"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

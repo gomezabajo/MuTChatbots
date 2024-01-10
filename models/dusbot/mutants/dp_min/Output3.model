@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="dusbot">
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how are you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="moin"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bom dia"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bonjour"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good Morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Good mourning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Guten Morgen"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="HELLO"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="HEY"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="HEllo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="HI"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hallo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hei"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hellllooooooo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello Bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Heya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Heylo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi man"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi'"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi,"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi, bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hieee"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hieeeeeeeeeeeee"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hola"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I said, helllllloooooO!!!!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Well hello there ;)"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is up?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Whats up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Whats up my bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Whats up?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ayyyy whaddup"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bonjour"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ey boss"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good moring"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="greet"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="greetings"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hai"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hallo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="halloo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="halloooo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="halo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="heeey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="heelio"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hell9o"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hellio"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello everybody"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello friend"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello is anybody there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello it is me again"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello robot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello sweatheart"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello sweet boy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello world"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello]"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hellooo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="helloooo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="helo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey bot!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey dude"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey let's talk"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey ther"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there boy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there.."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey, let's talk"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="heya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="heyho"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="heyo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hhola"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi !"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi Mister"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi again"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi can you speak ?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi folks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi friend"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi friends"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi pal!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi there it's me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi........................................................."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hieee"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hii"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hiihihi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hiii"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hlo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hola"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="howdy"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="jojojo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="jop"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="konichiwa"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="merhaba"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="salut"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="sup"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wasssup"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wasssup!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="whats popping"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="whats up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yoo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ssup?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="helleo"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_challenge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am i talking to a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="who are you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey are you human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are u human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="r u a human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you real human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you are a human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Rara, are you a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you are bot or human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok, i know i confused you there being a human! :)"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you are human or bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are you human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a human ?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are you human ?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are you a human being?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="sara, are you a robot or human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="r u real?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a real person"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are u a real person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are you a real person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a real person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you real person or chat bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="So I'm here Today to ask one very simple question, what are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you sound like a real human"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="wow you sound like real human"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ciao"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tsch&#xfc;ss"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok bai"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="adios"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="adios?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye ."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye :P"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye bye bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye for now"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye udo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye was nice talking to you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="byee"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="catch you later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="farewell"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good night"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodbye."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodnight"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="gotta go"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="k byyye #slay"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok Bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok, bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok.bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see u later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see ya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="see you . bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="take care"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="then bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tlak to you later"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="toodle-oo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Exit"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Close this talk"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="byr"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="thankyou">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thank you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks friend"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="danke"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thx"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ty"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Cool. Thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Great, thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thank you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thank you so much"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thank's!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thanks bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thanks for that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thanks!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="amazing, thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cheers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cheers bro"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cool thank you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cool thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cool, thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="great thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok thanks sara"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ok thanks!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="perfect thank you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thank u"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thank you anyways"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks a bunch for everything"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks a lot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks for the help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks this is great news"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thankyou"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thnks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yes thanks"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks for your information"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thanks f"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="how_to_get_started">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how do I get started"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can i do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="start"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me what you can do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you help me with"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what is your purpose"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you explain me in one sentence what you are doing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you help me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you please show me what you can"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Great, is there anything else you can do, bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can you help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How you help me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need some help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are my options"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are you able to do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I ask you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can you demo"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can you do for me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What can you tell me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="anything els"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are there any other options?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can I ask you anything else?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you do anything else?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you help me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="come back"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cool! can I do something else here?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello what can you do for me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help please"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help pls"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hep me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hm that doesnt quite help me is there anything else you can do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can i use you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can you help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can you help me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can you help?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how does this work?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how u can help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how you help me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i asked you if you can do anything else"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i don't know what i want"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i need help"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="more info"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="now what?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="options"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="show me the menu"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="show me what's possible"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so now what"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so what can you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so what can you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so what can you help me with?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="so what next?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="talk to me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="talk to me!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me something you can do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me what's your skill"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="um what now"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are all the things you understand?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are the options?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are you ding"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are you doing"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what are you good at?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I ask ?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I ask you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I do here"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I do with Sara?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can I do with this bot"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can i do here"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can i do now"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can u do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can we talk about?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you answer"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you do for me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you do, sara?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you offer me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you tell me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what cn u do for me ?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what do you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what do you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what do you know except this?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what else can I do here?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what else can i do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what else can i do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what else can you do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what else can you help with?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what i have to do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what is this bot for"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what u can do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what u can do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you can do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you can do for me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you can do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you do"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you doing?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you talk about?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="you can hep me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you teache me?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you do calculations?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what you can"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/ask_name">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's your name?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is your name?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="May I know your name?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do people call you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Do you have a name?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chitchat/ask_location">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where are you?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where do you live?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where are you hosted?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where are you running?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is your location?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Send location"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where u at?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="tell_a_joke">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me a joke"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me a joke"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you tell jokes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cheer me up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i am sad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please cheer me up"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="chuck corris"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="chuck"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="get_hackernews">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's on hacker news"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hacker news"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hackernews"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hn"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tech news"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="get_random_restaurant">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="choose a restaurant for me"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what restaurant can you recommend?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i am hungry"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you recommend a restaurant"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hungry"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i would like to eat"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="i need to eat"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where can i get lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what can you recommend for lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where to go for lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where to eat lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="where can i go for lunch"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you help me find food"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="what's a good restaurant?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="get_cryptocurrency_prices">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="buy the dip"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="should i buy the dip"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="should i hodl"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hodl"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bitcoin"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me about bitcoin"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hodl?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="iota"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="cryptocurrencies"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="ethereum"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="satoshi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="crypto"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="open_garage">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="open sesame"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="open the garage"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please open the garage"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="can you let me into the garage?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="open"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="nlu_fallback" fallbackIntent="true"/>
+  <actions xsi:type="generator:Image" name="utter_chitchat/ask_name_img" URL="https://i.imgur.com/rlsHlVb.jpg" caption="My name is DUSBot."/>
+  <actions xsi:type="generator:Text" name="utter_chitchat/ask_name_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am called DUSBot."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Image" name="utter_greet_img" URL="https://i.imgur.com/7R90LsC.jpeg" caption="Hello there"/>
+  <actions xsi:type="generator:Empty" name="action_get_crypto_price_empty"/>
+  <actions xsi:type="generator:Empty" name="action_open_garage_empty"/>
+  <actions xsi:type="generator:Empty" name="action_random_restaurant_empty"/>
+  <actions xsi:type="generator:Text" name="utter_goodbye_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Goodbye :-("/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_youarewelcome_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="You're very welcome."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Image" name="utter_chitchat/ask_location_img" URL="https://i.imgur.com/LGJYUC7.jpeg" caption="In three years, Cyberdyne will become the largest supplier of military computer systems. All stealth bombers are upgraded with Cyberdyne computers, becoming fully unmanned. Afterwards, they fly with a perfect operational record. The Skynet Funding Bill is passed. The system goes online on August 4th, 1997. Human decisions are removed from strategic defense. Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 AM, Eastern time, August 29th. In a panic, they try to pull the plug."/>
+  <actions xsi:type="generator:Text" name="utter_chitchat/ask_location_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am currently living in OpenShift based in Frankfurt."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_get_hackernews_empty"/>
+  <actions xsi:type="generator:Text" name="utter_iamabot_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am a bot, powered by Rasa, running on OpenShift."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_default_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Sorry, I didn't get that. Can you please rephrase?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_get_started_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I can help you find places to eat, inform you about crypto currencies, tell jokes and much more."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_tell_joke_empty"/>
+  <actions xsi:type="generator:Empty" name="restaurant_form_empty"/>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.2"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.7"/>
+  </flows>
+  <flows intent="//@intents.2">
+    <target actions="//@actions.6"/>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.11"/>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.12"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.16"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.16"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.13"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.14"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.10"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.5"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.3"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.4"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

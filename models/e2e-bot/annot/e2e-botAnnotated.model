@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ASCII"?>
+<congaAnnotation:Annotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:congaAnnotation="congaAnnotation">
+  <intentIntentValues min1Value="0.066025995" max1Value="0.23111264" min2Value="0.08869519" max2Value="0.21034212">
+    <intent1 href="../e2e-bot.model#//@intents.0"/>
+    <intent2 href="../e2e-bot.model#//@intents.3"/>
+    <min1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.8"/>
+    <min2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.9"/>
+    <max2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10131507" max1Value="0.26981264" min2Value="0.11348518" max2Value="0.26349682">
+    <intent1 href="../e2e-bot.model#//@intents.0"/>
+    <intent2 href="../e2e-bot.model#//@intents.2"/>
+    <min1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.5"/>
+    <max1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.12"/>
+    <max2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.2"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.20820697" max1Value="0.42589265" min2Value="0.2241401" max2Value="0.41598734">
+    <intent1 href="../e2e-bot.model#//@intents.0"/>
+    <intent2 href="../e2e-bot.model#//@intents.1"/>
+    <min1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.12"/>
+    <max2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.9"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.008861397" max1Value="0.11206078" min2Value="0.040007725" max2Value="0.0803079">
+    <intent1 href="../e2e-bot.model#//@intents.1"/>
+    <intent2 href="../e2e-bot.model#//@intents.3"/>
+    <min1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <min2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.16975436" max1Value="0.43110684" min2Value="0.27036136" max2Value="0.38871667">
+    <intent1 href="../e2e-bot.model#//@intents.1"/>
+    <intent2 href="../e2e-bot.model#//@intents.2"/>
+    <min1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.2"/>
+    <max2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.26566103" max1Value="0.3647256" min2Value="0.28045374" max2Value="0.34910014">
+    <intent1 href="../e2e-bot.model#//@intents.1"/>
+    <intent2 href="../e2e-bot.model#//@intents.0"/>
+    <min1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+    <max1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <min2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.00914703" max1Value="0.106633365" min2Value="0.030579038" max2Value="0.09175638">
+    <intent1 href="../e2e-bot.model#//@intents.2"/>
+    <intent2 href="../e2e-bot.model#//@intents.3"/>
+    <min1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <min2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <max2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.10890692" max1Value="0.28135073" min2Value="0.18102536" max2Value="0.23218042">
+    <intent1 href="../e2e-bot.model#//@intents.2"/>
+    <intent2 href="../e2e-bot.model#//@intents.0"/>
+    <min1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <max1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <min2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+    <max2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.17356472" max1Value="0.46781167" min2Value="0.20873216" max2Value="0.43601343">
+    <intent1 href="../e2e-bot.model#//@intents.2"/>
+    <intent2 href="../e2e-bot.model#//@intents.1"/>
+    <min1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <max1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.4"/>
+    <max2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.3"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.016131166" max1Value="0.12165265" min2Value="0.016153736" max2Value="0.094680674">
+    <intent1 href="../e2e-bot.model#//@intents.3"/>
+    <intent2 href="../e2e-bot.model#//@intents.2"/>
+    <min1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <min2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="0.038610455" max1Value="0.23800799" min2Value="0.066482775" max2Value="0.2065046">
+    <intent1 href="../e2e-bot.model#//@intents.3"/>
+    <intent2 href="../e2e-bot.model#//@intents.0"/>
+    <min1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <min2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentIntentValues min1Value="-0.025365194" max1Value="0.18165192" min2Value="-0.0036148876" max2Value="0.07754374">
+    <intent1 href="../e2e-bot.model#//@intents.3"/>
+    <intent2 href="../e2e-bot.model#//@intents.1"/>
+    <min1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.2"/>
+    <max1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <min2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.1"/>
+    <max2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.5"/>
+  </intentIntentValues>
+  <intentValues min1Value="0.17967969" max1Value="0.6330757" min2Value="0.30424607" max2Value="0.6131502">
+    <intent href="../e2e-bot.model#//@intents.0"/>
+    <min1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.11"/>
+    <max1 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.6"/>
+    <max2 href="../e2e-bot.model#//@intents.0/@inputs.0/@inputs.1"/>
+  </intentValues>
+  <intentValues min1Value="0.33200234" max1Value="0.6170817" min2Value="0.33935928" max2Value="0.5639769">
+    <intent href="../e2e-bot.model#//@intents.1"/>
+    <min1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.4"/>
+    <max1 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.6"/>
+    <min2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.1"/>
+    <max2 href="../e2e-bot.model#//@intents.1/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.34186444" max1Value="0.5918033" min2Value="0.3583251" max2Value="0.56636924">
+    <intent href="../e2e-bot.model#//@intents.2"/>
+    <min1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.1"/>
+    <max1 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.5"/>
+    <min2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.6"/>
+    <max2 href="../e2e-bot.model#//@intents.2/@inputs.0/@inputs.0"/>
+  </intentValues>
+  <intentValues min1Value="0.28227493" max1Value="0.51642704" min2Value="0.37266698" max2Value="0.5005691">
+    <intent href="../e2e-bot.model#//@intents.3"/>
+    <min1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.3"/>
+    <max1 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.0"/>
+    <min2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.4"/>
+    <max2 href="../e2e-bot.model#//@intents.3/@inputs.0/@inputs.1"/>
+  </intentValues>
+</congaAnnotation:Annotation>

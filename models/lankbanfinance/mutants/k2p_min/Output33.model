@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="lankbanfinance">
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="moin"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="let's go"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey dude"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodmorning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodevening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good afternoon"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hi"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="affirm">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="yes"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="y"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="indeed"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="of course"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="that sounds good"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="correct"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="deny">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="n"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="never"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I don't think so"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="don't like that"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="no way"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="not really"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="bot_challenge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="are you a human?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a bot?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="am I talking to a human?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="mobile_recharge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I do mobile recharge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I put money on my phone?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the way to refill my mobile balance?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you show me how to top up my mobile?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need to recharge my phone; can you tell me how?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the deal with reloading my mobile?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Help me out with recharging my mobile, please."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I add money to my phone?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me the easy way to recharge my mobile, okay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm clueless about topping up my mobile; can you assist?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to load up my phone; how do I do it?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need to put money on my phone; can you help me?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="dollar_endorse_capable">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is it possible to dollar endorsement by LBFL card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Dollar endorsement with LBFL card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL card for dollars?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL and dollar endorsement?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL and dollars?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL card for endorsing dollars?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL and dollar transactions?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL card dollars?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL dollar endorsement?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="LBFL card for USD?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Dollar endorsement LBFL?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="beftn_fee">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN processing fee?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Cost of BEFTN transfers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN transaction charges?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN fees info?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN transfer cost?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much for BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Price of BEFTN transfer?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN processing charges?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's BEFTN cost?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the fees for BEFTN"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="transfer_process_beftn">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I transfer money through BEFTN"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to transfer money via BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN money transfer steps?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Send money through BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN transfer process?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to use BEFTN for money transfer?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN transaction procedure?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Steps for BEFTN money transfer?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN transfer method?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Send money with BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN money transfer guide?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to send money via BEFTN?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="beftn_signup">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to enroll in BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN enrollment process?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I enroll in BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Sign up for BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN registration steps?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I join BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN membership?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN enrollment guide?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Enroll in BEFTN services?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to get started with BEFTN?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="define_beftn">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN explanation?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about BEFTN."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you define what BEFTN stands for?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does BEFTN mean?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain BEFTN to me."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN definition?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is BEFTN exactly?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="BEFTN in a nutshell?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe BEFTN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the deal with BEFTN?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="chequebook_fee">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much fee for chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the cost of a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to get a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the fee associated with a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the charge for ordering a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'd like to know the price for a chequebook, please."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I find out the expense for a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee involved in obtaining a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you provide information about the cost of a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How expensive is it to order a chequebook?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the pricing for a chequebook?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="wrong_card_charge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What to do as I was wrongly charged against a card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I got charged wrongly on my card. What do I do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Wrong card charge. What's the fix?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My card got charged by mistake. Now what?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What if my card's been charged by accident?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card charged by error. Help!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm seeing an extra charge on my card. How to fix it?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="They charged my card incorrectly. Help me out."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Wrong card charge. What's the deal?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There's a weird charge on my card. What now?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card charged wrongly. What steps to take?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="various_update">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My card PIN didn't arrive!"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I haven't received my card PIN."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you help with the issue of my card PIN"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I update my card's mailing address?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to update my profile information"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the process to update if I haven't received my card PIN?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My card details need an update"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need to update my profile information."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Need to update my contact information for the card"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to change my card's mailing address and update my details?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you assist me with an address update?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="card_delivery_issue">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have applied for a card, but it hasn't arrived yet- I applied for a card, but I still haven't received it."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you assist me with the card delivery? I applied for it."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm facing a delay in getting the card I applied for."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="There's an issue with delivering the card I applied for."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I haven't received my card after applying for it."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What should I do if the card I applied for hasn't been delivered?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I applied for a card, but it's taking too long to arrive."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My card hasn't been delivered, and I'm concerned because I applied for it."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The courier seems to have an issue delivering the card I applied for."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have an issue with the delivery of my card"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have an issue with the card courier"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card delivery problem. Need assistance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card courier issue. Help?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card not here. What to do?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card courier delay. Status update?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card not received. Check please."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Courier problem with my card. Who to contact?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="New card not delivered. How to resolve?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card delivery delay. Investigate?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What to do if card not delivered?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Card not delivered. What to do?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="credit_care_yearly_charge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the yearly charge for a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the yearly cost of a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me how much I'll pay annually for a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost per year to have a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the annual fee for a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please provide the yearly charge for a credit card."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know the yearly expense for a credit card."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How many dollars do I need to pay each year for a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the yearly fee associated with a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the annual cost of having a credit card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me the amount I'll be charged yearly for a credit card."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="documents_for_applying_card">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents do I need to apply for a card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please provide the documentation requirements for applying for a new card."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents are needed when applying for a new card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you list the necessary paperwork for a new card application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'd like to know what documents are essential for a new card application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What should I prepare in terms of documentation for a new card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the documents I need to submit for a new card application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you clarify the paperwork needed to apply for a new card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need information on the documentation required for a new card application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the required documents when applying for a new card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you outline the necessary documentation for a new card application, please?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="credit_card_payment_via_booth">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I make a credit card payment via a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do you pay credit card bills using a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I pay my credit card bill at a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain how to use a booth to pay my credit card bill."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the steps for paying my credit card bill at a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you show me how to pay my credit card bill with a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me how to pay my credit card bill using a booth."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I need help paying my credit card bill at a booth."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the process for paying my credit card bill at a booth?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Help me understand paying my credit card bill using a booth."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please explain how I can settle my credit card bill at a booth."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="credit_card_bill_via_bank">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From which bank I can pay my credit cards bill?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Which bank allows me to pay my credit card bills?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me the bank where I can make credit card payments."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where can I pay my credit card bills from a bank?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know which bank accepts credit card bill payments."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you list the banks that accept credit card bill payments?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Which banks are suitable for paying my credit card bills?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Give me the names of banks where I can settle credit card bills."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From which bank can I conveniently pay off my credit card dues?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Which banks offer services for credit card bill payments?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please specify the banks I can use to pay my credit card bills."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="fund_transfer_mobile_wallet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I transfer funds to my mobile wallet?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I transfer money to my mobile wallet?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Fund transfer processing fee for adding money to bKash"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to add money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for adding money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to transfer money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for transferring money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to send money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for sending money to bKash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Fund transfer processing fee for adding money to Rocket"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to add money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for adding money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to transfer money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for transferring money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to send money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for sending money to Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Fund transfer processing fee for adding money to Nagad"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to add money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for adding money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to transfer money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for transferring money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to send money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for sending money to Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to add money to UPay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for adding money to UPay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to transfer money to Upay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for transferring money to Upay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much does it cost to send money to Upay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the fee for sending money to Upay?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="ssl_wireless_payment_service">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I add money in my bkash account from my Master card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I add money in my bkash account from my VISA card?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What will be charges for SSL wireless payment service?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to make payment through bkash via SSL wireless?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the SSL wireless payment service."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through bkash?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through Rocket?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through Nagad?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through Upay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through iPay?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my SSL wireless bill through SureCash?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="digital_payment_charges">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to bkash digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Rocket digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to any mobile wallet digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Dmoney digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Ok wallet digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Nagad digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Upay digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to iPay digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to SureCash digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Dhaka Bank Go digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to AB Direct digital payment charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to MyCash digital payment charges"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="digital_payment_process">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to bkash digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Dmoney digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Okwallet digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Nagad digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Upay digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to iPay digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to SureCash digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Dhaka Bank Go digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to AB Direct digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to MyCash digital payment process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="From LankaBangla to Rocket digital payment process"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="apply_for_deposit">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="how can I apply for deposit"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I go about applying for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the process for applying for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you explain the steps to apply for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please guide me on how to submit a deposit application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you provide information on applying for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'd like to know how I can start the deposit application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the procedure for deposit application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I initiate the deposit application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the method for applying for a deposit."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you elucidate the steps to request a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the process for applying for a deposit?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="swasti_documents">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="documents for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do I need to provide as documents for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you list the papers I must submit for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the necessary documents for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the paperwork needed for Swasti."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the documentation required for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the documents I should have for Swasti."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the papers necessary for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What must I bring as documents for Swasti?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the required paperwork for Swasti."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do I need in terms of documents for Swasti?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="protiva_documents">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents do I need for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you list the papers I should have for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the necessary documents for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the paperwork required for Protiva."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the documentation needed for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the documents I must provide for Protiva."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the papers necessary for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What must I bring as documents for Protiva?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the required paperwork for Protiva."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do I need in terms of documents for Protiva?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="normal_deposit_documents">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Normal deposit documents"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents do I need for regular deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you list the papers I should have for standard deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the necessary documents for regular deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the paperwork required for typical deposits."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the documentation needed for common deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the documents I must provide for standard deposits."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the papers necessary for typical deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What must I bring as documents for regular deposits?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the required paperwork for other normal deposits."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do I need in terms of documents for standard deposits?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="agroj_customer_age">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Agroj Customer age"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the age limit for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the age range for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the age requirement for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the age limit for Agroj customers."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the age range for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the age limit for Agroj customers."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the age requirement for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the age limit for Agroj customers?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the age range for Agroj customers."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="interest_related_query">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the interest rate for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the interest rate for a deposit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the interest rate for a deposit."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I have a query related to interest for a desposit"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="account_details">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me about my account"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account details"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account information"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account balance"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account balance details"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I want to know about my account balance information"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="deposit_amount_pay">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay a deposit amount?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my deposit amount?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I pay my deposit amount?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to pay my deposit amount?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me how to pay my deposit amount"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me to pay my deposit amount"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="assist me to pay my deposit amount"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I pay my deposit amount?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I pay my deposit amount?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="deposit_payment_solution">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="tell me about deposit payment solution"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the deal with deposit payment solution"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the link for deposit payment solution"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="take_loan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I take loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I take loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to take loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me how to take loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me to take loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="assist me to take loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I apply for a loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I apply for a loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to apply for a loan?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="payment_update_time">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Payment update time"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much time it will take to update my payment?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How long it will take to update the payment?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me how much time it will take to update my payment"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me to know how much time it will take to update my payment"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="assist me to know how much time it will take to update my payment"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="applicable_charge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much charge will be applicable for this loan related transaction?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="applicable charge"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="payment_amount_limit">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the payment amount limit?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the payment amount limit for this service?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the payment amount limit for this transaction?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="payment amount limit"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Is there any limitation on the payment amount?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="documents_for_loan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents are required for a loan application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What documents do I need for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you list the papers I should have for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the necessary documents for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the paperwork required for loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the documentation needed for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the documents I must provide for loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the papers necessary for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What must I bring as documents for loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the required paperwork for loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What do I need in terms of documents for loan?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="emi_settlement_outstanding">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="EMI settlement outstanding"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I settle my EMI outstanding?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I settle my EMI outstanding?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to settle my EMI outstanding?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me how to settle my EMI outstanding"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me to settle my EMI outstanding"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="assist me to settle my EMI outstanding"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="interest_rate_home_loan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Interest rate home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the interest rate for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the interest rate for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the interest rate for home loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the interest rate for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the interest rate for home loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the interest rate for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the interest rate for home loan."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="interest_rate_housing_loan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Interest rate housing loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the interest rate for housing loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the interest rate for housing loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the interest rate for housing loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the interest rate for housing loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the interest rate for housing loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the interest rate for housing loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the interest rate for housing loan."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="interest_rate_property_loan">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Interest rate property loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the interest rate for property loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the interest rate for property loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the interest rate for property loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the interest rate for property loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the interest rate for property loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the interest rate for property loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the interest rate for property loan."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="home_loan_processing_fee">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Home loan processing fee"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much is the processing fee for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the processing fee for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the processing fee for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the processing fee for home loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the processing fee for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the processing fee for home loan."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the processing fee for home loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the processing fee for home loan."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="penal_interest_charge">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Penal interest charge"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How much is the penal interest charge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the penal interest charge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the penal interest charge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the penal interest charge."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the penal interest charge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the penal interest charge."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the penal interest charge?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the penal interest charge."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="home_loan_other_charges">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan vetting charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan survey fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan valuation charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan registration fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan mortgage expenses"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan charge creation fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan hypothecation charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan tax and VAT"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan redemption fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan cancellation of power fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan processing charges"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan insurance fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan documentation fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan notary fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan legal fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan appraisal fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan title search fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan credit report fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan courier fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan wire transfer fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan prepayment penalty"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan late payment fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan origination fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan underwriting fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan commitment fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan recording fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan escrow fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan flood certification fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Are there other charges for home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for underwriting home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for commitment home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for recording home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for escrow home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for flood certification home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for courier home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for wire transfer home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for prepayment penalty home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the charges for late payment home loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan title insurance fees"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="home loan maintenance fees"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="minimum_net_income_auto_loan_application">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="minimum net income auto loan application"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the minimum net income for auto loan application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the minimum net income for auto loan application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the minimum net income for auto loan application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the minimum net income for auto loan application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the minimum net income for auto loan application."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the minimum net income for auto loan application?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the minimum net income for auto loan application."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="auto_loan_adjust_area">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="auto loan adjust area"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I adjust my auto loan area?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How do I adjust my auto loan area?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to adjust my auto loan area?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="please tell me how to adjust my auto loan area"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="help me to adjust my auto loan area"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="assist me to adjust my auto loan area"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="personal_loan_for_salaried_person">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can a salaried person apply for a personal loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the personal loan for salaried person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the personal loan for salaried person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the personal loan for salaried person."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the personal loan for salaried person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the personal loan for salaried person."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the personal loan for salaried person?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the personal loan for salaried person."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="personal_loan_for_land_lord">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="personal loan for land lord"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the personal loan for land lord?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the personal loan for land lord?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the personal loan for land lord."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can a landlord apply for a personal loan?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the personal loan for land lord?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the personal loan for land lord."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the personal loan for land lord?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the personal loan for land lord."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="personal_Loan_for_unsecured_businessperson">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can an unsecured businessperson apply for a personal loan"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the personal Loan for unsecured businessperson?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the personal Loan for unsecured businessperson?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the personal Loan for unsecured businessperson."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the personal Loan for unsecured businessperson?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the personal Loan for unsecured businessperson."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the personal Loan for unsecured businessman?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the personal Loan for unsecured businesswoman."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the personal Loan for unsecured businessperson?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the personal Loan for unsecured businessperson."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="tdr_against_short_term_loan_rate">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the tdr against short term loan rate?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you tell me the tdr against short term loan rate?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Please tell me the tdr against short term loan rate."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the tdr against short term loan rate?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain the tdr against short term loan rate."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Could you specify the tdr against short term loan rate?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about the tdr against short term loan rate."/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="define_finsmart">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart explanation?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about Finsmart."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What does Finsmart mean?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Explain Finsmart to me."/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart definition?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is Finsmart exactly?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart in a nutshell?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Can you describe Finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What's the deal with Finsmart?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="finsmart_app_issue">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My Finsmart app not working"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not opening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not responding"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not loading"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not starting"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not running"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart app not functioning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I can't see anything in my FInSmart App"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I'm facing a finsmart app issue"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My FinSmart App is not working"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="My FinSmart App is not opening"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="finsmart_registration_process">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart registrtion process steps"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart registration steps"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart registration procedure"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How to register in finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the registration process for finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I register in finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart registration guide"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Finsmart registration process"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What will be the enroll process for finsmart?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How can I enroll in finsmart?"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="nlu_fallback" fallbackIntent="true"/>
+  <intents name="mood_great"/>
+  <actions xsi:type="generator:Empty" name="action_applicable_charge"/>
+  <actions xsi:type="generator:Empty" name="action_transfer_process_beftn"/>
+  <actions xsi:type="generator:Text" name="utter_greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hey! How are you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_did_that_help">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Did that help you?"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_interest_rate_housing_loan"/>
+  <actions xsi:type="generator:Empty" name="action_chequebook_fee"/>
+  <actions xsi:type="generator:Empty" name="action_digital_payment_charges"/>
+  <actions xsi:type="generator:Empty" name="action_various_update"/>
+  <actions xsi:type="generator:Empty" name="action_auto_loan_adjust_area"/>
+  <actions xsi:type="generator:Empty" name="action_tdr_against_short_term_loan_rate"/>
+  <actions xsi:type="generator:Empty" name="action_normal_deposit_documents"/>
+  <actions xsi:type="generator:Empty" name="action_account_details"/>
+  <actions xsi:type="generator:Empty" name="action_fund_transfer_mobile_wallet"/>
+  <actions xsi:type="generator:Empty" name="action_personal_Loan_for_unsecured_businessperson"/>
+  <actions xsi:type="generator:Empty" name="action_payment_amount_limit"/>
+  <actions xsi:type="generator:Empty" name="action_define_finsmart"/>
+  <actions xsi:type="generator:Text" name="utter_goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Bye"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_emi_settlement_outstanding"/>
+  <actions xsi:type="generator:Empty" name="action_finsmart_app_issue"/>
+  <actions xsi:type="generator:Empty" name="action_deposit_amount_pay"/>
+  <actions xsi:type="generator:Empty" name="action_define_beftn"/>
+  <actions xsi:type="generator:Empty" name="action_agroj_customer_age"/>
+  <actions xsi:type="generator:Text" name="utter_happy">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Great, carry on!"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_home_loan_processing_fee"/>
+  <actions xsi:type="generator:Empty" name="action_personal_loan_for_salaried_person"/>
+  <actions xsi:type="generator:Empty" name="action_digital_payment_process"/>
+  <actions xsi:type="generator:Empty" name="action_dollar_endorse_capable"/>
+  <actions xsi:type="generator:Empty" name="action_credit_card_payment_via_booth"/>
+  <actions xsi:type="generator:Empty" name="action_mobile_recharge"/>
+  <actions xsi:type="generator:Empty" name="action_payment_update_time"/>
+  <actions xsi:type="generator:Empty" name="action_apply_for_deposit"/>
+  <actions xsi:type="generator:Empty" name="action_minimum_net_income_auto_loan_application"/>
+  <actions xsi:type="generator:Empty" name="action_documents_for_loan"/>
+  <actions xsi:type="generator:Text" name="utter_iamabot">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="I am a bot, powered by Rasa."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Empty" name="action_ssl_wireless_payment_service"/>
+  <actions xsi:type="generator:Empty" name="action_finsmart_registration_process"/>
+  <actions xsi:type="generator:Empty" name="action_deposit_payment_solution"/>
+  <actions xsi:type="generator:Empty" name="action_home_loan_other_charges"/>
+  <actions xsi:type="generator:Empty" name="action_beftn_fee"/>
+  <actions xsi:type="generator:Empty" name="action_personal_loan_for_land_lord"/>
+  <actions xsi:type="generator:Empty" name="action_take_loan"/>
+  <actions xsi:type="generator:Empty" name="action_credit_card_bill_via_bank"/>
+  <actions xsi:type="generator:Empty" name="action_interest_related_query"/>
+  <actions xsi:type="generator:Empty" name="action_documents_for_applying_card"/>
+  <actions xsi:type="generator:Empty" name="action_swasti_documents"/>
+  <actions xsi:type="generator:Empty" name="action_credit_care_yearly_charge"/>
+  <actions xsi:type="generator:Empty" name="action_interest_rate_home_loan"/>
+  <actions xsi:type="generator:Empty" name="action_interest_rate_property_loan"/>
+  <actions xsi:type="generator:Empty" name="action_protiva_documents"/>
+  <actions xsi:type="generator:Empty" name="action_wrong_card_charge"/>
+  <actions xsi:type="generator:Empty" name="action_card_delivery_issue"/>
+  <actions xsi:type="generator:Empty" name="action_penal_interest_charge"/>
+  <actions xsi:type="generator:Empty" name="action_beftn_signup"/>
+  <actions xsi:type="generator:Empty" name="action_interest_rate_proptery_loan"/>
+  <actions xsi:type="generator:Empty" name="DefaultEmptyAction"/>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.33"/>
+  </flows>
+  <flows intent="//@intents.52">
+    <target actions="//@actions.54"/>
+  </flows>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.2">
+      <outcoming intent="//@intents.53">
+        <target actions="//@actions.22"/>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.28"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.26"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.38"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.1"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.52"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.20"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.5"/>
+  </flows>
+  <flows intent="//@intents.11">
+    <target actions="//@actions.49"/>
+  </flows>
+  <flows intent="//@intents.12">
+    <target actions="//@actions.7"/>
+  </flows>
+  <flows intent="//@intents.13">
+    <target actions="//@actions.50"/>
+  </flows>
+  <flows intent="//@intents.14">
+    <target actions="//@actions.45"/>
+  </flows>
+  <flows intent="//@intents.15">
+    <target actions="//@actions.43"/>
+  </flows>
+  <flows intent="//@intents.16">
+    <target actions="//@actions.27"/>
+  </flows>
+  <flows intent="//@intents.17">
+    <target actions="//@actions.41"/>
+  </flows>
+  <flows intent="//@intents.18">
+    <target actions="//@actions.12"/>
+  </flows>
+  <flows intent="//@intents.19">
+    <target actions="//@actions.34"/>
+  </flows>
+  <flows intent="//@intents.20">
+    <target actions="//@actions.6"/>
+  </flows>
+  <flows intent="//@intents.21">
+    <target actions="//@actions.25"/>
+  </flows>
+  <flows intent="//@intents.22">
+    <target actions="//@actions.30"/>
+  </flows>
+  <flows intent="//@intents.23">
+    <target actions="//@actions.44"/>
+  </flows>
+  <flows intent="//@intents.24">
+    <target actions="//@actions.48"/>
+  </flows>
+  <flows intent="//@intents.25">
+    <target actions="//@actions.10"/>
+  </flows>
+  <flows intent="//@intents.26">
+    <target actions="//@actions.21"/>
+  </flows>
+  <flows intent="//@intents.27">
+    <target actions="//@actions.42"/>
+  </flows>
+  <flows intent="//@intents.28">
+    <target actions="//@actions.11"/>
+  </flows>
+  <flows intent="//@intents.29">
+    <target actions="//@actions.19"/>
+  </flows>
+  <flows intent="//@intents.30">
+    <target actions="//@actions.36"/>
+  </flows>
+  <flows intent="//@intents.31">
+    <target actions="//@actions.40"/>
+  </flows>
+  <flows intent="//@intents.32">
+    <target actions="//@actions.29"/>
+  </flows>
+  <flows intent="//@intents.33">
+    <target actions="//@actions.0"/>
+  </flows>
+  <flows intent="//@intents.34">
+    <target actions="//@actions.14"/>
+  </flows>
+  <flows intent="//@intents.35">
+    <target actions="//@actions.32"/>
+  </flows>
+  <flows intent="//@intents.36">
+    <target actions="//@actions.17"/>
+  </flows>
+  <flows intent="//@intents.37">
+    <target actions="//@actions.46"/>
+  </flows>
+  <flows intent="//@intents.38">
+    <target actions="//@actions.4"/>
+  </flows>
+  <flows intent="//@intents.39">
+    <target actions="//@actions.47"/>
+  </flows>
+  <flows intent="//@intents.40">
+    <target actions="//@actions.23"/>
+  </flows>
+  <flows intent="//@intents.41">
+    <target actions="//@actions.51"/>
+  </flows>
+  <flows intent="//@intents.42">
+    <target actions="//@actions.37"/>
+  </flows>
+  <flows intent="//@intents.43">
+    <target actions="//@actions.31"/>
+  </flows>
+  <flows intent="//@intents.44">
+    <target actions="//@actions.8"/>
+  </flows>
+  <flows intent="//@intents.45">
+    <target actions="//@actions.24"/>
+  </flows>
+  <flows intent="//@intents.46">
+    <target actions="//@actions.39"/>
+  </flows>
+  <flows intent="//@intents.47">
+    <target actions="//@actions.13"/>
+  </flows>
+  <flows intent="//@intents.48">
+    <target actions="//@actions.9"/>
+  </flows>
+  <flows intent="//@intents.49">
+    <target actions="//@actions.15"/>
+  </flows>
+  <flows intent="//@intents.50">
+    <target actions="//@actions.18"/>
+  </flows>
+  <flows intent="//@intents.51">
+    <target actions="//@actions.35"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>

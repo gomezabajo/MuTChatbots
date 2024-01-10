@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="ASCII"?>
+<generator:Bot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generator="http://generator" xsi:schemaLocation="http://generator ../../../model/BotGenerator.ecore" name="Rasa_256644">
+  <intents name="greet">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hello"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good morning"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="good evening"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="hey there"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="goodbye">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="bye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="goodbye"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="thank you"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="nice to see you"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="name_entry">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Ramya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Raksha"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Deepthi"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Teju"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Shradha"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Karthik"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Shreya"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Tulasidas"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="John"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:ParameterReferenceToken" parameter="//@intents.2/@parameters.0" textReference="Savitri"/>
+      </inputs>
+    </inputs>
+    <parameters name="name"/>
+  </intents>
+  <intents name="info">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="insights of the EC department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Vision of the department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Vision"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="insights"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="mission">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Objectives"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="objectives"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="faculty">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Faculty and qualifications"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Strength of faculty"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Give me an overview of EC department faculties"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How qualified are EC department faculties"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Tell me about EC department faculties"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="About faculty"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Faculty info"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="student">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Placements and Alumni"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="about pass out students"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Where are the graduates of EC department?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the heights of EC department graduates?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Describe about the graduates of EC department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="graduates of EC department"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="placement">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Placement of the previous year"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How is the placement in EC department?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How has been the placement in EC department?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Give a record of the placements in EC department in the past few years"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the rate of placements in EC department?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="About placements in ECE"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How good is placement in ECE"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="results">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Department toppers"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="results"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Toppers of ECE"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Result"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="facility">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Facilities"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the facilities provided by the EC department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How equipped is EC department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="How is EC department technically assisting the students?"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Technical assistance to students by department"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="infrastructre"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <intents name="hod">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="HoD"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What are the qualifications of EC department HoD"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="What is the background of EC department HoD"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Who is the present HoD"/>
+      </inputs>
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="About HoD"/>
+      </inputs>
+    </inputs>
+  </intents>
+  <actions xsi:type="generator:Text" name="utter_show_name_country_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Hello "/>
+        <tokens xsi:type="generator:ParameterToken" parameter="//@intents.2/@parameters.0"/>
+        <tokens xsi:type="generator:Literal" text=" ,How may i Help you"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_greet_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Welcome to Electronics and Communication department&#xA;-----please enter your name-----"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_nyc_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="For more information:http://www.sit.ac.in/html/department.php?deptid=7 "/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Image" name="utter_results_img" URL="http://www.sit.ac.in/html/component/ecedept/eceimg/topper.jpg" caption="Toppers of Department"/>
+  <actions xsi:type="generator:Text" name="utter_faculty_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The faculty strength of the department is 31,&#xA; which includes&#xA;3 Professors&#xA;7 Associate Professors&#xA;21 Assistant Professors. &#xA;Nine of the faculty have completed their PhDs in IITs and reputed universities in the area of Speech Processing, Image processing, Networking, Communication &amp; Microelectronics.&#xA; Seven faculty members are pursuing their PhDs at IISc, IITs and other reputed institutions.&#xA; For more Information:https://sit.irins.org/faculty/index/Electronics+and+Communication+Engineering"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_placement_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="The students of E &amp; C Department have good track records of being placed in reputed companies. In the latest academic year 2018-19, 105 students are placed on campus with the highest salary of 11.50 Lakh/Annum. Placement process for the year 2019-20 already started, 68 students have been placed in different companies. One student is offered a placement in CISCO with the package of 29 Lakh/Annum."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_mission_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="To provide a congenial environment for superior learning experience and offer high quality education relevant to the current and future needs of the society and careers of students in the field of Electronics and Communication Engineering."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_student_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Students graduated from the department are well placed in India and abroad. Quite a few of them have pursued higher studies both in India and abroad. Some of them have qualified for Indian Engineering and Defense Services. Students of the department have bagged university ranks including the First rank on several occasions.&#xA;Students of the department have bagged gold medal for securing highest CGPA among all the students of SIT. The department has state-of-the-art laboratories in the areas of Communication, DSP, Embedded systems, and Microelectronics."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_facility_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Electronics Devices and Circuit Laboratory,&#xA;Digital Electronics and Circuit Laboratory,&#xA;Communication Laboratory,&#xA;Advanced Communication Laboratory,&#xA;Linear Integrated Circuits Laboratory,&#xA;Microcontroller Laboratory,&#xA;Digitial Signal Processing Laboratory,&#xA;VHDL Laboratory,&#xA;VLSI Laboratory,&#xA;PG Computer Centre,&#xA;Wireless Communication Lab,&#xA;M10x Center / Project Laboratory,&#xA; E - Class Room"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_info_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="To create professionally competent and socially sensitive Electronics and Communication engineers capable of working in multicultural global environment."/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_hod_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Dr Kumaraswamy R&#xA;&#x2022;Ph.D - Indian Institute of Technology, Madras &#xA;&#x2022;M.E-BMS College of Engineering, Bangalore &#xA;&#x2022;B.E-Siddaganga Institute of Technology &#xA;More info: https://sit.irins.org/profile/90923#expertise_information_panel"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <actions xsi:type="generator:Text" name="utter_goodbye_text">
+    <inputs language="ENGLISH">
+      <inputs>
+        <tokens xsi:type="generator:Literal" text="Thank you"/>
+      </inputs>
+    </inputs>
+  </actions>
+  <flows intent="//@intents.0">
+    <target actions="//@actions.1">
+      <outcoming intent="//@intents.2">
+        <target actions="//@actions.0"/>
+      </outcoming>
+    </target>
+  </flows>
+  <flows intent="//@intents.1">
+    <target actions="//@actions.11 //@actions.2"/>
+  </flows>
+  <flows intent="//@intents.4">
+    <target actions="//@actions.6 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.3">
+    <target actions="//@actions.9 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.5">
+    <target actions="//@actions.4 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.6">
+    <target actions="//@actions.7 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.7">
+    <target actions="//@actions.5 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.8">
+    <target actions="//@actions.3 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.9">
+    <target actions="//@actions.8 //@actions.11"/>
+  </flows>
+  <flows intent="//@intents.10">
+    <target actions="//@actions.10 //@actions.11"/>
+  </flows>
+  <languages>ENGLISH</languages>
+</generator:Bot>
