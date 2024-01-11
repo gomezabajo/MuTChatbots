@@ -1,0 +1,7 @@
+take_loan
+
+#me
+take_loan
+
+#bot
+INTENT take_loan

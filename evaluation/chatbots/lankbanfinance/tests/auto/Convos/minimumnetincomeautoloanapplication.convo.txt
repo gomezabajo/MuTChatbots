@@ -1,0 +1,7 @@
+minimum_net_income_auto_loan_application
+
+#me
+minimum_net_income_auto_loan_application
+
+#bot
+INTENT minimum_net_income_auto_loan_application

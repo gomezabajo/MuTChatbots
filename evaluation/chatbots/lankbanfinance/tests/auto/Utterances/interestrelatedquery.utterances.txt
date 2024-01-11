@@ -1,0 +1,5 @@
+interest_related_query
+What's the interest rate for a deposit? 
+Can you tell me the interest rate for a deposit? 
+Please tell me the interest rate for a deposit. 
+I have a query related to interest for a desposit 

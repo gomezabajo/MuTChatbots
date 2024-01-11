@@ -1,0 +1,2 @@
+utter_Law_of_Large_Numbers
+- Formula for margin of error - You can use the margin of error (ME) formula  to determine the desired sample size. - t/z = t/z score used to calculate  the confidence intervalME = the desired margin of errorS = sample standard  deviation 

@@ -1,0 +1,7 @@
+fund_transfer_mobile_wallet
+
+#me
+fund_transfer_mobile_wallet
+
+#bot
+INTENT fund_transfer_mobile_wallet

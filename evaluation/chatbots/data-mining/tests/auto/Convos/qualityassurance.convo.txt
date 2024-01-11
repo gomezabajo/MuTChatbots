@@ -1,0 +1,7 @@
+qualityassurance
+
+#me
+qualityassurance
+
+#bot
+INTENT qualityassurance

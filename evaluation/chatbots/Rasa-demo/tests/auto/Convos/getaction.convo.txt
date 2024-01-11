@@ -1,0 +1,7 @@
+get_action
+
+#me
+get_action
+
+#bot
+INTENT get_action

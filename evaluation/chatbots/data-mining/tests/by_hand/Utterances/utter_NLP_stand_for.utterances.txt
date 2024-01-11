@@ -1,0 +1,2 @@
+utter_NLP_stand_for 
+NLP stands forNatural Language Processing. It is a branch of artificial intelligence that gives machines the ability to read and understand human languages.

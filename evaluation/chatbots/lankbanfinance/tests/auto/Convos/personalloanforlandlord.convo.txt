@@ -1,0 +1,7 @@
+personal_loan_for_land_lord
+
+#me
+personal_loan_for_land_lord
+
+#bot
+INTENT personal_loan_for_land_lord

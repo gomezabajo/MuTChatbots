@@ -1,0 +1,7 @@
+about_people
+
+#me
+about_people
+
+#bot
+INTENT about_people

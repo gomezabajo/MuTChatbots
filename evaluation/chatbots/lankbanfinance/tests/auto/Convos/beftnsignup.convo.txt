@@ -1,0 +1,7 @@
+beftn_signup
+
+#me
+beftn_signup
+
+#bot
+INTENT beftn_signup

@@ -1,0 +1,7 @@
+documents_for_loan
+
+#me
+documents_for_loan
+
+#bot
+INTENT documents_for_loan

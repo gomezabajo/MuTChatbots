@@ -1,0 +1,7 @@
+auto_loan_adjust_area
+
+#me
+auto_loan_adjust_area
+
+#bot
+INTENT auto_loan_adjust_area

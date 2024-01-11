@@ -1,0 +1,7 @@
+warm_weather
+
+#me
+warm_weather
+
+#bot
+INTENT warm_weather

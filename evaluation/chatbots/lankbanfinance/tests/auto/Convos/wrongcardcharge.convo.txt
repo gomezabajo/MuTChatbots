@@ -1,0 +1,7 @@
+wrong_card_charge
+
+#me
+wrong_card_charge
+
+#bot
+INTENT wrong_card_charge

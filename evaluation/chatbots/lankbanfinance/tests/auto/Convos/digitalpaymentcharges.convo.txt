@@ -1,0 +1,7 @@
+digital_payment_charges
+
+#me
+digital_payment_charges
+
+#bot
+INTENT digital_payment_charges

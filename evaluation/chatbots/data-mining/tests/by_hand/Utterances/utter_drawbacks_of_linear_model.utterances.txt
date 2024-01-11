@@ -1,0 +1,2 @@
+utter_drawbacks_of_linear_model
+- There are a couple of drawbacks of a linear model: - A linear model  holds some strong assumptions that may not be true in application. It assumes  a linear relationship, multivariate normality, no or little multicollinearity,  no auto-correlation and homoscedasticity. A linear model can’t be used for  discrete or binary outcomes.You can’t vary the model flexibility of a linear  model. 

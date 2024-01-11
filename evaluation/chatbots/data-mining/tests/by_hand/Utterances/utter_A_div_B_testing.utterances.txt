@@ -1,0 +1,2 @@
+utter_A_div_B_testing
+A/B testing is a form of hypothesis testing and two-sample hypothesis testing to compare two versions, the control and variant, of a single variable. It is commonly used to improve and optimize user experience and marketing.

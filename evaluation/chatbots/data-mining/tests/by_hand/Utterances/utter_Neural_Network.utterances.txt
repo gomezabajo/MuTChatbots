@@ -1,0 +1,2 @@
+utter_Neural_Network 
+A neural network is a multi-layered model inspired by the human brain. Like the neurons in our brain, the circles above represent a node. The blue circles represent the input layer,the black circles represent the hidden layers,and the green circles represent the output layer.Each node in the hidden layers represents a function that the inputs go through, ultimately leading to an output in the green circles. The formal term for these functions is called the sigmoid activation function.

@@ -1,0 +1,7 @@
+collinearity
+
+#me
+collinearity
+
+#bot
+INTENT collinearity

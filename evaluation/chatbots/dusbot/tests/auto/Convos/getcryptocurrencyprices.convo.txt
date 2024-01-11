@@ -1,0 +1,7 @@
+get_cryptocurrency_prices
+
+#me
+get_cryptocurrency_prices
+
+#bot
+INTENT get_cryptocurrency_prices

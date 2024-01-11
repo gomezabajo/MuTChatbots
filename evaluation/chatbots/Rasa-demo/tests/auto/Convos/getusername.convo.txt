@@ -1,0 +1,7 @@
+get_username
+
+#me
+get_username
+
+#bot
+INTENT get_username

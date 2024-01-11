@@ -1,0 +1,6 @@
+payment_amount_limit
+What is the payment amount limit? 
+What is the payment amount limit for this service? 
+What is the payment amount limit for this transaction? 
+payment amount limit 
+Is there any limitation on the payment amount? 

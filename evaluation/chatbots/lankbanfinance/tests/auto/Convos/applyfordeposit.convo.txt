@@ -1,0 +1,7 @@
+apply_for_deposit
+
+#me
+apply_for_deposit
+
+#bot
+INTENT apply_for_deposit

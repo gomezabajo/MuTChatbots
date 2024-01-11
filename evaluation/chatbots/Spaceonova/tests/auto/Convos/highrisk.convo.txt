@@ -1,0 +1,7 @@
+high_risk
+
+#me
+high_risk
+
+#bot
+INTENT high_risk

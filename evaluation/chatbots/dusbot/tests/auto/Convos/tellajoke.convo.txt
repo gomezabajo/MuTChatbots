@@ -1,0 +1,7 @@
+tell_a_joke
+
+#me
+tell_a_joke
+
+#bot
+INTENT tell_a_joke

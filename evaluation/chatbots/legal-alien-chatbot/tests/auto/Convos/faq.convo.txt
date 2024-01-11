@@ -1,0 +1,7 @@
+faq
+
+#me
+faq
+
+#bot
+INTENT faq

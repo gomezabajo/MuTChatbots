@@ -1,0 +1,7 @@
+finsmart_app_issue
+
+#me
+finsmart_app_issue
+
+#bot
+INTENT finsmart_app_issue

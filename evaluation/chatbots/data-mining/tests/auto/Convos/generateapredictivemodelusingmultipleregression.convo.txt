@@ -1,0 +1,7 @@
+generateapredictivemodelusingmultipleregression
+
+#me
+generateapredictivemodelusingmultipleregression
+
+#bot
+INTENT generateapredictivemodelusingmultipleregression

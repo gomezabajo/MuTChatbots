@@ -1,0 +1,13 @@
+greet
+Hi 
+Hey! 
+Hallo 
+hello 
+Good day 
+Good morning 
+howdy 
+hi 
+\stop 
+hi! 
+hello? 
+Hello ? 

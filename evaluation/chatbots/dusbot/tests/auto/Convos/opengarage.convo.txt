@@ -1,0 +1,7 @@
+open_garage
+
+#me
+open_garage
+
+#bot
+INTENT open_garage

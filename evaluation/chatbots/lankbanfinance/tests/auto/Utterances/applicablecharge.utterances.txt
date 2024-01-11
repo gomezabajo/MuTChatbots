@@ -1,0 +1,5 @@
+applicable_charge
+How much charge will be applicable for this loan? 
+How much charge will be applicable for this loan service? 
+How much charge will be applicable for this loan related transaction? 
+applicable charge 

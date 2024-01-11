@@ -1,0 +1,2 @@
+utter_dimension_reduction
+- Dimensionality reduction is the process of reducing the number of features  in a dataset. This is important mainly in the case when you want to reduce  variance in your model (overfitting). - Wikipedia states four advantages  of dimensionality reduction - It reduces the time and storage space requiredRemoval  of multi-collinearity improves the interpretation of the parameters of the  machine learning modelIt becomes easier to visualize the data when reduced  to very low dimensions such as 2D or 3DIt avoids the curse of dimensionality 

@@ -1,0 +1,7 @@
+personal_loan_for_salaried_person
+
+#me
+personal_loan_for_salaried_person
+
+#bot
+INTENT personal_loan_for_salaried_person

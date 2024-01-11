@@ -1,0 +1,26 @@
+ask_resource
+what are some good learning resources? 
+can you reommend a  course_resource_resource_type" }  in  _resource_resource_topic","value":"" }
+what's a good  book_resource_resource_type" } 
+how can I get started? 
+what are some guides to learn? 
+i want to learn more 
+can you recommend a learning guide? 
+what are some goods  videos_resource_resource_type" } 
+do you know an  nlp_resource_resource_topic","value":"" }_resource_resource_type" } ? 
+I want to know about  machine learning_resource_resource_topic","value":" ml" }
+how to do  machine learning_resource_resource_topic","value":" ml" }? 
+I want to learn about  ml_resource_resource_topic","value":"" }
+i want to learn  nlp_resource_resource_topic","value":"" }
+where cna i learn  machine learning_resource_resource_topic","value":" ml" }
+how to learn  ai_resource_resource_topic","value":" ml" }
+i want a  video_resource_resource_type" }  about  _resource_resource_topic","value":" nlp" }
+can you recommend an  NLP_resource_resource_topic","value":"" }_resource_resource_type" } ? 
+can you recommnd a  book_resource_resource_type" }  about  _resource_resource_topic","value":"" }
+can you recomend an  nlp_resource_resource_topic","value":"" }_resource_resource_type" } 
+can you recommend me some  books_resource_resource_type" } ? 
+recommend a  course_resource_resource_type" }  for  _resource_resource_topic","value":"" }
+machine_resource_resource_topic","value":"" } l 
+machine_resource_resource_topic","value":"" } l? 
+recommend a  book_resource_resource_type" }  for  _resource_resource_topic","value":" ml" }. 
+recommend a  book_resource_resource_type" } 

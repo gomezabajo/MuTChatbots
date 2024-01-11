@@ -1,0 +1,7 @@
+digital_payment_process
+
+#me
+digital_payment_process
+
+#bot
+INTENT digital_payment_process

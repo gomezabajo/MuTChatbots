@@ -1,0 +1,2 @@
+utter_collinearity
+- Multicollinearity exists when an independent variable is highly correlated  with another independent variable in a multiple regression equation. This  can be problematic because it undermines the statistical significance of an  independent variable. - You could use the Variance Inflation Factors (VIF)  to determine if there is any multicollinearity between independent variables  — a standard benchmark is that if the VIF is greater than 5 then multicollinearity  exists. 

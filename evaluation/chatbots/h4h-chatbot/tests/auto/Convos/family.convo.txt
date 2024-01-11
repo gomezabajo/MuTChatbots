@@ -1,0 +1,7 @@
+family
+
+#me
+family
+
+#bot
+INTENT family

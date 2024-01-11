@@ -1,0 +1,7 @@
+card_delivery_issue
+
+#me
+card_delivery_issue
+
+#bot
+INTENT card_delivery_issue

@@ -1,0 +1,7 @@
+AdivBtesting
+
+#me
+AdivBtesting
+
+#bot
+INTENT AdivBtesting

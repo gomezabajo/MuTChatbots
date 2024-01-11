@@ -1,0 +1,7 @@
+get_hackernews
+
+#me
+get_hackernews
+
+#bot
+INTENT get_hackernews

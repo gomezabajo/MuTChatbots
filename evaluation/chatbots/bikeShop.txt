@@ -1,0 +1,316 @@
+Overall results for (bikeShop) ---------------------------
+#Generated mutants: 47
+#Killed mutants --- killed at least by one test-suite: 10 (21,28%)
+#Live mutants --- not killed by any test-suite: 37 (78,72%)
+Mutation score:  (21,28%)
+#Applied tests: 13
+#Failed tests: 10 (76,92%)
+#Overlapped mutants --- killed at least by two test-suites: 0 (0,00%)
+
+--- Live mutants --- not killed by any test-suite (bikeShop) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 9
+#Killed mutants: 0 (0,00%)
+#Live mutants: 9 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+#Live mutants: 1 (100,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dfi --- Borrar un intent que tenga fallback=true ---
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+#Live mutants: 1 (100,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dle --- Elimina un literal de una entity ---
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+#Live mutants: 2 (100,00%)
+Output0.zip
+Output1.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+#Live mutants: 3 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+#Live mutants: 3 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dpp --- Borrar el prompt de un parámetro que sea requerido ---
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+#Live mutants: 3 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dpr --- Borrar un parametro que se utilice en una respuesta ---
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+#Live mutants: 3 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dpwl --- Borrar todas las frases que utilicen un literal en concreto ---
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+#Live mutants: 2 (100,00%)
+Output0.zip
+Output1.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- dpwp --- Borrar todas las frases de un parámetro requerido ---
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+#Live mutants: 1 (33,33%)
+Output1.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (23,08%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+#Live mutants: 1 (50,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 1 (7,69%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+#Live mutants: 1 (50,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 5 (38,46%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+#Live mutants: 1 (33,33%)
+Output1.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 2 (15,38%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+#Live mutants: 1 (33,33%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 4 (30,77%)
+--- rip --- Eliminar todas las frases de un parametro y ese parametro ---
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+#Live mutants: 1 (33,33%)
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (23,08%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+#Live mutants: 1 (100,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- spo --- Cambiar un parametro requerido a opcional ---
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+#Live mutants: 3 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsBotiumAuto (bikeShop) ---------------------------
+Mutation score: 21,28%
+#Generated mutants: 47 (100,00%)
+#Compiling mutants: 47 (100,00%)
+#Killed mutants: 10 (21,28%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 37 (78,72%)
+#Total tests: 13
+#Failed tests: 10 (76,92%)
+#Mutation operators applied: 17 (89,47%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 9 (19,15%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 9 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 1 (2,13%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dfi Borrar un intent que tenga fallback=true ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 1 (2,13%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dfi
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dle Elimina un literal de una entity ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 2 (4,26%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dle
+Output0.zip
+Output1.zip
+#Live mutants: 2 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dpp Borrar el prompt de un parámetro que sea requerido ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dpp
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dpr Borrar un parametro que se utilice en una respuesta ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dpr
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dpwl Borrar todas las frases que utilicen un literal en concreto ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 2 (4,26%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dpwl
+Output0.zip
+Output1.zip
+#Live mutants: 2 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dpwp Borrar todas las frases de un parámetro requerido ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 2 (66,67%)
+Live mutants for operator: dpwp
+Output1.zip
+#Live mutants: 1 (33,33%)
+#Total tests: 13 (100,00%)
+#Failed tests: 3 (23,08%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 2 (4,26%)
+#Killed mutants: 1 (50,00%)
+Live mutants for operator: k2p_max
+Output0.zip
+#Live mutants: 1 (50,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 1 (7,69%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 2 (4,26%)
+#Killed mutants: 1 (50,00%)
+Live mutants for operator: k2p_min
+Output0.zip
+#Live mutants: 1 (50,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 5 (38,46%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 2 (66,67%)
+Live mutants for operator: mp_max
+Output1.zip
+#Live mutants: 1 (33,33%)
+#Total tests: 13 (100,00%)
+#Failed tests: 2 (15,38%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 2 (66,67%)
+Live mutants for operator: mp_min
+Output0.zip
+#Live mutants: 1 (33,33%)
+#Total tests: 13 (100,00%)
+#Failed tests: 4 (30,77%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 2 (66,67%)
+Live mutants for operator: rip
+Output2.zip
+#Live mutants: 1 (33,33%)
+#Total tests: 13 (100,00%)
+#Failed tests: 3 (23,08%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 1 (2,13%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: spo Cambiar un parametro requerido a opcional ----- CheckChatbotsBotiumAuto (bikeShop) ----
+#Generated mutants: 3 (6,38%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: spo
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 13 (100,00%)
+#Failed tests: 0 (0,00%)

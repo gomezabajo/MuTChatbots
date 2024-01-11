@@ -1,0 +1,7 @@
+corona_food_spread
+
+#me
+corona_food_spread
+
+#bot
+INTENT corona_food_spread

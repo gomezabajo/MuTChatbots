@@ -1,0 +1,360 @@
+Overall results for (Rasa_256644) ---------------------------
+#Generated mutants: 90
+#Killed mutants --- killed at least by one test-suite: 71 (78,89%)
+#Live mutants --- not killed by any test-suite: 19 (21,11%)
+Mutation score:  (78,89%)
+#Applied tests: 170
+#Failed tests: 163 (95,88%)
+#Overlapped mutants --- killed at least by two test-suites: 47 (52,22%)
+
+--- Live mutants --- not killed by any test-suite (Rasa_256644) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 20
+#Killed mutants: 20 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 107 (62,94%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 60 (35,29%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 1 (9,09%)
+#Live mutants: 10 (90,91%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Overlapped mutants: 1 (9,09%)
+Output9.zip
+#Failed tests: 2 (1,18%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 4 (36,36%)
+#Live mutants: 7 (63,64%)
+Output0.zip
+Output1.zip
+Output3.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Overlapped mutants: 3 (27,27%)
+Output4.zip
+Output6.zip
+Output9.zip
+#Failed tests: 12 (7,06%)
+--- dpr --- Borrar un parametro que se utilice en una respuesta ---
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 60 (35,29%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 11 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+#Failed tests: 107 (62,94%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 11 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+#Failed tests: 116 (68,24%)
+--- mp_max --- Mover frases de entrenamiento entre intents (mayor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+#Live mutants: 1 (9,09%)
+Output9.zip
+#Overlapped mutants: 10 (90,91%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Failed tests: 33 (19,41%)
+--- mp_min --- Mover frases de entrenamiento entre intents (menor similitud) ---
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+#Live mutants: 1 (9,09%)
+Output8.zip
+#Overlapped mutants: 10 (90,91%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output9.zip
+Output10.zip
+#Failed tests: 35 (20,59%)
+--- rip --- Eliminar todas las frases de un parametro y ese parametro ---
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (100,00%)
+Output0.zip
+#Failed tests: 70 (41,18%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 60 (35,29%)
+
+Results for: CheckChatbotsBotiumAuto (Rasa_256644) ---------------------------
+Mutation score: 52,22%
+#Generated mutants: 90 (100,00%)
+#Compiling mutants: 90 (100,00%)
+#Killed mutants: 47 (52,22%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 43 (47,78%)
+#Total tests: 63
+#Failed tests: 56 (88,89%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 20 (22,22%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+#Live mutants: 20 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 1 (9,09%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Live mutants: 10 (90,91%)
+#Total tests: 63 (37,06%)
+#Failed tests: 1 (1,59%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 3 (27,27%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Live mutants: 8 (72,73%)
+#Total tests: 63 (37,06%)
+#Failed tests: 3 (4,76%)
+Results for operator: dpr Borrar un parametro que se utilice en una respuesta ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dpr
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 11 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 33 (52,38%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 11 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 36 (57,14%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 10 (90,91%)
+Live mutants for operator: mp_max
+Output9.zip
+#Live mutants: 1 (9,09%)
+#Total tests: 63 (37,06%)
+#Failed tests: 10 (15,87%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 10 (90,91%)
+Live mutants for operator: mp_min
+Output8.zip
+#Live mutants: 1 (9,09%)
+#Total tests: 63 (37,06%)
+#Failed tests: 11 (17,46%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 10 (15,87%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 63 (37,06%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsBotiumByHand (Rasa_256644) ---------------------------
+Mutation score: 78,89%
+#Generated mutants: 90 (100,00%)
+#Compiling mutants: 90 (100,00%)
+#Killed mutants: 71 (78,89%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 19 (21,11%)
+#Total tests: 107
+#Failed tests: 107 (100,00%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 20 (22,22%)
+#Killed mutants: 20 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 107 (100,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 60 (56,07%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 1 (9,09%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Live mutants: 10 (90,91%)
+#Total tests: 107 (62,94%)
+#Failed tests: 1 (0,93%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 4 (36,36%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output3.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output10.zip
+#Live mutants: 7 (63,64%)
+#Total tests: 107 (62,94%)
+#Failed tests: 9 (8,41%)
+Results for operator: dpr Borrar un parametro que se utilice en una respuesta ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 60 (56,07%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 11 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 74 (69,16%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 11 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 80 (74,77%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 10 (90,91%)
+Live mutants for operator: mp_max
+Output9.zip
+#Live mutants: 1 (9,09%)
+#Total tests: 107 (62,94%)
+#Failed tests: 23 (21,50%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 11 (12,22%)
+#Killed mutants: 10 (90,91%)
+Live mutants for operator: mp_min
+Output8.zip
+#Live mutants: 1 (9,09%)
+#Total tests: 107 (62,94%)
+#Failed tests: 24 (22,43%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 60 (56,07%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumByHand (Rasa_256644) ----
+#Generated mutants: 1 (1,11%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 107 (62,94%)
+#Failed tests: 60 (56,07%)

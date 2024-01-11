@@ -1,0 +1,7 @@
+chitchat
+
+#me
+chitchat
+
+#bot
+INTENT chitchat

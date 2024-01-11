@@ -1,0 +1,252 @@
+Overall results for (h4h-chatbot) ---------------------------
+#Generated mutants: 60
+#Killed mutants --- killed at least by one test-suite: 47 (78,33%)
+#Live mutants --- not killed by any test-suite: 13 (21,67%)
+Mutation score:  (78,33%)
+#Applied tests: 109
+#Failed tests: 108 (99,08%)
+#Overlapped mutants --- killed at least by two test-suites: 0 (0,00%)
+
+--- Live mutants --- not killed by any test-suite (h4h-chatbot) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 10
+#Killed mutants: 9 (90,00%)
+#Live mutants: 1 (10,00%)
+Output9.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 9 (8,26%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 3 (33,33%)
+#Live mutants: 6 (66,67%)
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output6.zip
+Output8.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (2,75%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 4 (44,44%)
+#Live mutants: 5 (55,56%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output8.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 4 (3,67%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 7
+#Killed mutants: 7 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 77 (70,64%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 7
+#Killed mutants: 7 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 76 (69,72%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 10 (9,17%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+#Live mutants: 1 (11,11%)
+Output2.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 8 (7,34%)
+
+Results for: CheckChatbotsBotiumAuto (h4h-chatbot) ---------------------------
+Mutation score: 63,33%
+#Generated mutants: 60 (100,00%)
+#Compiling mutants: 60 (100,00%)
+#Killed mutants: 38 (63,33%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 22 (36,67%)
+#Total tests: 100
+#Failed tests: 99 (99,00%)
+#Mutation operators applied: 7 (36,84%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 10 (16,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+#Live mutants: 10 (100,00%)
+#Total tests: 100 (91,74%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_max
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output6.zip
+Output8.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 100 (91,74%)
+#Failed tests: 3 (3,00%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 4 (44,44%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output8.zip
+#Live mutants: 5 (55,56%)
+#Total tests: 100 (91,74%)
+#Failed tests: 4 (4,00%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 7 (11,67%)
+#Killed mutants: 7 (100,00%)
+#Total tests: 100 (91,74%)
+#Failed tests: 77 (77,00%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 7 (11,67%)
+#Killed mutants: 7 (100,00%)
+#Total tests: 100 (91,74%)
+#Failed tests: 76 (76,00%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 100 (91,74%)
+#Failed tests: 10 (10,00%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 8 (88,89%)
+Live mutants for operator: mp_min
+Output2.zip
+#Live mutants: 1 (11,11%)
+#Total tests: 100 (91,74%)
+#Failed tests: 8 (8,00%)
+
+Results for: CheckChatbotsRasa (h4h-chatbot) ---------------------------
+Mutation score: 15,00%
+#Generated mutants: 60 (100,00%)
+#Compiling mutants: 60 (100,00%)
+#Killed mutants: 9 (15,00%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 51 (85,00%)
+#Total tests: 9
+#Failed tests: 9 (100,00%)
+#Mutation operators applied: 7 (36,84%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 10 (16,67%)
+#Killed mutants: 9 (90,00%)
+Live mutants for operator: da
+Output9.zip
+#Live mutants: 1 (10,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 9 (100,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 9 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 9 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 7 (11,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: k2p_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+#Live mutants: 7 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 7 (11,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: k2p_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+#Live mutants: 7 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: mp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 9 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsRasa (h4h-chatbot) ----
+#Generated mutants: 9 (15,00%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: mp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 9 (100,00%)
+#Total tests: 9 (8,26%)
+#Failed tests: 0 (0,00%)

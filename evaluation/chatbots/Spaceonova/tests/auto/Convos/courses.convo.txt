@@ -1,0 +1,7 @@
+courses
+
+#me
+courses
+
+#bot
+INTENT courses

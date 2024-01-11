@@ -1,0 +1,7 @@
+deposit_amount_pay
+
+#me
+deposit_amount_pay
+
+#bot
+INTENT deposit_amount_pay

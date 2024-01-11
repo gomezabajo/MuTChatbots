@@ -1,0 +1,2 @@
+utter_confounding_variables
+A confounding variable, or a confounder, is a variable that influences both the dependent variable and the independent variable, causing a spurious association, a mathematical relationship in which two or more variables are associated but not causally related.

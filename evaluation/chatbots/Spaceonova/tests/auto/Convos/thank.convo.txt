@@ -1,0 +1,7 @@
+thank
+
+#me
+thank
+
+#bot
+INTENT thank

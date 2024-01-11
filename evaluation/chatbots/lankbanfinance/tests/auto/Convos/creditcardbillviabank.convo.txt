@@ -1,0 +1,7 @@
+credit_card_bill_via_bank
+
+#me
+credit_card_bill_via_bank
+
+#bot
+INTENT credit_card_bill_via_bank

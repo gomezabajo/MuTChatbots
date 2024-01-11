@@ -1,0 +1,7 @@
+NaivesBayes
+
+#me
+NaivesBayes
+
+#bot
+INTENT NaivesBayes

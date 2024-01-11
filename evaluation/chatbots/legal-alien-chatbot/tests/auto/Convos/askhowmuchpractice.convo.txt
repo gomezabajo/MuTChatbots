@@ -1,0 +1,7 @@
+ask_how_much_practice
+
+#me
+ask_how_much_practice
+
+#bot
+INTENT ask_how_much_practice

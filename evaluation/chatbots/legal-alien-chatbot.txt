@@ -1,0 +1,924 @@
+Overall results for (legal-alien-chatbot) ---------------------------
+#Generated mutants: 256
+#Killed mutants --- killed at least by one test-suite: 45 (17,58%)
+#Live mutants --- not killed by any test-suite: 211 (82,42%)
+Mutation score:  (17,58%)
+#Applied tests: 75
+#Failed tests: 52 (69,33%)
+#Overlapped mutants --- killed at least by two test-suites: 0 (0,00%)
+
+--- Live mutants --- not killed by any test-suite (legal-alien-chatbot) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 36
+#Killed mutants: 5 (13,89%)
+#Live mutants: 31 (86,11%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,00%)
+--- dcb --- Eliminar bifurcación en un flujo de conversación ---
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,00%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,00%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 35
+#Killed mutants: 2 (5,71%)
+#Live mutants: 33 (94,29%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 2 (2,67%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 35
+#Killed mutants: 3 (8,57%)
+#Live mutants: 32 (91,43%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output31.zip
+Output34.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,00%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 34
+#Killed mutants: 7 (20,59%)
+#Live mutants: 27 (79,41%)
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 34 (45,33%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 34
+#Killed mutants: 5 (14,71%)
+#Live mutants: 29 (85,29%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output33.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 33 (44,00%)
+--- mp_max --- Mover frases de entrenamiento entre intents (mayor similitud) ---
+#Generated mutants: 35
+#Killed mutants: 6 (17,14%)
+#Live mutants: 29 (82,86%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output32.zip
+Output34.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 6 (8,00%)
+--- mp_min --- Mover frases de entrenamiento entre intents (menor similitud) ---
+#Generated mutants: 35
+#Killed mutants: 6 (17,14%)
+#Live mutants: 29 (82,86%)
+Output0.zip
+Output2.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output20.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 6 (8,00%)
+--- rip --- Eliminar todas las frases de un parametro y ese parametro ---
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+#Live mutants: 1 (100,00%)
+Output0.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 0 (0,00%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,00%)
+
+Results for: CheckChatbotsBotiumAuto (legal-alien-chatbot) ---------------------------
+Mutation score: 11,33%
+#Generated mutants: 256 (100,00%)
+#Compiling mutants: 256 (100,00%)
+#Killed mutants: 29 (11,33%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 227 (88,67%)
+#Total tests: 72
+#Failed tests: 49 (68,06%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 36 (14,06%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+#Live mutants: 36 (100,00%)
+#Total tests: 72 (96,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 3 (1,17%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcb
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 72 (96,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 4 (1,56%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 72 (96,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 2 (5,71%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 33 (94,29%)
+#Total tests: 72 (96,00%)
+#Failed tests: 2 (2,78%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 3 (8,57%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output31.zip
+Output34.zip
+#Live mutants: 32 (91,43%)
+#Total tests: 72 (96,00%)
+#Failed tests: 3 (4,17%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 34 (13,28%)
+#Killed mutants: 7 (20,59%)
+Live mutants for operator: k2p_max
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+#Live mutants: 27 (79,41%)
+#Total tests: 72 (96,00%)
+#Failed tests: 34 (47,22%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 34 (13,28%)
+#Killed mutants: 5 (14,71%)
+Live mutants for operator: k2p_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output33.zip
+#Live mutants: 29 (85,29%)
+#Total tests: 72 (96,00%)
+#Failed tests: 33 (45,83%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 6 (17,14%)
+Live mutants for operator: mp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output32.zip
+Output34.zip
+#Live mutants: 29 (82,86%)
+#Total tests: 72 (96,00%)
+#Failed tests: 6 (8,33%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 6 (17,14%)
+Live mutants for operator: mp_min
+Output0.zip
+Output2.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output20.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 29 (82,86%)
+#Total tests: 72 (96,00%)
+#Failed tests: 6 (8,33%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 1 (0,39%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: rip
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 72 (96,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (legal-alien-chatbot) ----
+#Generated mutants: 4 (1,56%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 72 (96,00%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsRasa (legal-alien-chatbot) ---------------------------
+Mutation score: 6,25%
+#Generated mutants: 256 (100,00%)
+#Compiling mutants: 256 (100,00%)
+#Killed mutants: 16 (6,25%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 240 (93,75%)
+#Total tests: 3
+#Failed tests: 3 (100,00%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 36 (14,06%)
+#Killed mutants: 5 (13,89%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+#Live mutants: 31 (86,11%)
+#Total tests: 3 (4,00%)
+#Failed tests: 3 (100,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 3 (1,17%)
+#Killed mutants: 3 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 3 (100,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 4 (1,56%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 3 (100,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 35 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 35 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 34 (13,28%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: k2p_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+#Live mutants: 34 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 34 (13,28%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: k2p_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+#Live mutants: 34 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: mp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 35 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 35 (13,67%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: mp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+#Live mutants: 35 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 1 (0,39%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: rip
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 0 (0,00%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsRasa (legal-alien-chatbot) ----
+#Generated mutants: 4 (1,56%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 3 (4,00%)
+#Failed tests: 3 (100,00%)

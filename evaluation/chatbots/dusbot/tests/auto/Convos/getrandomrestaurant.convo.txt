@@ -1,0 +1,7 @@
+get_random_restaurant
+
+#me
+get_random_restaurant
+
+#bot
+INTENT get_random_restaurant

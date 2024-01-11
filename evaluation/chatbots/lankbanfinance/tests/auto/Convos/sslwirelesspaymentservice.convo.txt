@@ -1,0 +1,7 @@
+ssl_wireless_payment_service
+
+#me
+ssl_wireless_payment_service
+
+#bot
+INTENT ssl_wireless_payment_service

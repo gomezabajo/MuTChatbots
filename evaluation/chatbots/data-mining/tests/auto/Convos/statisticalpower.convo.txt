@@ -1,0 +1,7 @@
+statisticalpower
+
+#me
+statisticalpower
+
+#bot
+INTENT statisticalpower

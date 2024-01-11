@@ -1,0 +1,7 @@
+spaceonova_intro
+
+#me
+spaceonova_intro
+
+#bot
+INTENT spaceonova_intro

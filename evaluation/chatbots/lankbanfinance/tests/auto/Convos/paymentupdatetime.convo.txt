@@ -1,0 +1,7 @@
+payment_update_time
+
+#me
+payment_update_time
+
+#bot
+INTENT payment_update_time

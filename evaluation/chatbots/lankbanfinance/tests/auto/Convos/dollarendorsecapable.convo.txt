@@ -1,0 +1,7 @@
+dollar_endorse_capable
+
+#me
+dollar_endorse_capable
+
+#bot
+INTENT dollar_endorse_capable

@@ -1,0 +1,7 @@
+define_beftn
+
+#me
+define_beftn
+
+#bot
+INTENT define_beftn

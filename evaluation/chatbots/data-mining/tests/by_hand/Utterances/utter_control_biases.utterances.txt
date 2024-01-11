@@ -1,0 +1,2 @@
+utter_control_biases
+There are many things that you can do to control and minimize bias. Two common things include randomization, where participants are assigned by chance, and random sampling, sampling in which each member has an equal probability of being chosen.

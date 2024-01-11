@@ -1,0 +1,7 @@
+swasti_documents
+
+#me
+swasti_documents
+
+#bot
+INTENT swasti_documents

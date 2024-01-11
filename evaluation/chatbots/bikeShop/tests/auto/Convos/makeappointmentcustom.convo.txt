@@ -1,0 +1,7 @@
+Make_Appointment___custom
+
+#me
+Make_Appointment___custom
+
+#bot
+INTENT Make_Appointment

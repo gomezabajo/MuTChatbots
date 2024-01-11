@@ -1,0 +1,7 @@
+protiva_documents
+
+#me
+protiva_documents
+
+#bot
+INTENT protiva_documents

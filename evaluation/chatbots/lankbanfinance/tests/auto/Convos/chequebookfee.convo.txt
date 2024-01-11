@@ -1,0 +1,7 @@
+chequebook_fee
+
+#me
+chequebook_fee
+
+#bot
+INTENT chequebook_fee

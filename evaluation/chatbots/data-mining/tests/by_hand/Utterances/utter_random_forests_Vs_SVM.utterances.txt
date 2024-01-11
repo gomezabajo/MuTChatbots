@@ -1,0 +1,2 @@
+utter_random_forests_Vs_SVM
+- There are a couple of reasons why a random forest is a better choice  of model than a support vector machine: - Random forests allow you to determine  the feature importance. SVM’s can’t do this.Random forests are much quicker  and simpler to build than an SVM.For multi-class classification problems,  SVMs require a one-vs-rest method, which is less scalable and more memory  intensive. 

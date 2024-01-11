@@ -1,0 +1,7 @@
+personal_Loan_for_unsecured_businessperson
+
+#me
+personal_Loan_for_unsecured_businessperson
+
+#bot
+INTENT personal_Loan_for_unsecured_businessperson

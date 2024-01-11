@@ -1,0 +1,7 @@
+interest_related_query
+
+#me
+interest_related_query
+
+#bot
+INTENT interest_related_query

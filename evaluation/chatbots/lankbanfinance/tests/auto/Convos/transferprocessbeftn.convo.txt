@@ -1,0 +1,7 @@
+transfer_process_beftn
+
+#me
+transfer_process_beftn
+
+#bot
+INTENT transfer_process_beftn

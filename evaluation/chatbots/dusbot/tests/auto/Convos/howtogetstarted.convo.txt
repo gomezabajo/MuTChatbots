@@ -1,0 +1,7 @@
+how_to_get_started
+
+#me
+how_to_get_started
+
+#bot
+INTENT how_to_get_started

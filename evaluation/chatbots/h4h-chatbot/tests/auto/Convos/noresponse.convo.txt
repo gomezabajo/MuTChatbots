@@ -1,0 +1,7 @@
+no_response
+
+#me
+no_response
+
+#bot
+INTENT no_response

@@ -1,0 +1,7 @@
+credit_card_payment_via_booth
+
+#me
+credit_card_payment_via_booth
+
+#bot
+INTENT credit_card_payment_via_booth

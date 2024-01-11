@@ -1,0 +1,7 @@
+tdr_against_short_term_loan_rate
+
+#me
+tdr_against_short_term_loan_rate
+
+#bot
+INTENT tdr_against_short_term_loan_rate

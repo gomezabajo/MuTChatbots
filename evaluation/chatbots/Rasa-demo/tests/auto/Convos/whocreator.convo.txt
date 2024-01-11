@@ -1,0 +1,7 @@
+who_creator
+
+#me
+who_creator
+
+#bot
+INTENT who_creator

@@ -1,0 +1,7 @@
+NLPstandfor
+
+#me
+NLPstandfor
+
+#bot
+INTENT NLPstandfor

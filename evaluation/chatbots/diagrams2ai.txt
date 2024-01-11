@@ -1,0 +1,281 @@
+Overall results for (diagrams2ai) ---------------------------
+#Generated mutants: 59
+#Killed mutants --- killed at least by one test-suite: 59 (100,00%)
+#Live mutants --- not killed by any test-suite: 0 (0,00%)
+Mutation score:  (100,00%)
+#Applied tests: 2251
+#Failed tests: 2251 (100,00%)
+#Overlapped mutants --- killed at least by two test-suites: 33 (55,93%)
+
+--- Live mutants --- not killed by any test-suite (diagrams2ai) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 4 (50,00%)
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Failed tests: 2250 (99,96%)
+--- dcb --- Eliminar bifurcación en un flujo de conversación ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (25,00%)
+Output3.zip
+#Failed tests: 2246 (99,78%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (20,00%)
+Output3.zip
+#Failed tests: 2221 (98,67%)
+--- dfi --- Borrar un intent que tenga fallback=true ---
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 28 (1,24%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (16,67%)
+Output2.zip
+#Failed tests: 510 (22,66%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 2 (33,33%)
+Output2.zip
+Output5.zip
+#Failed tests: 1082 (48,07%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 6 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Failed tests: 1996 (88,67%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 6 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Failed tests: 2176 (96,67%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 6 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Failed tests: 1175 (52,20%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 6 (100,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Failed tests: 944 (41,94%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 2208 (98,09%)
+
+Results for: CheckChatbotsBotiumAuto (diagrams2ai) ---------------------------
+Mutation score: 55,93%
+#Generated mutants: 59 (100,00%)
+#Compiling mutants: 59 (100,00%)
+#Killed mutants: 33 (55,93%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 26 (44,07%)
+#Total tests: 39
+#Failed tests: 39 (100,00%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 8 (13,56%)
+#Killed mutants: 4 (50,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output6.zip
+Output7.zip
+#Live mutants: 4 (50,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 38 (97,44%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 4 (6,78%)
+#Killed mutants: 1 (25,00%)
+Live mutants for operator: dcb
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (75,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 38 (97,44%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 5 (8,47%)
+#Killed mutants: 1 (20,00%)
+Live mutants for operator: dcs
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+#Live mutants: 4 (80,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 13 (33,33%)
+Results for operator: dfi Borrar un intent que tenga fallback=true ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 1 (1,69%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dfi
+Output0.zip
+#Live mutants: 1 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 1 (16,67%)
+Live mutants for operator: dp_max
+Output0.zip
+Output1.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Live mutants: 5 (83,33%)
+#Total tests: 39 (1,73%)
+#Failed tests: 1 (2,56%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 2 (33,33%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output3.zip
+Output4.zip
+#Live mutants: 4 (66,67%)
+#Total tests: 39 (1,73%)
+#Failed tests: 2 (5,13%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 19 (48,72%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 39 (100,00%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 6 (15,38%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 6 (15,38%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (diagrams2ai) ----
+#Generated mutants: 5 (8,47%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+#Live mutants: 5 (100,00%)
+#Total tests: 39 (1,73%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsBotiumByHand (diagrams2ai) ---------------------------
+Mutation score: 100,00%
+#Generated mutants: 59 (100,00%)
+#Compiling mutants: 59 (100,00%)
+#Killed mutants: 59 (100,00%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 0 (0,00%)
+#Total tests: 2212
+#Failed tests: 2212 (100,00%)
+#Mutation operators applied: 11 (57,89%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 8 (13,56%)
+#Killed mutants: 8 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 2212 (100,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 4 (6,78%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 2208 (99,82%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 5 (8,47%)
+#Killed mutants: 5 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 2208 (99,82%)
+Results for operator: dfi Borrar un intent que tenga fallback=true ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 1 (1,69%)
+#Killed mutants: 1 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 28 (1,27%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 509 (23,01%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 1080 (48,82%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 1977 (89,38%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 2137 (96,61%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 1169 (52,85%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 6 (10,17%)
+#Killed mutants: 6 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 938 (42,41%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumByHand (diagrams2ai) ----
+#Generated mutants: 5 (8,47%)
+#Killed mutants: 5 (100,00%)
+#Total tests: 2212 (98,27%)
+#Failed tests: 2208 (99,82%)

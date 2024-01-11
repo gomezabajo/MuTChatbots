@@ -1,0 +1,2 @@
+utter_precision_and_recall
+- Recall attempts to answer “What proportion of actual positives was identified   correctly?” - Precision attempts to answer “What proportion of positive identifications   was actually correct?” 

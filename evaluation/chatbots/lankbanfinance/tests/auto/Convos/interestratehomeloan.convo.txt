@@ -1,0 +1,7 @@
+interest_rate_home_loan
+
+#me
+interest_rate_home_loan
+
+#bot
+INTENT interest_rate_home_loan

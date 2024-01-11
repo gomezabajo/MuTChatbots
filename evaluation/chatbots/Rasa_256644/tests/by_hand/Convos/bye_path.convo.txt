@@ -1,0 +1,8 @@
+#me
+goodbye
+
+#bot
+utter_goodbye
+
+#bot
+utter_nyc

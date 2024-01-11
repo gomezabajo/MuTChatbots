@@ -1,0 +1,7 @@
+corona_intro
+
+#me
+corona_intro
+
+#bot
+INTENT corona_intro

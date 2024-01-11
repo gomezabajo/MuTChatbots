@@ -1,0 +1,11 @@
+  |$name
+name1|Ramya
+name2|Raksha
+name3|Deepthi
+name4|Teju
+name5|Shradha
+name6|Karthik
+name7|Shreya
+name8|Tulasidas
+name9|John
+name10|Savitri

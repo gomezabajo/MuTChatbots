@@ -1,0 +1,7 @@
+credit_care_yearly_charge
+
+#me
+credit_care_yearly_charge
+
+#bot
+INTENT credit_care_yearly_charge

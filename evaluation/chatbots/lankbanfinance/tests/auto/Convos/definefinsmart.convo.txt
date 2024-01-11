@@ -1,0 +1,7 @@
+define_finsmart
+
+#me
+define_finsmart
+
+#bot
+INTENT define_finsmart

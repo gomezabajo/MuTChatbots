@@ -1,0 +1,2 @@
+utter_Central_Limit_Theorem
+‘Statistical power’ refers to the power of a binary hypothesis, which is the probability that the test rejects the null hypothesis given that the alternative hypothesis is true. [2]

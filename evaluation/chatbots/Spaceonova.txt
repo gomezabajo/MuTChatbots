@@ -1,0 +1,287 @@
+Overall results for (Rasa_Spaceonova_Chatbot) ---------------------------
+#Generated mutants: 95
+#Killed mutants --- killed at least by one test-suite: 82 (86,32%)
+#Live mutants --- not killed by any test-suite: 13 (13,68%)
+Mutation score:  (86,32%)
+#Applied tests: 278
+#Failed tests: 264 (94,96%)
+#Overlapped mutants --- killed at least by two test-suites: 63 (66,32%)
+
+--- Live mutants --- not killed by any test-suite (Rasa_Spaceonova_Chatbot) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 14
+#Killed mutants: 13 (92,86%)
+#Live mutants: 1 (7,14%)
+Output7.zip
+#Overlapped mutants: 3 (21,43%)
+Output5.zip
+Output6.zip
+Output10.zip
+#Failed tests: 136 (48,92%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 15
+#Killed mutants: 9 (60,00%)
+#Live mutants: 6 (40,00%)
+Output1.zip
+Output2.zip
+Output3.zip
+Output6.zip
+Output12.zip
+Output13.zip
+#Overlapped mutants: 7 (46,67%)
+Output0.zip
+Output4.zip
+Output5.zip
+Output7.zip
+Output8.zip
+Output10.zip
+Output14.zip
+#Failed tests: 12 (4,32%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 15
+#Killed mutants: 10 (66,67%)
+#Live mutants: 5 (33,33%)
+Output2.zip
+Output4.zip
+Output6.zip
+Output12.zip
+Output14.zip
+#Overlapped mutants: 7 (46,67%)
+Output0.zip
+Output1.zip
+Output3.zip
+Output5.zip
+Output8.zip
+Output10.zip
+Output13.zip
+#Failed tests: 23 (8,27%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 10
+#Killed mutants: 10 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 9 (90,00%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output8.zip
+Output9.zip
+#Failed tests: 121 (43,53%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 12
+#Killed mutants: 11 (91,67%)
+#Live mutants: 1 (8,33%)
+Output7.zip
+#Overlapped mutants: 10 (83,33%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output9.zip
+Output10.zip
+Output11.zip
+#Failed tests: 199 (71,58%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 14
+#Killed mutants: 14 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 13 (92,86%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+#Failed tests: 30 (10,79%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 15
+#Killed mutants: 15 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 14 (93,33%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+#Failed tests: 34 (12,23%)
+
+Results for: CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ---------------------------
+Mutation score: 75,79%
+#Generated mutants: 95 (100,00%)
+#Compiling mutants: 95 (100,00%)
+#Killed mutants: 72 (75,79%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 23 (24,21%)
+#Total tests: 147
+#Failed tests: 133 (90,48%)
+#Mutation operators applied: 7 (36,84%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 14 (14,74%)
+#Killed mutants: 3 (21,43%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output11.zip
+Output12.zip
+Output13.zip
+#Live mutants: 11 (78,57%)
+#Total tests: 147 (52,88%)
+#Failed tests: 5 (3,40%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 9 (60,00%)
+Live mutants for operator: dp_max
+Output1.zip
+Output2.zip
+Output3.zip
+Output6.zip
+Output12.zip
+Output13.zip
+#Live mutants: 6 (40,00%)
+#Total tests: 147 (52,88%)
+#Failed tests: 8 (5,44%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 10 (66,67%)
+Live mutants for operator: dp_min
+Output2.zip
+Output4.zip
+Output6.zip
+Output12.zip
+Output14.zip
+#Live mutants: 5 (33,33%)
+#Total tests: 147 (52,88%)
+#Failed tests: 13 (8,84%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 10 (10,53%)
+#Killed mutants: 10 (100,00%)
+#Total tests: 147 (52,88%)
+#Failed tests: 66 (44,90%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 12 (12,63%)
+#Killed mutants: 11 (91,67%)
+Live mutants for operator: k2p_min
+Output7.zip
+#Live mutants: 1 (8,33%)
+#Total tests: 147 (52,88%)
+#Failed tests: 106 (72,11%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 14 (14,74%)
+#Killed mutants: 14 (100,00%)
+#Total tests: 147 (52,88%)
+#Failed tests: 17 (11,56%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 15 (100,00%)
+#Total tests: 147 (52,88%)
+#Failed tests: 19 (12,93%)
+
+Results for: CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ---------------------------
+Mutation score: 76,84%
+#Generated mutants: 95 (100,00%)
+#Compiling mutants: 95 (100,00%)
+#Killed mutants: 73 (76,84%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 22 (23,16%)
+#Total tests: 131
+#Failed tests: 131 (100,00%)
+#Mutation operators applied: 7 (36,84%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 14 (14,74%)
+#Killed mutants: 13 (92,86%)
+Live mutants for operator: da
+Output7.zip
+#Live mutants: 1 (7,14%)
+#Total tests: 131 (47,12%)
+#Failed tests: 131 (100,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 7 (46,67%)
+Live mutants for operator: dp_max
+Output1.zip
+Output2.zip
+Output3.zip
+Output6.zip
+Output9.zip
+Output11.zip
+Output12.zip
+Output13.zip
+#Live mutants: 8 (53,33%)
+#Total tests: 131 (47,12%)
+#Failed tests: 4 (3,05%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 7 (46,67%)
+Live mutants for operator: dp_min
+Output2.zip
+Output4.zip
+Output6.zip
+Output7.zip
+Output9.zip
+Output11.zip
+Output12.zip
+Output14.zip
+#Live mutants: 8 (53,33%)
+#Total tests: 131 (47,12%)
+#Failed tests: 10 (7,63%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 10 (10,53%)
+#Killed mutants: 9 (90,00%)
+Live mutants for operator: k2p_max
+Output7.zip
+#Live mutants: 1 (10,00%)
+#Total tests: 131 (47,12%)
+#Failed tests: 55 (41,98%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 12 (12,63%)
+#Killed mutants: 10 (83,33%)
+Live mutants for operator: k2p_min
+Output7.zip
+Output8.zip
+#Live mutants: 2 (16,67%)
+#Total tests: 131 (47,12%)
+#Failed tests: 93 (70,99%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 14 (14,74%)
+#Killed mutants: 13 (92,86%)
+Live mutants for operator: mp_max
+Output3.zip
+#Live mutants: 1 (7,14%)
+#Total tests: 131 (47,12%)
+#Failed tests: 13 (9,92%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Spaceonova_Chatbot) ----
+#Generated mutants: 15 (15,79%)
+#Killed mutants: 14 (93,33%)
+Live mutants for operator: mp_min
+Output3.zip
+#Live mutants: 1 (6,67%)
+#Total tests: 131 (47,12%)
+#Failed tests: 15 (11,45%)

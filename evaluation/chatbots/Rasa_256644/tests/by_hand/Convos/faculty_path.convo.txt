@@ -1,0 +1,8 @@
+#me
+faculty
+
+#bot
+utter_faculty
+
+#bot
+utter_goodbye

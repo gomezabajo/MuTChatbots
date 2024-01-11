@@ -1,0 +1,7 @@
+missingdata
+
+#me
+missingdata
+
+#bot
+INTENT missingdata

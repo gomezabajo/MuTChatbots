@@ -1,0 +1,2 @@
+utter_regression_model
+- There are a couple of metrics that you can use: - R-squared/Adjusted  R-squared:Relative measure of fit.This was explained in a previous answer        - F1 Score: Evaluates the null hypothesis that all regression coefficients are  equal to zero vs the alternative hypothesis that at least one doesn’t equal  zero - RMSE:Absolute measure of fit. 

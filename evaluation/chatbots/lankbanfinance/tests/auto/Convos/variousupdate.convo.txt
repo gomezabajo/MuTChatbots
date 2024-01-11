@@ -1,0 +1,7 @@
+various_update
+
+#me
+various_update
+
+#bot
+INTENT various_update

@@ -1,0 +1,7 @@
+finsmart_registration_process
+
+#me
+finsmart_registration_process
+
+#bot
+INTENT finsmart_registration_process

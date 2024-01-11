@@ -1,0 +1,7 @@
+beftn_fee
+
+#me
+beftn_fee
+
+#bot
+INTENT beftn_fee

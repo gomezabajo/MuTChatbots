@@ -1,0 +1,7 @@
+ask_resource
+
+#me
+ask_resource
+
+#bot
+INTENT ask_resource

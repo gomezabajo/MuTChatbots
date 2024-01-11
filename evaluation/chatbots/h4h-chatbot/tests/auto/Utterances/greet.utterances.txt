@@ -1,0 +1,16 @@
+greet
+Hi 
+Hey 
+Is anyone there? 
+Hi there 
+Hello 
+Hey there 
+Howdy 
+Hola 
+Bonjour 
+Konnichiwa 
+Guten tag 
+Ola 
+Good morning 
+Good afternoon 
+Good evening 

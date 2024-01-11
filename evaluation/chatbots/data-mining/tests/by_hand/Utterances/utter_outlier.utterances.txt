@@ -1,0 +1,2 @@
+utter_outlier
+- There are several ways to handle missing data: - Delete rows with missing  dataMean/Median/Mode imputationAssigning a unique valuePredicting the missing  valuesUsing an algorithm which supports missing values, like random forests - The best method is to delete rows with missing data as it ensures that no  bias or variance is added or removed, and ultimately results in a robust and  accurate model. However, this is only recommended if there’s a lot of data  to start with and the percentage of missing values is low. 

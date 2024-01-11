@@ -1,0 +1,7 @@
+describe_study_plan
+
+#me
+describe_study_plan
+
+#bot
+INTENT describe_study_plan

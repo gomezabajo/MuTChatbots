@@ -1,0 +1,17 @@
+get_random_restaurant
+choose a restaurant for me 
+lunch 
+what restaurant can you recommend? 
+i am hungry 
+can you recommend a restaurant 
+hungry 
+i would like to eat 
+i need to eat 
+where can i get lunch 
+lunch 
+what can you recommend for lunch 
+where to go for lunch 
+where to eat lunch 
+where can i go for lunch 
+can you help me find food 
+what's a good restaurant? 

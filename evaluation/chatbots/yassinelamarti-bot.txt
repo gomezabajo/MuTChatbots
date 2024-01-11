@@ -1,0 +1,375 @@
+Overall results for (yassinelamarti-bot) ---------------------------
+#Generated mutants: 78
+#Killed mutants --- killed at least by one test-suite: 78 (100,00%)
+#Live mutants --- not killed by any test-suite: 0 (0,00%)
+Mutation score:  (100,00%)
+#Applied tests: 781
+#Failed tests: 772 (98,85%)
+#Overlapped mutants --- killed at least by three test-suites: 12 (15,38%)
+
+--- Live mutants --- not killed by any test-suite (yassinelamarti-bot) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 10
+#Killed mutants: 10 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 732 (93,73%)
+--- dcb --- Eliminar bifurcación en un flujo de conversación ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 713 (91,29%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 722 (92,45%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (11,11%)
+Output1.zip
+#Failed tests: 62 (7,94%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 137 (17,54%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 3 (33,33%)
+Output0.zip
+Output6.zip
+Output7.zip
+#Failed tests: 515 (65,94%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 4 (44,44%)
+Output1.zip
+Output2.zip
+Output4.zip
+Output7.zip
+#Failed tests: 688 (88,09%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 3 (33,33%)
+Output6.zip
+Output7.zip
+Output8.zip
+#Failed tests: 330 (42,25%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 1 (11,11%)
+Output5.zip
+#Failed tests: 314 (40,20%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 722 (92,45%)
+
+Results for: CheckChatbotsBotiumAuto (yassinelamarti-bot) ---------------------------
+Mutation score: 51,28%
+#Generated mutants: 78 (100,00%)
+#Compiling mutants: 78 (100,00%)
+#Killed mutants: 40 (51,28%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 38 (48,72%)
+#Total tests: 49
+#Failed tests: 40 (81,63%)
+#Mutation operators applied: 10 (52,63%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 10 (12,82%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+#Live mutants: 10 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 4 (5,13%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcb
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+#Live mutants: 5 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_max
+Output2.zip
+Output3.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 49 (6,27%)
+#Failed tests: 3 (6,12%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_min
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output8.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 49 (6,27%)
+#Failed tests: 3 (6,12%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 8 (88,89%)
+Live mutants for operator: k2p_max
+Output1.zip
+#Live mutants: 1 (11,11%)
+#Total tests: 49 (6,27%)
+#Failed tests: 20 (40,82%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 8 (88,89%)
+Live mutants for operator: k2p_min
+Output8.zip
+#Live mutants: 1 (11,11%)
+#Total tests: 49 (6,27%)
+#Failed tests: 25 (51,02%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 9 (18,37%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 9 (18,37%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+#Live mutants: 5 (100,00%)
+#Total tests: 49 (6,27%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsBotiumByHand (yassinelamarti-bot) ---------------------------
+Mutation score: 100,00%
+#Generated mutants: 78 (100,00%)
+#Compiling mutants: 78 (100,00%)
+#Killed mutants: 78 (100,00%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 0 (0,00%)
+#Total tests: 725
+#Failed tests: 725 (100,00%)
+#Mutation operators applied: 10 (52,63%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 10 (12,82%)
+#Killed mutants: 10 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 725 (100,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 4 (5,13%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 708 (97,66%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 5 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 717 (98,90%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 56 (7,72%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 131 (18,07%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 490 (67,59%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 660 (91,03%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 318 (43,86%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 9 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 302 (41,66%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumByHand (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 5 (100,00%)
+#Total tests: 725 (92,83%)
+#Failed tests: 717 (98,90%)
+
+Results for: CheckChatbotsRasa (yassinelamarti-bot) ---------------------------
+Mutation score: 48,72%
+#Generated mutants: 78 (100,00%)
+#Compiling mutants: 78 (100,00%)
+#Killed mutants: 38 (48,72%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 40 (51,28%)
+#Total tests: 7
+#Failed tests: 7 (100,00%)
+#Mutation operators applied: 10 (52,63%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 10 (12,82%)
+#Killed mutants: 9 (90,00%)
+Live mutants for operator: da
+Output5.zip
+#Live mutants: 1 (10,00%)
+#Total tests: 7 (0,90%)
+#Failed tests: 7 (100,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 4 (5,13%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 7 (0,90%)
+#Failed tests: 5 (71,43%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 4 (80,00%)
+Live mutants for operator: dcs
+Output0.zip
+#Live mutants: 1 (20,00%)
+#Total tests: 7 (0,90%)
+#Failed tests: 5 (71,43%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_max
+Output0.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output7.zip
+Output8.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 7 (0,90%)
+#Failed tests: 3 (42,86%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 1 (11,11%)
+Live mutants for operator: dp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 8 (88,89%)
+#Total tests: 7 (0,90%)
+#Failed tests: 3 (42,86%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 4 (44,44%)
+Live mutants for operator: k2p_max
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output8.zip
+#Live mutants: 5 (55,56%)
+#Total tests: 7 (0,90%)
+#Failed tests: 5 (71,43%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 4 (44,44%)
+Live mutants for operator: k2p_min
+Output0.zip
+Output3.zip
+Output5.zip
+Output6.zip
+Output8.zip
+#Live mutants: 5 (55,56%)
+#Total tests: 7 (0,90%)
+#Failed tests: 3 (42,86%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: mp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 7 (0,90%)
+#Failed tests: 3 (42,86%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 9 (11,54%)
+#Killed mutants: 1 (11,11%)
+Live mutants for operator: mp_min
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output6.zip
+Output7.zip
+Output8.zip
+#Live mutants: 8 (88,89%)
+#Total tests: 7 (0,90%)
+#Failed tests: 3 (42,86%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsRasa (yassinelamarti-bot) ----
+#Generated mutants: 5 (6,41%)
+#Killed mutants: 5 (100,00%)
+#Total tests: 7 (0,90%)
+#Failed tests: 5 (71,43%)

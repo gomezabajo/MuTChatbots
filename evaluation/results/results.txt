@@ -1,0 +1,2826 @@
+Current time: 06 ene. 2024 07:44:31. Data processing time (ms): 427. bikeShop processed.
+Current time: 06 ene. 2024 07:45:23. Data processing time (ms): 51694. diagrams2ai processed.
+Current time: 06 ene. 2024 07:45:28. Data processing time (ms): 4862. dusbot processed.
+Current time: 06 ene. 2024 07:45:28. Data processing time (ms): 95. e2e-bot processed.
+Current time: 06 ene. 2024 07:45:57. Data processing time (ms): 28536. Email-WhatsApp-Integration processed.
+Current time: 06 ene. 2024 07:45:57. Data processing time (ms): 349. h4h-chatbot processed.
+Current time: 06 ene. 2024 07:48:31. Data processing time (ms): 154140. lankbanfinance processed.
+Current time: 06 ene. 2024 07:48:35. Data processing time (ms): 3705. legal-alien-chatbot processed.
+Current time: 06 ene. 2024 07:48:35. Data processing time (ms): 338. personal-bot processed.
+Current time: 06 ene. 2024 07:48:36. Data processing time (ms): 636. rasa-demo processed.
+Current time: 06 ene. 2024 07:48:37. Data processing time (ms): 1212. Rasa_256644 processed.
+Current time: 06 ene. 2024 07:48:37. Data processing time (ms): 55. Rasa_Covid19_tracer processed.
+Current time: 06 ene. 2024 08:23:03. Data processing time (ms): 2065993. Rasa_Data-mining processed.
+Current time: 06 ene. 2024 08:23:05. Data processing time (ms): 1951. Spaceonova_Chatbot processed.
+Current time: 06 ene. 2024 08:23:15. Data processing time (ms): 10102. yassinelamarti-bot processed.
+Overall results ---------------------------
+#Generated mutants: 1757
+#Killed mutants --- killed at least by one test-suite: 1197 (68,13%)
+#Live mutants --- not killed by any test-suite: 560 (31,87%)
+Mutation score:  (68,13%)
+#Applied tests: 9184
+#Failed tests: 8809 (95,92%)
+#Overlapped mutants: 407 (23,16%)
+Operator kind: phrases ----------------
+#Generated mutants: 1363
+#Killed mutants: 896 (65,74%)
+Mutation score: 65,74%
+Operator: dp_max ----------------
+#Generated mutants: 229
+#Killed mutants: 90 (39,30%)
+Mutation score: 39,30%
+Operator: dp_min ----------------
+#Generated mutants: 229
+#Killed mutants: 111 (48,47%)
+Mutation score: 48,47%
+Operator: dpwp ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Operator: dpwl ----------------
+#Generated mutants: 5
+#Killed mutants: 3 (60,00%)
+Mutation score: 60,00%
+Operator: k2p_max ----------------
+#Generated mutants: 218
+#Killed mutants: 167 (76,61%)
+Mutation score: 76,61%
+Operator: k2p_min ----------------
+#Generated mutants: 222
+#Killed mutants: 162 (72,97%)
+Mutation score: 72,97%
+Operator: mp_max ----------------
+#Generated mutants: 228
+#Killed mutants: 178 (78,07%)
+Mutation score: 78,07%
+Operator: mp_min ----------------
+#Generated mutants: 229
+#Killed mutants: 183 (79,91%)
+Mutation score: 79,91%
+#Applied tests: 9184
+#Failed tests: 7904 (86,06%)
+Operator: dp_max ----------------
+#Applied tests: 9184
+#Failed tests: 1828 (19,90%)
+Operator: dp_min ----------------
+#Applied tests: 9184
+#Failed tests: 2973 (32,37%)
+Operator: dpwp ----------------
+#Applied tests: 9184
+#Failed tests: 3 (0,03%)
+Operator: dpwl ----------------
+#Applied tests: 9184
+#Failed tests: 1 (0,01%)
+Operator: k2p_max ----------------
+#Applied tests: 9184
+#Failed tests: 5945 (64,73%)
+Operator: k2p_min ----------------
+#Applied tests: 9184
+#Failed tests: 6774 (73,76%)
+Operator: mp_max ----------------
+#Applied tests: 9184
+#Failed tests: 3771 (41,06%)
+Operator: mp_min ----------------
+#Applied tests: 9184
+#Failed tests: 3357 (36,55%)
+Results for chatbot bikeShop---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 21
+#Killed mutants: 8 (38,10%)
+Mutation score: 38,10%
+Operator: dp_max ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dp_min ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwp ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Operator: dpwl ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+Mutation score: 50,00%
+Operator: k2p_min ----------------
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+Mutation score: 50,00%
+Operator: mp_max ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Operator: mp_min ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Results for chatbot bikeShop---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 13
+#Failed tests: 10 (76,92%)
+Operator: dp_max ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dp_min ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dpwp ----------------
+#Applied tests: 13
+#Failed tests: 3 (23,08%)
+Operator: dpwl ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 13
+#Failed tests: 1 (7,69%)
+Operator: k2p_min ----------------
+#Applied tests: 13
+#Failed tests: 5 (38,46%)
+Operator: mp_max ----------------
+#Applied tests: 13
+#Failed tests: 2 (15,38%)
+Operator: mp_min ----------------
+#Applied tests: 13
+#Failed tests: 4 (30,77%)
+Results for chatbot diagrams2ai---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 36
+#Killed mutants: 36 (100,00%)
+Mutation score: 100,00%
+Operator: dp_max ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: dp_min ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Results for chatbot diagrams2ai---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 2251
+#Failed tests: 2249 (99,91%)
+Operator: dp_max ----------------
+#Applied tests: 2251
+#Failed tests: 510 (22,66%)
+Operator: dp_min ----------------
+#Applied tests: 2251
+#Failed tests: 1082 (48,07%)
+Operator: dpwp ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 2251
+#Failed tests: 1996 (88,67%)
+Operator: k2p_min ----------------
+#Applied tests: 2251
+#Failed tests: 2176 (96,67%)
+Operator: mp_max ----------------
+#Applied tests: 2251
+#Failed tests: 1175 (52,20%)
+Operator: mp_min ----------------
+#Applied tests: 2251
+#Failed tests: 944 (41,94%)
+Results for chatbot dusbot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 72
+#Killed mutants: 45 (62,50%)
+Mutation score: 62,50%
+Operator: dp_max ----------------
+#Generated mutants: 12
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dp_min ----------------
+#Generated mutants: 12
+#Killed mutants: 3 (25,00%)
+Mutation score: 25,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 12
+#Killed mutants: 11 (91,67%)
+Mutation score: 91,67%
+Operator: k2p_min ----------------
+#Generated mutants: 12
+#Killed mutants: 10 (83,33%)
+Mutation score: 83,33%
+Operator: mp_max ----------------
+#Generated mutants: 12
+#Killed mutants: 10 (83,33%)
+Mutation score: 83,33%
+Operator: mp_min ----------------
+#Generated mutants: 12
+#Killed mutants: 11 (91,67%)
+Mutation score: 91,67%
+Results for chatbot dusbot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 407
+#Failed tests: 346 (85,01%)
+Operator: dp_max ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dp_min ----------------
+#Applied tests: 407
+#Failed tests: 3 (0,74%)
+Operator: dpwp ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 407
+#Failed tests: 267 (65,60%)
+Operator: k2p_min ----------------
+#Applied tests: 407
+#Failed tests: 313 (76,90%)
+Operator: mp_max ----------------
+#Applied tests: 407
+#Failed tests: 11 (2,70%)
+Operator: mp_min ----------------
+#Applied tests: 407
+#Failed tests: 11 (2,70%)
+Results for chatbot e2e-bot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 24
+#Killed mutants: 18 (75,00%)
+Mutation score: 75,00%
+Operator: dp_max ----------------
+#Generated mutants: 4
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dp_min ----------------
+#Generated mutants: 4
+#Killed mutants: 2 (50,00%)
+Mutation score: 50,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot e2e-bot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 37
+#Failed tests: 30 (81,08%)
+Operator: dp_max ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: dp_min ----------------
+#Applied tests: 37
+#Failed tests: 2 (5,41%)
+Operator: dpwp ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 37
+#Failed tests: 18 (48,65%)
+Operator: k2p_min ----------------
+#Applied tests: 37
+#Failed tests: 16 (43,24%)
+Operator: mp_max ----------------
+#Applied tests: 37
+#Failed tests: 4 (10,81%)
+Operator: mp_min ----------------
+#Applied tests: 37
+#Failed tests: 4 (10,81%)
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 48
+#Killed mutants: 48 (100,00%)
+Mutation score: 100,00%
+Operator: dp_max ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: dp_min ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 1367
+#Failed tests: 1359 (99,41%)
+Operator: dp_max ----------------
+#Applied tests: 1367
+#Failed tests: 106 (7,75%)
+Operator: dp_min ----------------
+#Applied tests: 1367
+#Failed tests: 439 (32,11%)
+Operator: dpwp ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 1367
+#Failed tests: 1053 (77,03%)
+Operator: k2p_min ----------------
+#Applied tests: 1367
+#Failed tests: 1195 (87,42%)
+Operator: mp_max ----------------
+#Applied tests: 1367
+#Failed tests: 593 (43,38%)
+Operator: mp_min ----------------
+#Applied tests: 1367
+#Failed tests: 601 (43,96%)
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 50
+#Killed mutants: 38 (76,00%)
+Mutation score: 76,00%
+Operator: dp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 3 (33,33%)
+Mutation score: 33,33%
+Operator: dp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 4 (44,44%)
+Mutation score: 44,44%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 7
+#Killed mutants: 7 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 7
+#Killed mutants: 7 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+Mutation score: 88,89%
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 109
+#Failed tests: 99 (90,83%)
+Operator: dp_max ----------------
+#Applied tests: 109
+#Failed tests: 3 (2,75%)
+Operator: dp_min ----------------
+#Applied tests: 109
+#Failed tests: 4 (3,67%)
+Operator: dpwp ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 109
+#Failed tests: 77 (70,64%)
+Operator: k2p_min ----------------
+#Applied tests: 109
+#Failed tests: 76 (69,72%)
+Operator: mp_max ----------------
+#Applied tests: 109
+#Failed tests: 10 (9,17%)
+Operator: mp_min ----------------
+#Applied tests: 109
+#Failed tests: 8 (7,34%)
+Results for chatbot lankbanfinance---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 311
+#Killed mutants: 150 (48,23%)
+Mutation score: 48,23%
+Operator: dp_max ----------------
+#Generated mutants: 52
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dp_min ----------------
+#Generated mutants: 52
+#Killed mutants: 7 (13,46%)
+Mutation score: 13,46%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 51
+#Killed mutants: 33 (64,71%)
+Mutation score: 64,71%
+Operator: k2p_min ----------------
+#Generated mutants: 52
+#Killed mutants: 30 (57,69%)
+Mutation score: 57,69%
+Operator: mp_max ----------------
+#Generated mutants: 52
+#Killed mutants: 38 (73,08%)
+Mutation score: 73,08%
+Operator: mp_min ----------------
+#Generated mutants: 52
+#Killed mutants: 42 (80,77%)
+Mutation score: 80,77%
+Results for chatbot lankbanfinance---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 589
+#Failed tests: 358 (60,78%)
+Operator: dp_max ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dp_min ----------------
+#Applied tests: 589
+#Failed tests: 6 (1,02%)
+Operator: dpwp ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 589
+#Failed tests: 216 (36,67%)
+Operator: k2p_min ----------------
+#Applied tests: 589
+#Failed tests: 243 (41,26%)
+Operator: mp_max ----------------
+#Applied tests: 589
+#Failed tests: 38 (6,45%)
+Operator: mp_min ----------------
+#Applied tests: 589
+#Failed tests: 42 (7,13%)
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 208
+#Killed mutants: 29 (13,94%)
+Mutation score: 13,94%
+Operator: dp_max ----------------
+#Generated mutants: 35
+#Killed mutants: 2 (5,71%)
+Mutation score: 5,71%
+Operator: dp_min ----------------
+#Generated mutants: 35
+#Killed mutants: 3 (8,57%)
+Mutation score: 8,57%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 34
+#Killed mutants: 7 (20,59%)
+Mutation score: 20,59%
+Operator: k2p_min ----------------
+#Generated mutants: 34
+#Killed mutants: 5 (14,71%)
+Mutation score: 14,71%
+Operator: mp_max ----------------
+#Generated mutants: 35
+#Killed mutants: 6 (17,14%)
+Mutation score: 17,14%
+Operator: mp_min ----------------
+#Generated mutants: 35
+#Killed mutants: 6 (17,14%)
+Mutation score: 17,14%
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 75
+#Failed tests: 49 (65,33%)
+Operator: dp_max ----------------
+#Applied tests: 75
+#Failed tests: 2 (2,67%)
+Operator: dp_min ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Operator: dpwp ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 75
+#Failed tests: 34 (45,33%)
+Operator: k2p_min ----------------
+#Applied tests: 75
+#Failed tests: 33 (44,00%)
+Operator: mp_max ----------------
+#Applied tests: 75
+#Failed tests: 6 (8,00%)
+Operator: mp_min ----------------
+#Applied tests: 75
+#Failed tests: 6 (8,00%)
+Results for chatbot personal-bot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 57
+#Killed mutants: 47 (82,46%)
+Mutation score: 82,46%
+Operator: dp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+Mutation score: 88,89%
+Operator: dp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+Mutation score: 88,89%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_max ----------------
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+Mutation score: 88,89%
+Operator: k2p_min ----------------
+#Generated mutants: 9
+#Killed mutants: 6 (66,67%)
+Mutation score: 66,67%
+Operator: mp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 7 (77,78%)
+Mutation score: 77,78%
+Operator: mp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 7 (77,78%)
+Mutation score: 77,78%
+Results for chatbot personal-bot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 66
+#Failed tests: 61 (92,42%)
+Operator: dp_max ----------------
+#Applied tests: 66
+#Failed tests: 5 (7,58%)
+Operator: dp_min ----------------
+#Applied tests: 66
+#Failed tests: 5 (7,58%)
+Operator: dpwp ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 66
+#Failed tests: 1 (1,52%)
+Operator: k2p_max ----------------
+#Applied tests: 66
+#Failed tests: 46 (69,70%)
+Operator: k2p_min ----------------
+#Applied tests: 66
+#Failed tests: 53 (80,30%)
+Operator: mp_max ----------------
+#Applied tests: 66
+#Failed tests: 10 (15,15%)
+Operator: mp_min ----------------
+#Applied tests: 66
+#Failed tests: 9 (13,64%)
+Results for chatbot rasa-demo---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 65
+#Killed mutants: 44 (67,69%)
+Mutation score: 67,69%
+Operator: dp_max ----------------
+#Generated mutants: 11
+#Killed mutants: 1 (9,09%)
+Mutation score: 9,09%
+Operator: dp_min ----------------
+#Generated mutants: 11
+#Killed mutants: 4 (36,36%)
+Mutation score: 36,36%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 10
+#Killed mutants: 9 (90,00%)
+Mutation score: 90,00%
+Operator: k2p_min ----------------
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+Mutation score: 90,91%
+Operator: mp_max ----------------
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+Mutation score: 90,91%
+Operator: mp_min ----------------
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+Mutation score: 90,91%
+Results for chatbot rasa-demo---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 94
+#Failed tests: 83 (88,30%)
+Operator: dp_max ----------------
+#Applied tests: 94
+#Failed tests: 1 (1,06%)
+Operator: dp_min ----------------
+#Applied tests: 94
+#Failed tests: 4 (4,26%)
+Operator: dpwp ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 94
+#Failed tests: 52 (55,32%)
+Operator: k2p_min ----------------
+#Applied tests: 94
+#Failed tests: 62 (65,96%)
+Operator: mp_max ----------------
+#Applied tests: 94
+#Failed tests: 10 (10,64%)
+Operator: mp_min ----------------
+#Applied tests: 94
+#Failed tests: 11 (11,70%)
+Results for chatbot Rasa_256644---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 66
+#Killed mutants: 47 (71,21%)
+Mutation score: 71,21%
+Operator: dp_max ----------------
+#Generated mutants: 11
+#Killed mutants: 1 (9,09%)
+Mutation score: 9,09%
+Operator: dp_min ----------------
+#Generated mutants: 11
+#Killed mutants: 4 (36,36%)
+Mutation score: 36,36%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+Mutation score: 90,91%
+Operator: mp_min ----------------
+#Generated mutants: 11
+#Killed mutants: 10 (90,91%)
+Mutation score: 90,91%
+Results for chatbot Rasa_256644---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 170
+#Failed tests: 154 (90,59%)
+Operator: dp_max ----------------
+#Applied tests: 170
+#Failed tests: 2 (1,18%)
+Operator: dp_min ----------------
+#Applied tests: 170
+#Failed tests: 12 (7,06%)
+Operator: dpwp ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 170
+#Failed tests: 107 (62,94%)
+Operator: k2p_min ----------------
+#Applied tests: 170
+#Failed tests: 116 (68,24%)
+Operator: mp_max ----------------
+#Applied tests: 170
+#Failed tests: 33 (19,41%)
+Operator: mp_min ----------------
+#Applied tests: 170
+#Failed tests: 35 (20,59%)
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 18
+#Killed mutants: 11 (61,11%)
+Mutation score: 61,11%
+Operator: dp_max ----------------
+#Generated mutants: 3
+#Killed mutants: 1 (33,33%)
+Mutation score: 33,33%
+Operator: dp_min ----------------
+#Generated mutants: 3
+#Killed mutants: 1 (33,33%)
+Mutation score: 33,33%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 3
+#Killed mutants: 1 (33,33%)
+Mutation score: 33,33%
+Operator: k2p_min ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Operator: mp_max ----------------
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 18
+#Failed tests: 17 (94,44%)
+Operator: dp_max ----------------
+#Applied tests: 18
+#Failed tests: 2 (11,11%)
+Operator: dp_min ----------------
+#Applied tests: 18
+#Failed tests: 1 (5,56%)
+Operator: dpwp ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 18
+#Failed tests: 3 (16,67%)
+Operator: k2p_min ----------------
+#Applied tests: 18
+#Failed tests: 10 (55,56%)
+Operator: mp_max ----------------
+#Applied tests: 18
+#Failed tests: 3 (16,67%)
+Operator: mp_min ----------------
+#Applied tests: 18
+#Failed tests: 7 (38,89%)
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 252
+#Killed mutants: 252 (100,00%)
+Mutation score: 100,00%
+Operator: dp_max ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Operator: dp_min ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 2929
+#Failed tests: 2075 (70,84%)
+Operator: dp_max ----------------
+#Applied tests: 2929
+#Failed tests: 1123 (38,34%)
+Operator: dp_min ----------------
+#Applied tests: 2929
+#Failed tests: 1252 (42,74%)
+Operator: dpwp ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 2929
+#Failed tests: 1439 (49,13%)
+Operator: k2p_min ----------------
+#Applied tests: 2929
+#Failed tests: 1589 (54,25%)
+Operator: mp_max ----------------
+#Applied tests: 2929
+#Failed tests: 1516 (51,76%)
+Operator: mp_min ----------------
+#Applied tests: 2929
+#Failed tests: 1327 (45,31%)
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 81
+#Killed mutants: 69 (85,19%)
+Mutation score: 85,19%
+Operator: dp_max ----------------
+#Generated mutants: 15
+#Killed mutants: 9 (60,00%)
+Mutation score: 60,00%
+Operator: dp_min ----------------
+#Generated mutants: 15
+#Killed mutants: 10 (66,67%)
+Mutation score: 66,67%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 10
+#Killed mutants: 10 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 12
+#Killed mutants: 11 (91,67%)
+Mutation score: 91,67%
+Operator: mp_max ----------------
+#Generated mutants: 14
+#Killed mutants: 14 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 15
+#Killed mutants: 15 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 278
+#Failed tests: 247 (88,85%)
+Operator: dp_max ----------------
+#Applied tests: 278
+#Failed tests: 12 (4,32%)
+Operator: dp_min ----------------
+#Applied tests: 278
+#Failed tests: 23 (8,27%)
+Operator: dpwp ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 278
+#Failed tests: 121 (43,53%)
+Operator: k2p_min ----------------
+#Applied tests: 278
+#Failed tests: 199 (71,58%)
+Operator: mp_max ----------------
+#Applied tests: 278
+#Failed tests: 30 (10,79%)
+Operator: mp_min ----------------
+#Applied tests: 278
+#Failed tests: 34 (12,23%)
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: phrases ----------------
+#Generated mutants: 54
+#Killed mutants: 54 (100,00%)
+Mutation score: 100,00%
+Operator: dp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: dp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: dpwp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpwl ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: k2p_max ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: k2p_min ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: mp_max ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: mp_min ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: phrases ----------------
+#Applied tests: 781
+#Failed tests: 767 (98,21%)
+Operator: dp_max ----------------
+#Applied tests: 781
+#Failed tests: 62 (7,94%)
+Operator: dp_min ----------------
+#Applied tests: 781
+#Failed tests: 137 (17,54%)
+Operator: dpwp ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: dpwl ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: k2p_max ----------------
+#Applied tests: 781
+#Failed tests: 515 (65,94%)
+Operator: k2p_min ----------------
+#Applied tests: 781
+#Failed tests: 688 (88,09%)
+Operator: mp_max ----------------
+#Applied tests: 781
+#Failed tests: 330 (42,25%)
+Operator: mp_min ----------------
+#Applied tests: 781
+#Failed tests: 314 (40,20%)
+Operator kind: intents ----------------
+#Generated mutants: 20
+#Killed mutants: 8 (40,00%)
+Mutation score: 40,00%
+Operator: rip ----------------
+#Generated mutants: 9
+#Killed mutants: 6 (66,67%)
+Mutation score: 66,67%
+Operator: dpp ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 5
+#Killed mutants: 2 (40,00%)
+Mutation score: 40,00%
+#Applied tests: 9184
+#Failed tests: 129 (1,40%)
+Operator: rip ----------------
+#Applied tests: 9184
+#Failed tests: 98 (1,07%)
+Operator: dpp ----------------
+#Applied tests: 9184
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 9184
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 9184
+#Failed tests: 31 (0,34%)
+Results for chatbot bikeShop---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 10
+#Killed mutants: 2 (20,00%)
+Mutation score: 20,00%
+Operator: rip ----------------
+#Generated mutants: 3
+#Killed mutants: 2 (66,67%)
+Mutation score: 66,67%
+Operator: dpp ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot bikeShop---------------------------
+Operator kind: intents ----------------
+#Applied tests: 13
+#Failed tests: 3 (23,08%)
+Operator: rip ----------------
+#Applied tests: 13
+#Failed tests: 3 (23,08%)
+Operator: dpp ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Results for chatbot diagrams2ai---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Results for chatbot diagrams2ai---------------------------
+Operator kind: intents ----------------
+#Applied tests: 2251
+#Failed tests: 28 (1,24%)
+Operator: rip ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 2251
+#Failed tests: 28 (1,24%)
+Results for chatbot dusbot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot dusbot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 407
+Operator: rip ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Results for chatbot e2e-bot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot e2e-bot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 37
+Operator: rip ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: intents ----------------
+#Applied tests: 1367
+#Failed tests: 3 (0,22%)
+Operator: rip ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 1367
+#Failed tests: 3 (0,22%)
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 109
+Operator: rip ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Results for chatbot lankbanfinance---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot lankbanfinance---------------------------
+Operator kind: intents ----------------
+#Applied tests: 589
+Operator: rip ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 75
+Operator: rip ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Results for chatbot personal-bot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+Mutation score: 50,00%
+Operator: rip ----------------
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+Mutation score: 50,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot personal-bot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 66
+#Failed tests: 11 (16,67%)
+Operator: rip ----------------
+#Applied tests: 66
+#Failed tests: 11 (16,67%)
+Operator: dpp ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Results for chatbot rasa-demo---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: rip ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot rasa-demo---------------------------
+Operator kind: intents ----------------
+#Applied tests: 94
+#Failed tests: 6 (6,38%)
+Operator: rip ----------------
+#Applied tests: 94
+#Failed tests: 6 (6,38%)
+Operator: dpp ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_256644---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: rip ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_256644---------------------------
+Operator kind: intents ----------------
+#Applied tests: 170
+#Failed tests: 70 (41,18%)
+Operator: rip ----------------
+#Applied tests: 170
+#Failed tests: 70 (41,18%)
+Operator: dpp ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: rip ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: intents ----------------
+#Applied tests: 18
+#Failed tests: 8 (44,44%)
+Operator: rip ----------------
+#Applied tests: 18
+#Failed tests: 8 (44,44%)
+Operator: dpp ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: intents ----------------
+#Applied tests: 2929
+Operator: rip ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 278
+Operator: rip ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: intents ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: rip ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpp ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: spo ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dfi ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: intents ----------------
+#Applied tests: 781
+Operator: rip ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: dpp ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: spo ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: dfi ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator kind: entities ----------------
+#Generated mutants: 4
+#Killed mutants: 2 (50,00%)
+Mutation score: 50,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 4
+#Killed mutants: 2 (50,00%)
+Mutation score: 50,00%
+#Applied tests: 9184
+#Failed tests: 1 (0,01%)
+Operator: cre ----------------
+#Applied tests: 9184
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 9184
+#Failed tests: 1 (0,01%)
+Results for chatbot bikeShop---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot bikeShop---------------------------
+Operator kind: entities ----------------
+#Applied tests: 13
+Operator: cre ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Results for chatbot diagrams2ai---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot diagrams2ai---------------------------
+Operator kind: entities ----------------
+#Applied tests: 2251
+Operator: cre ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Results for chatbot dusbot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot dusbot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 407
+Operator: cre ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Results for chatbot e2e-bot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot e2e-bot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 37
+Operator: cre ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: entities ----------------
+#Applied tests: 1367
+Operator: cre ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 109
+Operator: cre ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Results for chatbot lankbanfinance---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot lankbanfinance---------------------------
+Operator kind: entities ----------------
+#Applied tests: 589
+Operator: cre ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 75
+Operator: cre ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Results for chatbot personal-bot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+Mutation score: 100,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+Mutation score: 100,00%
+Results for chatbot personal-bot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 66
+#Failed tests: 1 (1,52%)
+Operator: cre ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 66
+#Failed tests: 1 (1,52%)
+Results for chatbot rasa-demo---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot rasa-demo---------------------------
+Operator kind: entities ----------------
+#Applied tests: 94
+Operator: cre ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_256644---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_256644---------------------------
+Operator kind: entities ----------------
+#Applied tests: 170
+Operator: cre ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: entities ----------------
+#Applied tests: 18
+Operator: cre ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: entities ----------------
+#Applied tests: 2929
+Operator: cre ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 278
+Operator: cre ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: entities ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: cre ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dle ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: entities ----------------
+#Applied tests: 781
+Operator: cre ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: dle ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator kind: actions ----------------
+#Generated mutants: 307
+#Killed mutants: 234 (76,22%)
+Mutation score: 76,22%
+Operator: da ----------------
+#Generated mutants: 262
+#Killed mutants: 199 (75,95%)
+Mutation score: 75,95%
+Operator: dpr ----------------
+#Generated mutants: 7
+#Killed mutants: 1 (14,29%)
+Mutation score: 14,29%
+Operator: so ----------------
+#Generated mutants: 38
+#Killed mutants: 34 (89,47%)
+Mutation score: 89,47%
+#Applied tests: 9184
+#Failed tests: 7470 (81,34%)
+Operator: da ----------------
+#Applied tests: 9184
+#Failed tests: 7470 (81,34%)
+Operator: dpr ----------------
+#Applied tests: 9184
+#Failed tests: 60 (0,65%)
+Operator: so ----------------
+#Applied tests: 9184
+#Failed tests: 5061 (55,11%)
+Results for chatbot bikeShop---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 13
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: da ----------------
+#Generated mutants: 9
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpr ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot bikeShop---------------------------
+Operator kind: actions ----------------
+#Applied tests: 13
+Operator: da ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dpr ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Results for chatbot diagrams2ai---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 13
+#Killed mutants: 13 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+Mutation score: 100,00%
+Results for chatbot diagrams2ai---------------------------
+Operator kind: actions ----------------
+#Applied tests: 2251
+#Failed tests: 2250 (99,96%)
+Operator: da ----------------
+#Applied tests: 2251
+#Failed tests: 2250 (99,96%)
+Operator: dpr ----------------
+#Applied tests: 2251
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 2251
+#Failed tests: 2208 (98,09%)
+Results for chatbot dusbot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 12
+#Killed mutants: 9 (75,00%)
+Mutation score: 75,00%
+Operator: da ----------------
+#Generated mutants: 12
+#Killed mutants: 9 (75,00%)
+Mutation score: 75,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot dusbot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 407
+#Failed tests: 6 (1,47%)
+Operator: da ----------------
+#Applied tests: 407
+#Failed tests: 6 (1,47%)
+Operator: dpr ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Results for chatbot e2e-bot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+Mutation score: 100,00%
+Results for chatbot e2e-bot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 37
+#Failed tests: 4 (10,81%)
+Operator: da ----------------
+#Applied tests: 37
+#Failed tests: 4 (10,81%)
+Operator: dpr ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 37
+#Failed tests: 3 (8,11%)
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 18
+#Killed mutants: 18 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 12
+#Killed mutants: 12 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: actions ----------------
+#Applied tests: 1367
+#Failed tests: 1319 (96,49%)
+Operator: da ----------------
+#Applied tests: 1367
+#Failed tests: 1319 (96,49%)
+Operator: dpr ----------------
+#Applied tests: 1367
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 1367
+#Failed tests: 1311 (95,90%)
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 10
+#Killed mutants: 9 (90,00%)
+Mutation score: 90,00%
+Operator: da ----------------
+#Generated mutants: 10
+#Killed mutants: 9 (90,00%)
+Mutation score: 90,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 109
+#Failed tests: 9 (8,26%)
+Operator: da ----------------
+#Applied tests: 109
+#Failed tests: 9 (8,26%)
+Operator: dpr ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Results for chatbot lankbanfinance---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 52
+#Killed mutants: 47 (90,38%)
+Mutation score: 90,38%
+Operator: da ----------------
+#Generated mutants: 51
+#Killed mutants: 47 (92,16%)
+Mutation score: 92,16%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot lankbanfinance---------------------------
+Operator kind: actions ----------------
+#Applied tests: 589
+#Failed tests: 48 (8,15%)
+Operator: da ----------------
+#Applied tests: 589
+#Failed tests: 48 (8,15%)
+Operator: dpr ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 40
+#Killed mutants: 9 (22,50%)
+Mutation score: 22,50%
+Operator: da ----------------
+#Generated mutants: 36
+#Killed mutants: 5 (13,89%)
+Mutation score: 13,89%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Operator: da ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Operator: dpr ----------------
+#Applied tests: 75
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Results for chatbot personal-bot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+Mutation score: 88,89%
+Operator: da ----------------
+#Generated mutants: 7
+#Killed mutants: 6 (85,71%)
+Mutation score: 85,71%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+Mutation score: 100,00%
+Results for chatbot personal-bot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 66
+#Failed tests: 3 (4,55%)
+Operator: da ----------------
+#Applied tests: 66
+#Failed tests: 3 (4,55%)
+Operator: dpr ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 66
+#Failed tests: 2 (3,03%)
+Results for chatbot rasa-demo---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 19
+#Killed mutants: 12 (63,16%)
+Mutation score: 63,16%
+Operator: da ----------------
+#Generated mutants: 12
+#Killed mutants: 8 (66,67%)
+Mutation score: 66,67%
+Operator: dpr ----------------
+#Generated mutants: 3
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot rasa-demo---------------------------
+Operator kind: actions ----------------
+#Applied tests: 94
+#Failed tests: 10 (10,64%)
+Operator: da ----------------
+#Applied tests: 94
+#Failed tests: 10 (10,64%)
+Operator: dpr ----------------
+#Applied tests: 94
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 94
+#Failed tests: 5 (5,32%)
+Results for chatbot Rasa_256644---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 22
+#Killed mutants: 22 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 20
+#Killed mutants: 20 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: so ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Rasa_256644---------------------------
+Operator kind: actions ----------------
+#Applied tests: 170
+#Failed tests: 107 (62,94%)
+Operator: da ----------------
+#Applied tests: 170
+#Failed tests: 107 (62,94%)
+Operator: dpr ----------------
+#Applied tests: 170
+#Failed tests: 60 (35,29%)
+Operator: so ----------------
+#Applied tests: 170
+#Failed tests: 60 (35,29%)
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 11
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: da ----------------
+#Generated mutants: 9
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: actions ----------------
+#Applied tests: 18
+Operator: da ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: dpr ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 48
+#Killed mutants: 48 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 44
+#Killed mutants: 44 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: actions ----------------
+#Applied tests: 2929
+#Failed tests: 2843 (97,06%)
+Operator: da ----------------
+#Applied tests: 2929
+#Failed tests: 2843 (97,06%)
+Operator: dpr ----------------
+#Applied tests: 2929
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 2929
+#Failed tests: 747 (25,50%)
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 14
+#Killed mutants: 13 (92,86%)
+Mutation score: 92,86%
+Operator: da ----------------
+#Generated mutants: 14
+#Killed mutants: 13 (92,86%)
+Mutation score: 92,86%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 278
+#Failed tests: 136 (48,92%)
+Operator: da ----------------
+#Applied tests: 278
+#Failed tests: 136 (48,92%)
+Operator: dpr ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: actions ----------------
+#Generated mutants: 15
+#Killed mutants: 15 (100,00%)
+Mutation score: 100,00%
+Operator: da ----------------
+#Generated mutants: 10
+#Killed mutants: 10 (100,00%)
+Mutation score: 100,00%
+Operator: dpr ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: so ----------------
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+Mutation score: 100,00%
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: actions ----------------
+#Applied tests: 781
+#Failed tests: 732 (93,73%)
+Operator: da ----------------
+#Applied tests: 781
+#Failed tests: 732 (93,73%)
+Operator: dpr ----------------
+#Applied tests: 781
+#Failed tests: 0 (0,00%)
+Operator: so ----------------
+#Applied tests: 781
+#Failed tests: 722 (92,45%)
+Operator kind: flows ----------------
+#Generated mutants: 63
+#Killed mutants: 57 (90,48%)
+Mutation score: 90,48%
+Operator: dcs ----------------
+#Generated mutants: 39
+#Killed mutants: 34 (87,18%)
+Mutation score: 87,18%
+Operator: dcb ----------------
+#Generated mutants: 24
+#Killed mutants: 23 (95,83%)
+Mutation score: 95,83%
+#Applied tests: 9184
+#Failed tests: 5109 (55,63%)
+Operator: dcs ----------------
+#Applied tests: 9184
+#Failed tests: 5083 (55,35%)
+Operator: dcb ----------------
+#Applied tests: 9184
+#Failed tests: 5018 (54,64%)
+Results for chatbot bikeShop---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot bikeShop---------------------------
+Operator kind: flows ----------------
+#Applied tests: 13
+Operator: dcs ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 13
+#Failed tests: 0 (0,00%)
+Results for chatbot diagrams2ai---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot diagrams2ai---------------------------
+Operator kind: flows ----------------
+#Applied tests: 2251
+#Failed tests: 2246 (99,78%)
+Operator: dcs ----------------
+#Applied tests: 2251
+#Failed tests: 2221 (98,67%)
+Operator: dcb ----------------
+#Applied tests: 2251
+#Failed tests: 2246 (99,78%)
+Results for chatbot dusbot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot dusbot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 407
+Operator: dcs ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 407
+#Failed tests: 0 (0,00%)
+Results for chatbot e2e-bot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 4
+#Killed mutants: 3 (75,00%)
+Mutation score: 75,00%
+Operator: dcs ----------------
+#Generated mutants: 4
+#Killed mutants: 3 (75,00%)
+Mutation score: 75,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot e2e-bot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 37
+#Failed tests: 3 (8,11%)
+Operator: dcs ----------------
+#Applied tests: 37
+#Failed tests: 3 (8,11%)
+Operator: dcb ----------------
+#Applied tests: 37
+#Failed tests: 0 (0,00%)
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 11
+#Killed mutants: 11 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 6
+#Killed mutants: 6 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Email-WhatsApp-Integration---------------------------
+Operator kind: flows ----------------
+#Applied tests: 1367
+#Failed tests: 1311 (95,90%)
+Operator: dcs ----------------
+#Applied tests: 1367
+#Failed tests: 1311 (95,90%)
+Operator: dcb ----------------
+#Applied tests: 1367
+#Failed tests: 1311 (95,90%)
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot h4h-chatbot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 109
+Operator: dcs ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 109
+#Failed tests: 0 (0,00%)
+Results for chatbot lankbanfinance---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 1
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot lankbanfinance---------------------------
+Operator kind: flows ----------------
+#Applied tests: 589
+Operator: dcs ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 589
+#Failed tests: 0 (0,00%)
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 7
+#Killed mutants: 7 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+Mutation score: 100,00%
+Results for chatbot legal-alien-chatbot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Operator: dcs ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Operator: dcb ----------------
+#Applied tests: 75
+#Failed tests: 3 (4,00%)
+Results for chatbot personal-bot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot personal-bot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 66
+#Failed tests: 2 (3,03%)
+Operator: dcs ----------------
+#Applied tests: 66
+#Failed tests: 2 (3,03%)
+Operator: dcb ----------------
+#Applied tests: 66
+#Failed tests: 0 (0,00%)
+Results for chatbot rasa-demo---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 8
+#Killed mutants: 7 (87,50%)
+Mutation score: 87,50%
+Operator: dcs ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 4
+#Killed mutants: 3 (75,00%)
+Mutation score: 75,00%
+Results for chatbot rasa-demo---------------------------
+Operator kind: flows ----------------
+#Applied tests: 94
+#Failed tests: 5 (5,32%)
+Operator: dcs ----------------
+#Applied tests: 94
+#Failed tests: 5 (5,32%)
+Operator: dcb ----------------
+#Applied tests: 94
+#Failed tests: 5 (5,32%)
+Results for chatbot Rasa_256644---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 1
+#Killed mutants: 1 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_256644---------------------------
+Operator kind: flows ----------------
+#Applied tests: 170
+#Failed tests: 60 (35,29%)
+Operator: dcs ----------------
+#Applied tests: 170
+#Failed tests: 60 (35,29%)
+Operator: dcb ----------------
+#Applied tests: 170
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 2
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Rasa_Covid19_tracer---------------------------
+Operator kind: flows ----------------
+#Applied tests: 18
+Operator: dcs ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 18
+#Failed tests: 0 (0,00%)
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 8
+#Killed mutants: 8 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot Rasa_Data-mining---------------------------
+Operator kind: flows ----------------
+#Applied tests: 2929
+#Failed tests: 757 (25,84%)
+Operator: dcs ----------------
+#Applied tests: 2929
+#Failed tests: 756 (25,81%)
+Operator: dcb ----------------
+#Applied tests: 2929
+#Failed tests: 740 (25,26%)
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcs ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Operator: dcb ----------------
+#Generated mutants: 0
+#Killed mutants: 0 (0,00%)
+Mutation score: 0,00%
+Results for chatbot Spaceonova_Chatbot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 278
+Operator: dcs ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Operator: dcb ----------------
+#Applied tests: 278
+#Failed tests: 0 (0,00%)
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: flows ----------------
+#Generated mutants: 9
+#Killed mutants: 9 (100,00%)
+Mutation score: 100,00%
+Operator: dcs ----------------
+#Generated mutants: 5
+#Killed mutants: 5 (100,00%)
+Mutation score: 100,00%
+Operator: dcb ----------------
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+Mutation score: 100,00%
+Results for chatbot yassinelamarti-bot---------------------------
+Operator kind: flows ----------------
+#Applied tests: 781
+#Failed tests: 722 (92,45%)
+Operator: dcs ----------------
+#Applied tests: 781
+#Failed tests: 722 (92,45%)
+Operator: dcb ----------------
+#Applied tests: 781
+#Failed tests: 713 (91,29%)

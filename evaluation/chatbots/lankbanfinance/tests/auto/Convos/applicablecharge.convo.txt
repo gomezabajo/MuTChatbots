@@ -1,0 +1,7 @@
+applicable_charge
+
+#me
+applicable_charge
+
+#bot
+INTENT applicable_charge

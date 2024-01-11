@@ -1,0 +1,360 @@
+Overall results for (personal-bot) ---------------------------
+#Generated mutants: 72
+#Killed mutants --- killed at least by one test-suite: 60 (83,33%)
+#Live mutants --- not killed by any test-suite: 12 (16,67%)
+Mutation score:  (83,33%)
+#Applied tests: 66
+#Failed tests: 63 (95,45%)
+#Overlapped mutants --- killed at least by two test-suites: 22 (30,56%)
+
+--- Live mutants --- not killed by any test-suite (personal-bot) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 7
+#Killed mutants: 6 (85,71%)
+#Live mutants: 1 (14,29%)
+Output6.zip
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 3 (4,55%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 2 (3,03%)
+--- dle --- Elimina un literal de una entity ---
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 1 (1,52%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+#Live mutants: 1 (11,11%)
+Output4.zip
+#Overlapped mutants: 1 (11,11%)
+Output1.zip
+#Failed tests: 5 (7,58%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+#Live mutants: 1 (11,11%)
+Output0.zip
+#Overlapped mutants: 2 (22,22%)
+Output1.zip
+Output7.zip
+#Failed tests: 5 (7,58%)
+--- dpwl --- Borrar todas las frases que utilicen un literal en concreto ---
+#Generated mutants: 3
+#Killed mutants: 3 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 1 (1,52%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 8 (88,89%)
+#Live mutants: 1 (11,11%)
+Output4.zip
+#Overlapped mutants: 5 (55,56%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output8.zip
+#Failed tests: 46 (69,70%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 6 (66,67%)
+#Live mutants: 3 (33,33%)
+Output5.zip
+Output6.zip
+Output7.zip
+#Overlapped mutants: 5 (55,56%)
+Output0.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output8.zip
+#Failed tests: 53 (80,30%)
+--- mp_max --- Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 7 (77,78%)
+#Live mutants: 2 (22,22%)
+Output5.zip
+Output7.zip
+#Overlapped mutants: 5 (55,56%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output6.zip
+#Failed tests: 10 (15,15%)
+--- mp_min --- Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ---
+#Generated mutants: 9
+#Killed mutants: 7 (77,78%)
+#Live mutants: 2 (22,22%)
+Output6.zip
+Output7.zip
+#Overlapped mutants: 3 (33,33%)
+Output1.zip
+Output2.zip
+Output8.zip
+#Failed tests: 9 (13,64%)
+--- rip --- Eliminar todas las frases de un parametro y ese parametro ---
+#Generated mutants: 2
+#Killed mutants: 1 (50,00%)
+#Live mutants: 1 (50,00%)
+Output1.zip
+#Overlapped mutants: 1 (50,00%)
+Output0.zip
+#Failed tests: 11 (16,67%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 2
+#Killed mutants: 2 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 2 (3,03%)
+
+Results for: CheckChatbotsBotiumAuto (personal-bot) ---------------------------
+Mutation score: 40,28%
+#Generated mutants: 72 (100,00%)
+#Compiling mutants: 72 (100,00%)
+#Killed mutants: 29 (40,28%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 43 (59,72%)
+#Total tests: 63
+#Failed tests: 60 (95,24%)
+#Mutation operators applied: 12 (63,16%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 7 (9,72%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: da
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+#Live mutants: 7 (100,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+Output1.zip
+#Live mutants: 2 (100,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 0 (0,00%)
+Results for operator: dle Elimina un literal de una entity ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dle
+Output0.zip
+Output1.zip
+#Live mutants: 2 (100,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_max
+Output2.zip
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 63 (95,45%)
+#Failed tests: 4 (6,35%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 3 (33,33%)
+Live mutants for operator: dp_min
+Output0.zip
+Output2.zip
+Output3.zip
+Output4.zip
+Output6.zip
+Output8.zip
+#Live mutants: 6 (66,67%)
+#Total tests: 63 (95,45%)
+#Failed tests: 4 (6,35%)
+Results for operator: dpwl Borrar todas las frases que utilicen un literal en concreto ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 3 (4,17%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dpwl
+Output0.zip
+Output1.zip
+Output2.zip
+#Live mutants: 3 (100,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 0 (0,00%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 5 (55,56%)
+Live mutants for operator: k2p_max
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 4 (44,44%)
+#Total tests: 63 (95,45%)
+#Failed tests: 45 (71,43%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 6 (66,67%)
+Live mutants for operator: k2p_min
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 3 (33,33%)
+#Total tests: 63 (95,45%)
+#Failed tests: 52 (82,54%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 6 (66,67%)
+Live mutants for operator: mp_max
+Output5.zip
+Output7.zip
+Output8.zip
+#Live mutants: 3 (33,33%)
+#Total tests: 63 (95,45%)
+#Failed tests: 9 (14,29%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 5 (55,56%)
+Live mutants for operator: mp_min
+Output3.zip
+Output4.zip
+Output6.zip
+Output7.zip
+#Live mutants: 4 (44,44%)
+#Total tests: 63 (95,45%)
+#Failed tests: 8 (12,70%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 1 (50,00%)
+Live mutants for operator: rip
+Output1.zip
+#Live mutants: 1 (50,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 10 (15,87%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+Output1.zip
+#Live mutants: 2 (100,00%)
+#Total tests: 63 (95,45%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsRasa (personal-bot) ---------------------------
+Mutation score: 73,61%
+#Generated mutants: 72 (100,00%)
+#Compiling mutants: 72 (100,00%)
+#Killed mutants: 53 (73,61%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 19 (26,39%)
+#Total tests: 3
+#Failed tests: 3 (100,00%)
+#Mutation operators applied: 12 (63,16%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 7 (9,72%)
+#Killed mutants: 6 (85,71%)
+Live mutants for operator: da
+Output6.zip
+#Live mutants: 1 (14,29%)
+#Total tests: 3 (4,55%)
+#Failed tests: 3 (100,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 2 (100,00%)
+#Total tests: 3 (4,55%)
+#Failed tests: 2 (66,67%)
+Results for operator: dle Elimina un literal de una entity ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 2 (100,00%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 6 (66,67%)
+Live mutants for operator: dp_max
+Output0.zip
+Output4.zip
+Output8.zip
+#Live mutants: 3 (33,33%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 7 (77,78%)
+Live mutants for operator: dp_min
+Output0.zip
+Output5.zip
+#Live mutants: 2 (22,22%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: dpwl Borrar todas las frases que utilicen un literal en concreto ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 3 (4,17%)
+#Killed mutants: 3 (100,00%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 8 (88,89%)
+Live mutants for operator: k2p_max
+Output4.zip
+#Live mutants: 1 (11,11%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 5 (55,56%)
+Live mutants for operator: k2p_min
+Output1.zip
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 4 (44,44%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents al principio de la conversación (mayor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 6 (66,67%)
+Live mutants for operator: mp_max
+Output3.zip
+Output5.zip
+Output7.zip
+#Live mutants: 3 (33,33%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents al principio de la conversación (menor similitud) ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 9 (12,50%)
+#Killed mutants: 5 (55,56%)
+Live mutants for operator: mp_min
+Output0.zip
+Output5.zip
+Output6.zip
+Output7.zip
+#Live mutants: 4 (44,44%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: rip Eliminar todas las frases de un parametro y ese parametro ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 1 (50,00%)
+Live mutants for operator: rip
+Output1.zip
+#Live mutants: 1 (50,00%)
+#Total tests: 3 (4,55%)
+#Failed tests: 1 (33,33%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsRasa (personal-bot) ----
+#Generated mutants: 2 (2,78%)
+#Killed mutants: 2 (100,00%)
+#Total tests: 3 (4,55%)
+#Failed tests: 2 (66,67%)

@@ -1,0 +1,7 @@
+emi_settlement_outstanding
+
+#me
+emi_settlement_outstanding
+
+#bot
+INTENT emi_settlement_outstanding

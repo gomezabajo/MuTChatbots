@@ -1,0 +1,7 @@
+payment_amount_limit
+
+#me
+payment_amount_limit
+
+#bot
+INTENT payment_amount_limit

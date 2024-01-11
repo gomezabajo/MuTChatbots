@@ -1,0 +1,7 @@
+deposit_payment_solution
+
+#me
+deposit_payment_solution
+
+#bot
+INTENT deposit_payment_solution

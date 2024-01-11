@@ -1,0 +1,2 @@
+utter_select_metrics
+- There isn’t a one-size-fits-all metric. The metric(s) chosen to evaluate  a machine learning model depends on various factors: - Is it a regression  or classification task?What is the business objective? Eg. precision vs recallWhat  is the distribution of the target variable? - There are a number of metrics  that can be used, including adjusted r-squared, MAE, MSE, accuracy, recall,  precision, f1 score, and the list goes on. 

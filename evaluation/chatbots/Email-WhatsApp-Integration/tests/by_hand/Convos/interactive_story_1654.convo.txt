@@ -1,0 +1,20 @@
+#me
+greet
+
+#bot
+utter_greet
+
+#me
+monthly_expenses
+
+#bot
+utter_monthly_expenses
+
+#bot
+MEDIA https://i.imgur.com/PFBSQhF.pn
+
+#me
+goodbye
+
+#bot
+utter_goodbye

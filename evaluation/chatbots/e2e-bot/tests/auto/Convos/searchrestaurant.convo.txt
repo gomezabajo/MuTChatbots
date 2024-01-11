@@ -1,0 +1,7 @@
+search_restaurant
+
+#me
+search_restaurant
+
+#bot
+INTENT search_restaurant

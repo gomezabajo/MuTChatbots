@@ -1,0 +1,7 @@
+agroj_customer_age
+
+#me
+agroj_customer_age
+
+#bot
+INTENT agroj_customer_age

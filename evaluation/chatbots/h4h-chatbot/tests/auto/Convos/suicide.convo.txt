@@ -1,0 +1,7 @@
+suicide
+
+#me
+suicide
+
+#bot
+INTENT suicide

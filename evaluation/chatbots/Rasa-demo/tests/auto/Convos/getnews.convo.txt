@@ -1,0 +1,7 @@
+get_news
+
+#me
+get_news
+
+#bot
+INTENT get_news

@@ -1,0 +1,2 @@
+testBotGenerator
+org.eclipse.jdt.core.javanature

@@ -1,0 +1,520 @@
+Overall results for (Rasa_Data-mining) ---------------------------
+#Generated mutants: 308
+#Killed mutants --- killed at least by one test-suite: 308 (100,00%)
+#Live mutants --- not killed by any test-suite: 0 (0,00%)
+Mutation score:  (100,00%)
+#Applied tests: 2929
+#Failed tests: 2867 (97,88%)
+#Overlapped mutants --- killed at least by two test-suites: 196 (63,64%)
+
+--- Live mutants --- not killed by any test-suite (Rasa_Data-mining) ---------------------------
+--- da --- Borrar acciones asociadas a un BotInteraction ---
+#Generated mutants: 44
+#Killed mutants: 44 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 16 (36,36%)
+Output0.zip
+Output1.zip
+Output4.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output38.zip
+Output40.zip
+Output41.zip
+Output42.zip
+#Failed tests: 2843 (97,06%)
+--- dcb --- Eliminar bifurcación en un flujo de conversación ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 740 (25,26%)
+--- dcs --- Saltarse un paso en una interacción ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 756 (25,81%)
+--- dp_max --- Borrar una frase de entrenamiento (mayor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 25 (59,52%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output22.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output37.zip
+#Failed tests: 1123 (38,34%)
+--- dp_min --- Borrar una frase de entrenamiento (menor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 28 (66,67%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output4.zip
+Output5.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output31.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output37.zip
+Output38.zip
+Output39.zip
+Output40.zip
+Output41.zip
+#Failed tests: 1252 (42,74%)
+--- k2p_max --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 30 (71,43%)
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output37.zip
+Output38.zip
+Output39.zip
+Output40.zip
+Output41.zip
+#Failed tests: 1439 (49,13%)
+--- k2p_min --- Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 30 (71,43%)
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+Output8.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output37.zip
+Output38.zip
+Output39.zip
+Output40.zip
+#Failed tests: 1589 (54,25%)
+--- mp_max --- Mover frases de entrenamiento entre intents (mayor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 32 (76,19%)
+Output3.zip
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output10.zip
+Output11.zip
+Output12.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output37.zip
+Output38.zip
+Output39.zip
+Output40.zip
+Output41.zip
+#Failed tests: 1516 (51,76%)
+--- mp_min --- Mover frases de entrenamiento entre intents (menor similitud) ---
+#Generated mutants: 42
+#Killed mutants: 42 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 35 (83,33%)
+Output2.zip
+Output3.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output11.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output38.zip
+Output39.zip
+Output40.zip
+Output41.zip
+#Failed tests: 1327 (45,31%)
+--- so --- Swap outputs between two consecutive steps ---
+#Generated mutants: 4
+#Killed mutants: 4 (100,00%)
+#Live mutants: 0 (0,00%)
+#Overlapped mutants: 0 (0,00%)
+#Failed tests: 747 (25,50%)
+
+Results for: CheckChatbotsBotiumAuto (Rasa_Data-mining) ---------------------------
+Mutation score: 63,64%
+#Generated mutants: 308 (100,00%)
+#Compiling mutants: 308 (100,00%)
+#Killed mutants: 196 (63,64%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 112 (36,36%)
+#Total tests: 1128
+#Failed tests: 1066 (94,50%)
+#Mutation operators applied: 10 (52,63%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 44 (14,29%)
+#Killed mutants: 16 (36,36%)
+Live mutants for operator: da
+Output2.zip
+Output3.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output13.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output31.zip
+Output32.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+Output37.zip
+Output39.zip
+Output43.zip
+#Live mutants: 28 (63,64%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 1042 (92,38%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcb
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 0 (0,00%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: dcs
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 0 (0,00%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 25 (59,52%)
+Live mutants for operator: dp_max
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output13.zip
+Output21.zip
+Output23.zip
+Output24.zip
+Output25.zip
+Output26.zip
+Output27.zip
+Output38.zip
+Output39.zip
+Output40.zip
+Output41.zip
+#Live mutants: 17 (40,48%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 760 (67,38%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 28 (66,67%)
+Live mutants for operator: dp_min
+Output3.zip
+Output6.zip
+Output7.zip
+Output8.zip
+Output9.zip
+Output14.zip
+Output15.zip
+Output16.zip
+Output17.zip
+Output18.zip
+Output19.zip
+Output29.zip
+Output30.zip
+Output32.zip
+#Live mutants: 14 (33,33%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 732 (64,89%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 30 (71,43%)
+Live mutants for operator: k2p_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output13.zip
+Output14.zip
+Output19.zip
+Output20.zip
+Output21.zip
+Output22.zip
+Output23.zip
+Output24.zip
+Output25.zip
+#Live mutants: 12 (28,57%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 727 (64,45%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 30 (71,43%)
+Live mutants for operator: k2p_min
+Output4.zip
+Output5.zip
+Output6.zip
+Output7.zip
+Output9.zip
+Output10.zip
+Output26.zip
+Output27.zip
+Output28.zip
+Output29.zip
+Output30.zip
+Output41.zip
+#Live mutants: 12 (28,57%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 746 (66,13%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 32 (76,19%)
+Live mutants for operator: mp_max
+Output0.zip
+Output1.zip
+Output2.zip
+Output9.zip
+Output17.zip
+Output18.zip
+Output33.zip
+Output34.zip
+Output35.zip
+Output36.zip
+#Live mutants: 10 (23,81%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 894 (79,26%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 35 (83,33%)
+Live mutants for operator: mp_min
+Output0.zip
+Output1.zip
+Output4.zip
+Output10.zip
+Output12.zip
+Output24.zip
+Output37.zip
+#Live mutants: 7 (16,67%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 710 (62,94%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumAuto (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 0 (0,00%)
+Live mutants for operator: so
+Output0.zip
+Output1.zip
+Output2.zip
+Output3.zip
+#Live mutants: 4 (100,00%)
+#Total tests: 1128 (38,51%)
+#Failed tests: 0 (0,00%)
+
+Results for: CheckChatbotsBotiumByHand (Rasa_Data-mining) ---------------------------
+Mutation score: 100,00%
+#Generated mutants: 308 (100,00%)
+#Compiling mutants: 308 (100,00%)
+#Killed mutants: 308 (100,00%)
+#Semantically equivalent mutants: 0 (0,00%)
+#Live mutants: 0 (0,00%)
+#Total tests: 1801
+#Failed tests: 1801 (100,00%)
+#Mutation operators applied: 10 (52,63%)
+Results for operator: da Borrar acciones asociadas a un BotInteraction ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 44 (14,29%)
+#Killed mutants: 44 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 1801 (100,00%)
+Results for operator: dcb Eliminar bifurcación en un flujo de conversación ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 740 (41,09%)
+Results for operator: dcs Saltarse un paso en una interacción ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 756 (41,98%)
+Results for operator: dp_max Borrar una frase de entrenamiento (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 363 (20,16%)
+Results for operator: dp_min Borrar una frase de entrenamiento (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 520 (28,87%)
+Results for operator: k2p_max Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 712 (39,53%)
+Results for operator: k2p_min Eliminar frases de entrenamiento de Intents hasta trainingPhrases->size() < 3 (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 843 (46,81%)
+Results for operator: mp_max Mover frases de entrenamiento entre intents (mayor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 622 (34,54%)
+Results for operator: mp_min Mover frases de entrenamiento entre intents (menor similitud) ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 42 (13,64%)
+#Killed mutants: 42 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 617 (34,26%)
+Results for operator: so Swap outputs between two consecutive steps ----- CheckChatbotsBotiumByHand (Rasa_Data-mining) ----
+#Generated mutants: 4 (1,30%)
+#Killed mutants: 4 (100,00%)
+#Total tests: 1801 (61,49%)
+#Failed tests: 747 (41,48%)

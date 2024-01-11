@@ -1,0 +1,7 @@
+account_details
+
+#me
+account_details
+
+#bot
+INTENT account_details
