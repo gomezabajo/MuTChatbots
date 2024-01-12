@@ -30,13 +30,13 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 /xlsx/Chatbots.xlsx Selection of the chatbots used in this work.
 
-/xlsx/metrics.xlsx Data for Table 1.
+/xlsx/metrics.xlsx Data for Table 1. Measurements of the selected chatbots and test suites. 
 
-/xlsx/data_arrangement.xlsx Data for Table 2.
+/xlsx/data_arrangement.xlsx Data for Table 2. Operator applicability, resilience and stubbornness. 
 
-/xlsx/rq1.xlsx #Mutants for each chatbot.
+/xlsx/rq1.xlsx #Mutants for each chatbot. 
 
-/xlsx/rq2.xlsx #Mutants for each chatbot by mutation operator.
+/xlsx/rq2.xlsx #Mutants for each chatbot by mutation operator. 
 
-/xlsx/rq3.xlsx Data for Tables 3 and 4.
+/xlsx/rq3.xlsx Data for Tables 3 (Mutation score (%) by test suite) and 4 (MuT efficiency. TPM = time per mutant). 
 
