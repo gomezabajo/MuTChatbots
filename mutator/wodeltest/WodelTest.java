@@ -119,20 +119,20 @@ public class WodelTest implements IWodelTest {
 
 		@Override
 		public void run() {
-			/*** espera a que se cargue el chatbot ***/
+			/*** wait until chatbot is ready ***/
 			boolean ready = waitSetUp("http://127.0.0.1", this.port, TIMEOUT, TIMEOUT_SECONDS);
 			if (ready == false) {
 				return;
 			}
-			/*** ejecuta botium ***/
+			/*** launches botium ***/
 			Process botiumProcess = execBat(this.botiumBatFile, this.botiumProcessTitle, true);
-			/*** terminar los procesos ***/
+			/*** kill the process ***/
 			botiumProcess.destroy();
 			if (last) {
 				this.rasaProcess.killRecursively();
 			}
 
-			/*** recolectar resultados ***/
+			/*** collect results ***/
 			String botiumMochawesomePath = this.botiumPath + "/mochawesome-report/mochawesome.json";
 			WodelTestResult wtr = parseBotiumTestResults(this.globalResult, this.artifactPath, botiumMochawesomePath);
 			WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(this.results, this.artifactPath);
@@ -787,16 +787,16 @@ public class WodelTest implements IWodelTest {
 		try {
 			List<WodelTestResultClass> results = globalResult.getResults();
 			String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
-			/*** descomprimir el chatbot ***/
+			/*** uncompress chatbot ***/
 			artifactPath = artifactPath.replace("\\", "/");
 			String chatbotFile = artifactPath;
 			String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
 			unzip(chatbotFile, chatbotPath);
 			//process(chatbotPath);
-			/*** identificar el tipo de test (rasa o botium) ***/
+			/*** identify test (rasa or botium) ***/
 			TestKind testKind = getTestKind(testSuitePath);
 			if (testKind == TestKind.RASA_TEST) {
-				/*** ejecutar test en rasa ***/
+				/*** executes rasa-test ***/
 				String chatbotName = artifactPath.substring(artifactPath.indexOf("/mutants/zip/") + "/mutants/zip/".length(), artifactPath.length());
 				String mutant = chatbotName; 
 				chatbotName = chatbotName.substring(0, chatbotName.indexOf("/"));
@@ -818,10 +818,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				Process rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				WodelTestResult wtr = parseRasaTestResults(globalResult, artifactPath, rasaResultsPath + "/" + RASA_LANGUAGE);
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
 				if (resultClass == null) {
@@ -833,7 +833,7 @@ public class WodelTest implements IWodelTest {
 			}
 			if (testKind == TestKind.BOTIUM_TEST) {
 				BotiumRasaMode rasaMode = getBotiumRasaMode(testSuitePath);
-				/*** cargar en rasa ***/
+				/*** loads in rasa ***/
 				String chatbotUnit = null;
 				String chatbotFolder = chatbotPath;
 				if (!chatbotPath.startsWith("/")) {
@@ -857,7 +857,7 @@ public class WodelTest implements IWodelTest {
 					return null;
 				}
 
-				/*** aplicar el test ***/
+				/*** applies the test suite ***/
 				String botiumPath = testSuitePath  + "/" + chatbotName + "/" + mutant;
 				testSuitePath += "/" + chatbotName + "/base";
 				IOUtils.copyFolder(testSuitePath, botiumPath);
@@ -875,11 +875,11 @@ public class WodelTest implements IWodelTest {
 				String botiumTitle = "botium_" + chatbotName + "_" + port;
 				WinProcess rasaWinProcess = new WinProcess(rasaProcess);
 				Process botiumProcess = execBat(botiumBatFile, botiumTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				botiumProcess.destroy();
 				rasaWinProcess.killRecursively();
 
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				String botiumMochawesomePath = botiumPath + "/mochawesome-report/mochawesome.json";
 				WodelTestResult wtr = parseBotiumTestResults(globalResult, artifactPath, botiumMochawesomePath);
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
@@ -906,16 +906,16 @@ public class WodelTest implements IWodelTest {
 		try {
 			List<WodelTestResultClass> results = globalResult.getResults();
 			String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
-			/*** descomprimir el chatbot ***/
+			/*** uncompress chatbot ***/
 			artifactPath = artifactPath.replace("\\", "/");
 			String chatbotFile = artifactPath;
 			String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
 			unzip(chatbotFile, chatbotPath);
 			//process(chatbotPath);
-			/*** identificar el tipo de test (rasa o botium) ***/
+			/*** checks test suite type (rasa or botium) ***/
 			TestKind testKind = getTestKind(testSuitePath);
 			if (testKind == TestKind.RASA_TEST) {
-				/*** ejecutar test en rasa ***/
+				/*** executes rasa-test ***/
 				String chatbotName = artifactPath.substring(artifactPath.indexOf("/mutants/zip/") + "/mutants/zip/".length(), artifactPath.length());
 				String mutant = chatbotName; 
 				chatbotName = chatbotName.substring(0, chatbotName.indexOf("/"));
@@ -937,10 +937,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				Process rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				WodelTestResult wtr = parseRasaTestResults(globalResult, artifactPath, rasaResultsPath + "/" + RASA_LANGUAGE);
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
 				if (resultClass == null) {
@@ -952,7 +952,7 @@ public class WodelTest implements IWodelTest {
 			}
 			if (testKind == TestKind.BOTIUM_TEST) {
 				BotiumRasaMode rasaMode = getBotiumRasaMode(testSuitePath);
-				/*** cargar en rasa ***/
+				/*** loads in rasa ***/
 				String chatbotUnit = null;
 				String chatbotFolder = chatbotPath;
 				if (!chatbotPath.startsWith("/")) {
@@ -975,7 +975,7 @@ public class WodelTest implements IWodelTest {
 					return null;
 				}
 
-				/*** aplicar el test ***/
+				/*** applies the test suite ***/
 				String botiumPath = testSuitePath  + "/" + chatbotName + "/" + mutant;
 				testSuitePath += "/" + chatbotName + "/base";
 				IOUtils.copyFolder(testSuitePath, botiumPath);
@@ -993,11 +993,11 @@ public class WodelTest implements IWodelTest {
 				String botiumTitle = "botium_" + chatbotName + "_" + port;
 				WinProcess rasaWinProcess = new WinProcess(rasaProcess);
 				Process botiumProcess = execBat(botiumBatFile, botiumTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				botiumProcess.destroy();
 				rasaWinProcess.killRecursively();
 
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				String botiumMochawesomePath = botiumPath + "/mochawesome-report/mochawesome.json";
 				WodelTestResult wtr = parseBotiumTestResults(globalResult, artifactPath, botiumMochawesomePath);
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
@@ -1025,13 +1025,13 @@ public class WodelTest implements IWodelTest {
 		try {
 			List<WodelTestResultClass> results = globalResult.getResults();
 			String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
-			/*** descomprimir el chatbot ***/
+			/*** uncompress chatbot ***/
 			artifactPath = artifactPath.replace("\\", "/");
 			String chatbotFile = artifactPath;
 			String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
 			unzip(chatbotFile, chatbotPath);
 			//process(chatbotPath);
-			/*** identificar el tipo de test (rasa o botium) ***/
+			/*** checks test suite type (rasa or botium) ***/
 			TestKind testKind = getTestKind(testSuitePath);
 			if (testKind == TestKind.RASA_TEST) {
 				String chatbotName = artifactPath.substring(artifactPath.indexOf("/mutants/zip/") + "/mutants/zip/".length(), artifactPath.length());
@@ -1055,10 +1055,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				Process rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				WodelTestResult wtr = parseRasaTestResults(globalResult, artifactPath, rasaResultsPath + "/" + RASA_LANGUAGE);
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
 				if (resultClass == null) {
@@ -1067,7 +1067,7 @@ public class WodelTest implements IWodelTest {
 				}
 				resultClass.addResult(wtr);
 			}
-			/*** cargar en rasa ***/
+			/*** loads in rasa ***/
 			if (testKind == TestKind.BOTIUM_TEST) {
 				BotiumRasaMode rasaMode = getBotiumRasaMode(testSuitePath);
 				String chatbotUnit = null;
@@ -1128,13 +1128,13 @@ public class WodelTest implements IWodelTest {
 		incrementPort();
 		Map<IProject, WodelTestGlobalResult> globalResultsMap = new HashMap<IProject, WodelTestGlobalResult>();
 		try {
-			/*** descomprimir el chatbot ***/
+			/*** uncompress chatbot ***/
 			artifactPath = artifactPath.replace("\\", "/");
 			String chatbotFile = artifactPath;
 			String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
 			unzip(chatbotFile, chatbotPath);
 			//process(chatbotPath);
-			/*** identificar el tipo de test (rasa o botium) ***/
+			/*** checks test suite type (rasa or botium) ***/
 			List<IProject> rasaTests = new ArrayList<IProject>();
 			List<IProject> botiumTests = new ArrayList<IProject>();
 			for (IProject testSuiteProject : testSuitesProjects) {
@@ -1147,7 +1147,7 @@ public class WodelTest implements IWodelTest {
 					botiumTests.add(testSuiteProject);
 				}
 			}
-			/*** ejecutar test en rasa ***/
+			/*** executes rasa-test ***/
 			for (IProject testSuiteProject : rasaTests) {
 				String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
 				String chatbotName = artifactPath.substring(artifactPath.indexOf("/mutants/zip/") + "/mutants/zip/".length(), artifactPath.length());
@@ -1171,10 +1171,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				Process rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				if (globalResultsMap.get(testSuiteProject) == null) {
 					globalResultsMap.put(testSuiteProject, new WodelTestGlobalResult());
 				}
@@ -1189,7 +1189,7 @@ public class WodelTest implements IWodelTest {
 			}
 			/*** si hay al menos un test de botium ***/
 			if (botiumTests.size() > 0) {
-				/*** cargar en rasa ***/
+				/*** loads in rasa ***/
 				String chatbotUnit = null;
 				String chatbotFolder = chatbotPath;
 				if (!chatbotPath.startsWith("/")) {
@@ -1213,7 +1213,7 @@ public class WodelTest implements IWodelTest {
 					return null;
 				}
 				for (IProject botiumTestSuiteProject : botiumTests) {
-					/*** aplicar el test ***/
+					/*** applies the test suite ***/
 					String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + botiumTestSuiteProject.getName();
 					BotiumRasaMode rasaMode = getBotiumRasaMode(testSuitePath);
 					String botiumPath = testSuitePath  + "/" + chatbotName + "/" + mutant;
@@ -1233,14 +1233,14 @@ public class WodelTest implements IWodelTest {
 					String botiumTitle = "botium_" + chatbotName + "_" + port;
 					WinProcess rasaWinProcess = new WinProcess(rasaProcess);
 					Process botiumProcess = execBat(botiumBatFile, botiumTitle, true);
-					/*** terminar los procesos ***/
+					/*** kill the process ***/
 					botiumProcess.destroy();
 					if (botiumTestSuiteProject.equals(botiumTests.get(botiumTests.size() - 1))) {
 						rasaWinProcess.killRecursively();
 					}
 
 					try {
-						/*** recolectar resultados ***/
+						/*** collect results ***/
 						if (globalResultsMap.get(botiumTestSuiteProject) == null) {
 							globalResultsMap.put(botiumTestSuiteProject, new WodelTestGlobalResult());
 						}
@@ -1281,14 +1281,14 @@ public class WodelTest implements IWodelTest {
 		String chatbotFile = artifactPath;
 		String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
 		try {
-			/*** descomprimir el chatbot ***/
+			/*** uncompress chatbot ***/
 			unzip(chatbotFile, chatbotPath);
 			//process(chatbotPath);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		/*** identificar el tipo de test (rasa o botium) ***/
+		/*** checks test suite type (rasa or botium) ***/
 		List<IProject> rasaTests = new ArrayList<IProject>();
 		List<IProject> botiumTests = new ArrayList<IProject>();
 		for (IProject testSuiteProject : testSuitesProjects) {
@@ -1301,7 +1301,7 @@ public class WodelTest implements IWodelTest {
 				botiumTests.add(testSuiteProject);
 			}
 		}
-		/*** ejecutar test en rasa ***/
+		/*** executes rasa-test ***/
 		for (IProject testSuiteProject : rasaTests) {
 			try {
 				String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
@@ -1321,10 +1321,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				if (globalResultsMap.get(testSuiteProject) == null) {
 					globalResultsMap.put(testSuiteProject, new WodelTestGlobalResult());
 				}
@@ -1341,9 +1341,9 @@ public class WodelTest implements IWodelTest {
 				e.printStackTrace();
 			}
 		}
-		/*** si hay al menos un test de botium ***/
+		/*** if there is at least a botium test suite ***/
 		if (botiumTests.size() > 0) {
-			/*** cargar en rasa ***/
+			/*** loads in rasa ***/
 			String chatbotUnit = null;
 			String chatbotFolder = chatbotPath;
 			if (!chatbotPath.startsWith("/")) {
@@ -1362,7 +1362,7 @@ public class WodelTest implements IWodelTest {
 			}
 		}
 
-		/*** aplicar test de botium ***/
+		/*** applies botium test suite ***/
 		for (IProject testSuiteProject : botiumTests) {
 			try {
 				String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
@@ -1384,12 +1384,12 @@ public class WodelTest implements IWodelTest {
 				String botiumTitle = "botium_" + chatbotName + "_" + port;
 				WinProcess rasaWinProcess = new WinProcess(rasaProcess);
 				Process botiumProcess = execBat(botiumBatFile, botiumTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				botiumProcess.destroy();
 				if (testSuiteProject.equals(botiumTests.get(botiumTests.size() - 1))) {
 					rasaWinProcess.killRecursively();
 				}
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				if (globalResultsMap.get(testSuiteProject) == null) {
 					globalResultsMap.put(testSuiteProject, new WodelTestGlobalResult());
 				}
@@ -1427,7 +1427,7 @@ public class WodelTest implements IWodelTest {
 		mutant = mutant.substring(0, mutant.lastIndexOf("/"));
 		Process rasaProcess = null;
 		int port = PORT;
-		/*** descomprimir el chatbot ***/
+		/*** uncompress chatbot ***/
 		artifactPath = artifactPath.replace("\\", "/");
 		String chatbotFile = artifactPath;
 		String chatbotPath = artifactPath.substring(0, artifactPath.lastIndexOf("/")).replace("/zip/", "/unzip/");
@@ -1438,7 +1438,7 @@ public class WodelTest implements IWodelTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		/*** identificar el tipo de test (rasa o botium) ***/
+		/*** checks test suite type (rasa or botium) ***/
 		List<IProject> rasaTests = new ArrayList<IProject>();
 		List<IProject> botiumTests = new ArrayList<IProject>();
 		for (IProject testSuiteProject : testSuitesProjects) {
@@ -1453,7 +1453,7 @@ public class WodelTest implements IWodelTest {
 		}
 		for (IProject testSuiteProject : rasaTests) {
 			try {
-				/*** ejecutar test en rasa ***/
+				/*** executes rasa-test ***/
 				String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
 				String rasaResultsPath = testSuitePath  + "/" + chatbotName + "/" + mutant;
 				IOUtils.copyFolder(chatbotPath, rasaResultsPath);
@@ -1471,10 +1471,10 @@ public class WodelTest implements IWodelTest {
 				createBatToLaunchRasaTest(rasaBatFile, testSuiteUnit, testSuiteFolders);
 				String rasaTitle = "rasa_" + chatbotName; 
 				rasaProcess = execBat(rasaBatFile, rasaTitle, true);
-				/*** terminar los procesos ***/
+				/*** kill the process ***/
 				rasaProcess.destroy();
 				
-				/*** recolectar resultados ***/
+				/*** collect results ***/
 				WodelTestResult wtr = parseRasaTestResults(globalResultsMap.get(testSuiteProject), artifactPath, rasaResultsPath + "/" + RASA_LANGUAGE);
 				List<WodelTestResultClass> results = globalResultsMap.get(testSuiteProject).getResults();
 				WodelTestResultClass resultClass = WodelTestResultClass.getWodelTestResultClassByName(results, artifactPath);
@@ -1488,9 +1488,9 @@ public class WodelTest implements IWodelTest {
 				e.printStackTrace();
 			}
 		}
-		/*** si hay al menos un test de botium ***/
+		/*** if there is at least a botium test suite ***/
 		if (botiumTests.size() > 0) {
-			/*** cargar en rasa ***/
+			/*** loads in rasa ***/
 			String chatbotUnit = null;
 			String chatbotFolder = chatbotPath;
 			if (!chatbotPath.startsWith("/")) {
@@ -1504,7 +1504,7 @@ public class WodelTest implements IWodelTest {
 			String rasaTitle = "rasa_" + chatbotName + "_" + port; 
 			rasaProcess = execBat(rasaBatFile, rasaTitle, false);
 		}
-		/*** aplicar test de botium ***/
+		/*** applies botium test suite ***/
 		for (IProject testSuiteProject : botiumTests) {
 			try {
 				String testSuitePath = ModelManager.getWorkspaceAbsolutePath() + "/" + testSuiteProject.getName();
@@ -1524,7 +1524,7 @@ public class WodelTest implements IWodelTest {
 				String[] botiumFolders = botiumFolder.split("/");
 				createBatToLaunchBotium(chatbotName, mutant, botiumBatFile, botiumUnit, botiumFolders, detectScriptingmemory(botiumPath));
 
-				/*** lanza botium en un nuevo hilo ***/
+				/*** starts a new thread to execute botium ***/
 				if (globalResultsMap.get(testSuiteProject) == null) {
 					globalResultsMap.put(testSuiteProject, new WodelTestGlobalResult());
 				}
