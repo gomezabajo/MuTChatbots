@@ -18,7 +18,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 /models/*Chatbot*/seed Seed model of the corresponding *Chatbot* using the CONGA notation.
 
-/models/*Chatbot*/annot Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension.
+/models/*Chatbot*/annot Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
 
 /models/*Chatbot*/mutants Mutants generated for each of the mutation operators specified in the Wodel program.
 
