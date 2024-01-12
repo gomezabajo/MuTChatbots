@@ -23,7 +23,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 /models/*Chatbot*/mutants Mutants generated for each of the mutation operators specified in the Wodel program.
 
 
-/evaluation/chatbots Botium automatic and by hand test suites for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
+/evaluation/chatbots Botium automatic and by hand test suites and rasa-test link for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
  
 /evaluation/results Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
