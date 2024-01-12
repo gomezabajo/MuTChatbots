@@ -8,7 +8,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 /mutator/testBotGenerator.mutator Mutation operators coded in the Wodel DSL. 
 
-/mutator/wodeltest/WodelTest.java CONGA specification for MuT using the Wodel-Test tool. 
+/mutator/wodeltest/WodelTest.java CONGA MuT specification using the Wodel-Test tool. 
 
 
 /ecore/BotGenerator.ecore CONGA meta-model.
@@ -25,7 +25,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 /evaluation/chatbots Botium automatic and by hand test suites for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
  
-/evaluation/results Wodel-Test data file MuT results for each chatbot. Overall results. 
+/evaluation/results Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
 
 /xlsx/Chatbots.xlsx Selection of the chatbots used in this work.
