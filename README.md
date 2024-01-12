@@ -6,14 +6,14 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 ## Contents included in this repository
 
-/mutator/testBotGenerator.mutator Mutation operators coded in the Wodel DSL. 
-
-/mutator/wodeltest/WodelTest.java CONGA MuT specification using the Wodel-Test tool. 
-
-
 /ecore/BotGenerator.ecore CONGA meta-model.
 
 /ecore/Annotation.ecore CONGA semantic annotation meta-model (similarity between phrases).
+
+
+/mutator/testBotGenerator.mutator Mutation operators coded in the Wodel DSL. 
+
+/mutator/wodeltest/WodelTest.java CONGA MuT specification using the Wodel-Test tool. 
 
 
 /models/*Chatbot*/seed Seed model of the corresponding *Chatbot* using the CONGA notation.
