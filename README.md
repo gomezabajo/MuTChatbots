@@ -6,23 +6,23 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 ## Contents included in this repository
 
-- [!/ecore/BotGenerator.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/Annotation.ecore) CONGA meta-model.
-- /ecore/Annotation.ecore CONGA semantic annotation meta-model (similarity between phrases).
+- [/ecore/BotGenerator.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/Annotation.ecore) CONGA meta-model.
+- [/ecore/Annotation.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/Annotation.ecore) CONGA semantic annotation meta-model (similarity between phrases).
 
-- /mutator/testBotGenerator.mutator Mutation operators coded in the Wodel DSL. 
-- /mutator/wodeltest/WodelTest.java CONGA MuT specification using the Wodel-Test tool. 
+- [/mutator/testBotGenerator.mutator](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/testBotGenerator.mutator) Mutation operators coded in the Wodel DSL. 
+- [/mutator/wodeltest/WodelTest.java](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/wodeltest/WodelTest.java) CONGA MuT specification using the Wodel-Test tool. 
 
-- /models/*Chatbot*/seed Seed model of the corresponding *Chatbot* using the CONGA notation.
-- /models/*Chatbot*/annot Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
-- /models/*Chatbot*/mutants Mutants generated for each of the mutation operators specified in the Wodel program.
+- [/models/*Chatbot*/seed](https://anonymous.4open.science/r/MuTChatbots-8969/models) Seed model of the corresponding *Chatbot* using the CONGA notation.
+- [/models/*Chatbot*/annot](https://anonymous.4open.science/r/MuTChatbots-8969/models) Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
+- [/models/*Chatbot*/mutants](https://anonymous.4open.science/r/MuTChatbots-8969/models) Mutants generated for each of the mutation operators specified in the Wodel program.
 
-- /evaluation/chatbots Botium automatic and by hand test suites and rasa-test link for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
-- /evaluation/results Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
+- [/evaluation/chatbots](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots) Botium automatic and by hand test suites and rasa-test link for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
+- [/evaluation/results](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/results) Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
-- /xlsx/Chatbots.xlsx Selection of the chatbots used in this work.
-- /xlsx/metrics.xlsx Data for Table 1. Measurements of the selected chatbots and test suites. 
-- /xlsx/data_arrangement.xlsx Data for Table 2. Operator applicability, resilience and stubbornness. 
-- /xlsx/rq1.xlsx #Mutants for each chatbot. 
-- /xlsx/rq2.xlsx #Mutants for each chatbot by mutation operator. 
-- /xlsx/rq3.xlsx Data for Tables 3 (Mutation score (%) by test suite) and 4 (MuT efficiency. TPM = time per mutant). 
+- [/xlsx/Chatbots.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/Chatbots.xlsx) Selection of the chatbots used in this work.
+- [/xlsx/metrics.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/metrix.xlsx) Data for Table 1. Measurements of the selected chatbots and test suites. 
+- [/xlsx/data_arrangement.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/data_arrangement.xlsx) Data for Table 2. Operator applicability, resilience and stubbornness. 
+- [/xlsx/rq1.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq1.xlsx) #Mutants for each chatbot. 
+- [/xlsx/rq2.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq2.xlsx) #Mutants for each chatbot by mutation operator. 
+- [/xlsx/rq3.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq3.xlsx) Data for Tables 3 (Mutation score (%) by test suite) and 4 (MuT efficiency. TPM = time per mutant). 
 
