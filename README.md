@@ -26,3 +26,5 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 - [/xlsx/rq2.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq2.xlsx) #Mutants for each chatbot by mutation operator. 
 - [/xlsx/rq3.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq3.xlsx) Data for Tables 3 (Mutation score (%) by test suite) and 4 (MuT efficiency. TPM = time per mutant). 
 
+![The chatbot MuT tool built with Wodel-Test](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots/Rasa_256644/captures/by_hand.png)
+
