@@ -12,12 +12,12 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 - [/mutator/testBotGenerator.mutator](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/testBotGenerator.mutator) Mutation operators coded in the Wodel DSL. 
 - [/mutator/wodeltest/WodelTest.java](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/wodeltest/WodelTest.java) CONGA MuT specification using the Wodel-Test tool. 
 
-- [/models/*Chatbot*/seed](https://anonymous.4open.science/r/MuTChatbots-8969/models) Seed model of the corresponding *Chatbot* using the CONGA notation.
-- [/models/*Chatbot*/annot](https://anonymous.4open.science/r/MuTChatbots-8969/models) Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
-- [/models/*Chatbot*/mutants](https://anonymous.4open.science/r/MuTChatbots-8969/models) Mutants generated for each of the mutation operators specified in the Wodel program.
+- [/models/*Chatbot*/seed](https://anonymous.4open.science/r/MuTChatbots-8969/README.md) Seed model of the corresponding *Chatbot* using the CONGA notation.
+- [/models/*Chatbot*/annot](https://anonymous.4open.science/r/MuTChatbots-8969/README.md) Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
+- [/models/*Chatbot*/mutants](https://anonymous.4open.science/r/MuTChatbots-8969/README.md) Mutants generated for each of the mutation operators specified in the Wodel program.
 
-- [/evaluation/chatbots](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots) Botium automatic and by hand test suites and rasa-test link for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
-- [/evaluation/results](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/results) Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
+- [/evaluation/chatbots](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots/Rasa_256644.txt) Botium automatic and by hand test suites and rasa-test link for each chatbot where it corresponds. Screen captures of the executions. Txt files for single MuT results.
+- [/evaluation/results](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/results/results.txt) Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
 - [/xlsx/Chatbots.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/Chatbots.xlsx) Selection of the chatbots used in this work.
 - [/xlsx/metrics.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/metrics.xlsx) Data for Table 1. Measurements of the selected chatbots and test suites. 
