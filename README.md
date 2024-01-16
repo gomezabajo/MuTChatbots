@@ -20,7 +20,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 - [/evaluation/results](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/results) Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
 - [/xlsx/Chatbots.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/Chatbots.xlsx) Selection of the chatbots used in this work.
-- [/xlsx/metrics.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/metrix.xlsx) Data for Table 1. Measurements of the selected chatbots and test suites. 
+- [/xlsx/metrics.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/metrics.xlsx) Data for Table 1. Measurements of the selected chatbots and test suites. 
 - [/xlsx/data_arrangement.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/data_arrangement.xlsx) Data for Table 2. Operator applicability, resilience and stubbornness. 
 - [/xlsx/rq1.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq1.xlsx) #Mutants for each chatbot. 
 - [/xlsx/rq2.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/rq2.xlsx) #Mutants for each chatbot by mutation operator. 
