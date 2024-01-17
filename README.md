@@ -15,9 +15,9 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
     - [/evaluation/results/](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/results/results.txt) Wodel-Test data file MuT results for each chatbot. Overall MuT results. 
 
 - [/models/](https://anonymous.4open.science/r/MuTChatbots-8969/models/README.md) folder: chatbot models used in the evaluation. 
-    - [/models/*Chatbot*/seed](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/seed/Rasa_256644.model) Seed model of the corresponding *Chatbot* using the CONGA notation.
-    - [/models/*Chatbot*/annot](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/annot/Rasa_256644Annotated.model) Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
-    - [/models/*Chatbot*/mutants](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/mutants/da/Output0.model) Mutants generated for each of the mutation operators specified in the Wodel program.
+    - [/models/*Chatbot*/seed/](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/seed/Rasa_256644.model) Seed model of the corresponding *Chatbot* using the CONGA notation.
+    - [/models/*Chatbot*/annot/](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/annot/Rasa_256644Annotated.model) Semantic annotation model of the corresponding *Chatbot* using the CONGA semantic annotation extension meta-model.
+    - [/models/*Chatbot*/mutants/](https://anonymous.4open.science/r/MuTChatbots-8969/models/Rasa_256644/mutants/da/Output0.model) Mutants generated for each of the mutation operators specified in the Wodel program.
 
 - [/mutator/](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/README.md) folder: code of the mutator extension point of the Wodel-Test tool. 
     - [/mutator/testBotGenerator.mutator](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/testBotGenerator.mutator) Mutation operators coded in the Wodel DSL. 
