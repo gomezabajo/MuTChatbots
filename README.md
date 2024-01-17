@@ -23,7 +23,7 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
     - [/mutator/testBotGenerator.mutator](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/testBotGenerator.mutator) Mutation operators coded in the Wodel DSL. 
     - [/mutator/wodeltest/WodelTest.java](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/wodeltest/WodelTest.java) CONGA MuT specification using the Wodel-Test tool. 
 
-- [/xlsx/](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/README.md) folder: Experiments' processed data. 
+- [/xlsx/](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/README.md) folder: experiments' processed data. 
     - [/xlsx/Chatbots.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/Chatbots.xlsx) Selection of the chatbots used in this work.
     - [/xlsx/metrics.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/metrics.xlsx) Data for Table 1. Measurements of the selected chatbots and test suites. 
     - [/xlsx/data_arrangement.xlsx](https://anonymous.4open.science/r/MuTChatbots-8969/xlsx/data_arrangement.xlsx) Data for Table 2. Operator applicability, resilience and stubbornness. 
