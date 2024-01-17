@@ -33,5 +33,5 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 ## The chatbot MuT tool built with Wodel-Test
 
-![The chatbot MuT tool built with Wodel-Test](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots/Rasa_256644/captures/by_hand.png)
+![The chatbot MuT tool built with Wodel-Test](https://anonymous.4open.science/r/MuTChatbots-8969/evaluation/chatbots/Rasa_256644/captures/auto.png)
 
