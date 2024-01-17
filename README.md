@@ -6,8 +6,9 @@ To fill this gap, we propose adapting mutation testing (MuT) for task-oriented c
 
 ## Contents included in this repository
 
-- [/ecore/BotGenerator.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/BotGenerator.ecore) CONGA meta-model.
-- [/ecore/Annotation.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/Annotation.ecore) CONGA semantic annotation meta-model (similarity between phrases).
+- [/ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore) folder: meta-models needed for the mutation process. 
+    - [/ecore/BotGenerator.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/BotGenerator.ecore) CONGA meta-model.
+    - [/ecore/Annotation.ecore](https://anonymous.4open.science/r/MuTChatbots-8969/ecore/Annotation.ecore) CONGA semantic annotation meta-model (similarity between phrases).
 
 - [/mutator/testBotGenerator.mutator](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/testBotGenerator.mutator) Mutation operators coded in the Wodel DSL. 
 - [/mutator/wodeltest/WodelTest.java](https://anonymous.4open.science/r/MuTChatbots-8969/mutator/wodeltest/WodelTest.java) CONGA MuT specification using the Wodel-Test tool. 
