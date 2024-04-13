@@ -4,6 +4,8 @@ Conversational agents, or chatbots, are increasingly used to access all sorts of
 
 To fill this gap, we propose adapting mutation testing (MuT) for task-oriented chatbots. To this end, we introduce a set of mutation operators that emulate faults in chatbot designs, an architecture that enables MuT on chatbots built using heterogeneous technologies, and a practical realisation as an Eclipse plugin. Moreover, we evaluate the applicability, effectiveness and efficiency of our approach on open-source chatbots, with promising results.
 
+The [Zenodo](https://zenodo.org/) repository of this dataset is published [here](https://zenodo.org/records/10938786).
+
 ## Contents included in this repository
 
 - [/ecore/](https://github.com/gomezabajo/MuTChatbots/blob/main/ecore/README.md) folder: meta-models needed for the mutation process. 
